@@ -1,0 +1,1206 @@
+{
+  "options_website": {
+    "message": "وب‌سایت"
+  },
+  "ext_name": {
+    "message": "Rayburst Connect",
+    "description": "Extension display name"
+  },
+  "ext_description": {
+    "message": "دانلودها و رسانه‌های شناسایی‌شده را به Rayburst بفرستید؛ همراه با شناسایی رسانه، پیش‌نمایش و ابزارهای ضبط.",
+    "description": "Extension description shown in browser and web store"
+  },
+  "popup_status_connected": {
+    "message": "متصل",
+    "description": "Connection status badge when API is reachable"
+  },
+  "popup_status_disconnected": {
+    "message": "قطع شده",
+    "description": "Connection status badge when API is unreachable"
+  },
+  "popup_action_pause_all": {
+    "message": "توقف همه",
+    "description": "Button to pause all active downloads"
+  },
+  "popup_action_resume_all": {
+    "message": "ادامه همه",
+    "description": "Button to resume all paused downloads"
+  },
+  "popup_action_settings": {
+    "message": "تنظیمات",
+    "description": "Button to open the options page"
+  },
+  "popup_action_launch": {
+    "message": "راه‌اندازی Rayburst",
+    "description": "Button to launch the desktop app when disconnected"
+  },
+  "popup_action_open": {
+    "message": "باز کردن Rayburst",
+    "description": "Button to focus the desktop app when already connected"
+  },
+  "popup_error_unreachable": {
+    "message": "اتصال به Rayburst ممکن نیست",
+    "description": "Error message when API is unreachable"
+  },
+  "options_section_connection": {
+    "message": "اتصال",
+    "description": "Settings section for API connection"
+  },
+  "options_test_connection": {
+    "message": "تست اتصال",
+    "description": "Button to test the API connection"
+  },
+  "options_section_behavior": {
+    "message": "دانلود",
+    "description": "Settings section for download interception behavior"
+  },
+  "options_enabled_label": {
+    "message": "فعال‌سازی رهگیری دانلود",
+    "description": "Toggle label for enabling/disabling download interception"
+  },
+  "options_section_rules": {
+    "message": "قوانین",
+    "description": "Settings section for download routing rules"
+  },
+  "options_add_rule": {
+    "message": "افزودن قانون",
+    "description": "Button to add a new site rule"
+  },
+  "options_section_appearance": {
+    "message": "ظاهر",
+    "description": "Settings section for theme"
+  },
+  "options_theme_system": {
+    "message": "سیستم",
+    "description": "Theme option: follow system preference"
+  },
+  "options_theme_light": {
+    "message": "روشن",
+    "description": "Theme option: light mode"
+  },
+  "options_theme_dark": {
+    "message": "تاریک",
+    "description": "Theme option: dark mode"
+  },
+  "options_section_diagnostics": {
+    "message": "عیب‌یابی",
+    "description": "Settings section for diagnostic event log"
+  },
+  "context_menu_download": {
+    "message": "دانلود با Rayburst",
+    "description": "Context menu item for downloading a link with Rayburst"
+  },
+  "options_header_title": {
+    "message": "Rayburst Connect",
+    "description": "Options page header title"
+  },
+  "options_header_subtitle": {
+    "message": "تنظیمات افزونه",
+    "description": "Options page header subtitle"
+  },
+  "options_testing_connection": {
+    "message": "در حال تست...",
+    "description": "Button text while testing connection"
+  },
+  "options_connection_success_prefix": {
+    "message": "متصل · Rayburst",
+    "description": "Prefix for successful connection status"
+  },
+  "options_connection_success_motrix": {
+    "message": "متصل · Motrix Next",
+    "description": "Connection status when Motrix Next answered"
+  },
+  "options_rules_empty": {
+    "message": "قانونی تنظیم نشده.",
+    "description": "Placeholder when no site rules exist"
+  },
+  "options_diagnostics_export": {
+    "message": "خروجی گزارش عیب‌یابی",
+    "description": "Button to export full diagnostic report as JSON file"
+  },
+  "options_diagnostics_clear": {
+    "message": "پاک کردن سوابق",
+    "description": "Button to clear diagnostic log"
+  },
+  "options_diagnostics_empty": {
+    "message": "رویداد عیب‌یابی وجود ندارد.",
+    "description": "Placeholder when diagnostic log is empty"
+  },
+  "options_footer": {
+    "message": "Rayburst Connect v$version$",
+    "description": "Footer text with version number",
+    "placeholders": {
+      "version": {
+        "content": "$1"
+      }
+    }
+  },
+  "options_save": {
+    "message": "ذخیره",
+    "description": "Save button in action bar"
+  },
+  "options_discard": {
+    "message": "لغو",
+    "description": "Discard button in action bar"
+  },
+  "options_discard_success": {
+    "message": "تغییرات بازیابی شد",
+    "description": "Toast after discarding unsaved settings changes"
+  },
+  "options_save_success": {
+    "message": "تنظیمات ذخیره شد",
+    "description": "Toast after saving settings successfully"
+  },
+  "options_save_error": {
+    "message": "خطا در ذخیره تنظیمات",
+    "description": "Toast when saving settings fails"
+  },
+  "options_changes_indicator": {
+    "message": "تغییرات ذخیره نشده",
+    "description": "Indicator text showing there are unsaved modifications"
+  },
+  "options_color_scheme": {
+    "message": "طرح رنگ",
+    "description": "Label for the color scheme picker"
+  },
+  "options_color_scheme_amber": {
+    "message": "طلایی کهربایی",
+    "description": "Amber Gold color scheme"
+  },
+  "options_color_scheme_space": {
+    "message": "آبی فضایی",
+    "description": "Space Blue color scheme"
+  },
+  "options_color_scheme_mint": {
+    "message": "سبز نعنایی",
+    "description": "Mint Green color scheme"
+  },
+  "options_color_scheme_rose": {
+    "message": "قرمز گلسرخی",
+    "description": "Rose Red color scheme"
+  },
+  "options_color_scheme_coral": {
+    "message": "نارنجی مرجانی",
+    "description": "Coral Orange color scheme"
+  },
+  "options_color_scheme_glacier": {
+    "message": "فیروزه‌ای یخچالی",
+    "description": "Glacier Cyan color scheme"
+  },
+  "options_color_scheme_evergreen": {
+    "message": "سبز همیشگی",
+    "description": "Evergreen color scheme"
+  },
+  "options_color_scheme_graphite": {
+    "message": "خاکستری گرافیتی",
+    "description": "Graphite Grey color scheme"
+  },
+  "options_color_scheme_sakura": {
+    "message": "صورتی ساکورا",
+    "description": "Sakura Pink color scheme"
+  },
+  "error_unknown": {
+    "message": "خطای ناشناخته رخ داد",
+    "description": "Fallback error message"
+  },
+  "options_rule_always_intercept": {
+    "message": "همیشه رهگیری",
+    "description": "Site rule action: always intercept downloads"
+  },
+  "options_rule_always_skip": {
+    "message": "همیشه رد شود",
+    "description": "Site rule action: never intercept downloads"
+  },
+  "options_rule_use_global": {
+    "message": "استفاده از تنظیم عمومی",
+    "description": "Site rule action: follow the global setting"
+  },
+  "popup_error_auth": {
+    "message": "API secret mismatch",
+    "description": "Popup banner title when API secret is incorrect"
+  },
+  "popup_error_auth_hint": {
+    "message": "Check that the API secret in Settings matches your Rayburst configuration.",
+    "description": "Popup banner hint for API auth error"
+  },
+  "popup_error_timeout": {
+    "message": "زمان اتصال به پایان رسید",
+    "description": "Popup banner title when API connection times out"
+  },
+  "popup_error_timeout_hint": {
+    "message": "Check your network or firewall settings. API port: $1",
+    "description": "Popup banner hint for timeout error, $1 = port number",
+    "placeholders": {
+      "1": {
+        "content": "$1",
+        "example": "29110"
+      }
+    }
+  },
+  "popup_error_unreachable_hint": {
+    "message": "Make sure Rayburst is running. API port: $1",
+    "description": "Popup banner hint for unreachable error, $1 = port number",
+    "placeholders": {
+      "1": {
+        "content": "$1",
+        "example": "29110"
+      }
+    }
+  },
+  "options_section_language": {
+    "message": "زبان",
+    "description": "Settings section for interface language"
+  },
+  "options_locale_auto": {
+    "message": "خودکار",
+    "description": "Language option: follow browser language"
+  },
+  "options_locale_auto_desc": {
+    "message": "پیروی از زبان مرورگر",
+    "description": "Description for auto language option"
+  },
+  "options_desktop_unavailable_label": {
+    "message": "وقتی Rayburst در دسترس نیست",
+    "description": "Unavailable desktop behavior label"
+  },
+  "options_desktop_unavailable_launch": {
+    "message": "اجرای Rayburst",
+    "description": "Launch desktop option"
+  },
+  "options_desktop_unavailable_browser": {
+    "message": "استفاده از مرورگر",
+    "description": "Browser fallback option"
+  },
+  "options_desktop_startup_timeout_label": {
+    "message": "مهلت راه‌اندازی",
+    "description": "Desktop startup timeout label"
+  },
+  "options_desktop_open_link_label": {
+    "message": "راه‌اندازی Rayburst با پیوند مرورگر (روش قدیمی)",
+    "description": "Setting: start the desktop by opening its link in a tab instead of Native Messaging"
+  },
+  "options_seconds_suffix": {
+    "message": "ثانیه",
+    "description": "Seconds unit suffix"
+  },
+  "popup_stat_active": {
+    "message": "فعال",
+    "description": "Task count label: currently downloading"
+  },
+  "popup_stat_waiting": {
+    "message": "در انتظار",
+    "description": "Task count label: queued for download"
+  },
+  "popup_stat_stopped": {
+    "message": "تکمیل شده",
+    "description": "Task count label: completed or stopped"
+  },
+  "popup_toggle_enabled": {
+    "message": "رهگیری فعال",
+    "description": "Label next to the interception toggle when active"
+  },
+  "popup_toggle_disabled": {
+    "message": "متوقف شده",
+    "description": "Label next to the interception toggle when inactive"
+  },
+  "options_api_port_label": {
+    "message": "API Port",
+    "description": "Label for the API port input"
+  },
+  "options_api_secret_label": {
+    "message": "API Secret",
+    "description": "Label for the API secret input"
+  },
+  "options_api_secret_placeholder": {
+    "message": "Paste from desktop app",
+    "description": "Placeholder text for API secret input"
+  },
+  "error_api_unreachable": {
+    "message": "Cannot connect to Rayburst",
+    "description": "Error when the API endpoint is unreachable"
+  },
+  "error_api_auth": {
+    "message": "API secret is incorrect",
+    "description": "Error when the API secret does not match"
+  },
+  "error_api_timeout": {
+    "message": "زمان اتصال به پایان رسید",
+    "description": "Error when the API connection times out"
+  },
+  "options_hide_download_bar_label": {
+    "message": "پنهان کردن نوار دانلود مرورگر",
+    "description": "Label for the optional browser download bar hiding setting."
+  },
+  "options_forward_request_headers_label": {
+    "message": "ارسال سربرگ‌های درخواست",
+    "description": "Label for the request header forwarding setting."
+  },
+  "options_forward_cookies_label": {
+    "message": "ارسال کوکی‌ها",
+    "description": "Label for the cookie forwarding setting."
+  },
+  "options_permission_download_ui_denied": {
+    "message": "برای پنهان کردن نوار دانلود مرورگر، مجوز رابط دانلود را بدهید.",
+    "description": "Toast shown when the optional downloads.ui permission is denied."
+  },
+  "options_permission_cookies_denied": {
+    "message": "برای ارسال کوکی‌ها به Rayburst، مجوزهای کوکی و سایت را بدهید.",
+    "description": "Toast shown when cookie forwarding permissions are unavailable."
+  },
+  "options_scope_browser_downloads_label": {
+    "message": "دانلودهای مرورگر",
+    "description": "Label for the browser download interception scope toggle."
+  },
+  "options_scope_magnet_label": {
+    "message": "لینک‌های Magnet",
+    "description": "Label for the magnet link interception scope toggle."
+  },
+  "options_scope_ed2k_label": {
+    "message": "لینک‌های ED2K",
+    "description": "Label for the ED2K link interception scope toggle."
+  },
+  "options_scope_thunder_label": {
+    "message": "لینک‌های Thunder",
+    "description": "Label for the Thunder link interception scope toggle."
+  },
+  "options_scope_incognito_label": {
+    "message": "دانلودهای پنجره‌های خصوصی",
+    "description": "Label for the private-window download interception toggle."
+  },
+  "options_scope_incognito_hint": {
+    "message": "دانلودهای پنجره‌های خصوصی به Rayburst سپرده می‌شوند و در فهرست کارها و تاریخچهٔ آن نمایش داده می‌شوند. مرورگر نیز باید این افزونه را در پنجره‌های خصوصی مجاز کند.",
+    "description": "Hint under the private-window download interception toggle."
+  },
+  "options_scope_other_extensions_label": {
+    "message": "دانلودهای افزونه‌های دیگر",
+    "description": "Label for the toggle that takes over downloads other extensions start."
+  },
+  "options_scope_other_extensions_hint": {
+    "message": "برای نمونه، پیوندهایی که یک افزونهٔ بازکنندهٔ پیوند حل می‌کند. Rayburst تنها پس از اطمینان از دریافت همان فایل، دانلود را برعهده می‌گیرد.",
+    "description": "Hint under the other-extension download interception toggle."
+  },
+  "options_min_size_label": {
+    "message": "حداقل اندازه فایل",
+    "description": "Label for the minimum file size setting."
+  },
+  "options_min_size_value_label": {
+    "message": "اندازه (MB)",
+    "description": "Label for the minimum file size numeric input."
+  },
+  "options_min_size_unknown_label": {
+    "message": "اندازه نامشخص",
+    "description": "Label for the unknown file size behavior selector."
+  },
+  "options_min_size_unknown_intercept": {
+    "message": "انتقال به Rayburst",
+    "description": "Option label for routing unknown-size downloads to Rayburst."
+  },
+  "options_min_size_unknown_skip": {
+    "message": "انتقال به مرورگر",
+    "description": "Option label for leaving unknown-size downloads in the browser."
+  },
+  "options_duplicate_guard_label": {
+    "message": "محافظ دانلود تکراری",
+    "description": "Label for the duplicate download guard setting."
+  },
+  "options_duplicate_guard_window_label": {
+    "message": "پنجره محافظت",
+    "description": "Label for the duplicate download guard time window input."
+  },
+  "notification_duplicate_guard_title": {
+    "message": "وظیفه ارسال شد",
+    "description": "Notification title shown when a duplicate download is blocked."
+  },
+  "notification_duplicate_guard_body": {
+    "message": "درخواست تکراری نادیده گرفته شد",
+    "description": "Notification body shown when a duplicate download is blocked."
+  },
+  "notification_desktop_link_body": {
+    "message": "برای فعال‌کردن راه‌اندازی Rayburst با پیوند مرورگر کلیک کنید.",
+    "description": "Notification body after an unattended start failed; clicking opens the settings"
+  },
+  "options_privacy_section_label": {
+    "message": "حریم خصوصی",
+    "description": "Subsection label for privacy-related download forwarding settings."
+  },
+  "options_download_handling_section_label": {
+    "message": "مدیریت دانلود",
+    "description": "Subsection label for browser and desktop download handling settings."
+  },
+  "options_site_rules_label": {
+    "message": "قوانین سایت",
+    "description": "Subsection label for per-site download rules."
+  },
+  "options_file_extension_rule_label": {
+    "message": "قاعده پسوند فایل",
+    "description": "Label for the file extension rule toggle."
+  },
+  "options_file_extension_list_label": {
+    "message": "پسوندها",
+    "description": "Label for the file extension list input."
+  },
+  "options_file_extension_list_placeholder": {
+    "message": "افزودن پسوند",
+    "description": "Placeholder for the file extension list input."
+  },
+  "options_file_extension_listed_action_label": {
+    "message": "پسوندهای فهرست‌شده",
+    "description": "Label for the action selector applied to listed file extensions."
+  },
+  "options_file_extension_unknown_action_label": {
+    "message": "پسوند ناشناخته",
+    "description": "Label for the action selector applied when no file extension is detected."
+  },
+  "options_file_extension_action_intercept": {
+    "message": "ارسال به Rayburst",
+    "description": "Option label for routing a matched extension to Rayburst."
+  },
+  "options_file_extension_action_skip": {
+    "message": "استفاده از مرورگر",
+    "description": "Option label for leaving a matched extension in the browser."
+  },
+  "options_factory_reset_button": {
+    "message": "بازنشانی تنظیمات",
+    "description": "Button to stage a full settings reset."
+  },
+  "options_factory_reset_confirm": {
+    "message": "برای بازنشانی دوباره کلیک کنید",
+    "description": "Second-click confirmation label for the reset button."
+  },
+  "options_factory_reset_ready": {
+    "message": "پیش‌فرض‌ها آماده ذخیره هستند",
+    "description": "Toast shown after default settings are staged for saving."
+  },
+  "options_section_maintenance": {
+    "message": "نگهداری",
+    "description": "Settings section for maintenance actions."
+  },
+  "options_settings_backup_title": {
+    "message": "پشتیبان تنظیمات",
+    "description": "Maintenance section title for settings backup."
+  },
+  "options_settings_backup_export": {
+    "message": "برون بری تنظیمات",
+    "description": "Button to export settings backup."
+  },
+  "options_settings_backup_import": {
+    "message": "درون ریزی تنظیمات",
+    "description": "Button to import settings backup."
+  },
+  "options_settings_backup_exported": {
+    "message": "پشتیبان برون بری شد",
+    "description": "Toast shown after settings backup export starts."
+  },
+  "options_settings_backup_export_error": {
+    "message": "برون بری پشتیبان ناموفق بود",
+    "description": "Toast shown when settings backup export fails."
+  },
+  "options_settings_backup_imported": {
+    "message": "تنظیمات درون ریزی شد. بررسی و ذخیره کنید.",
+    "description": "Toast shown after settings backup is staged for saving."
+  },
+  "options_settings_backup_invalid": {
+    "message": "فایل پشتیبان نامعتبر است",
+    "description": "Toast shown when selected settings backup is invalid."
+  },
+  "options_diagnostics_filter_all": {
+    "message": "همه",
+    "description": "Filter label for all diagnostic levels"
+  },
+  "options_diagnostics_filter_error": {
+    "message": "خطا",
+    "description": "Filter label for error diagnostic events"
+  },
+  "options_diagnostics_filter_warning": {
+    "message": "هشدار",
+    "description": "Filter label for warning diagnostic events"
+  },
+  "options_diagnostics_filter_info": {
+    "message": "اطلاعات",
+    "description": "Filter label for informational diagnostic events"
+  },
+  "options_diagnostics_filter_code": {
+    "message": "نوع رویداد",
+    "description": "Placeholder for the diagnostic event type filter"
+  },
+  "options_diagnostics_clear_error": {
+    "message": "پاک‌کردن رویدادهای عیب‌یابی ناموفق بود",
+    "description": "Error shown when diagnostic events cannot be cleared"
+  },
+  "options_diagnostics_export_error": {
+    "message": "خروجی‌گرفتن از گزارش عیب‌یابی ناموفق بود",
+    "description": "Error shown when the diagnostic report cannot be exported"
+  },
+  "popup_status_launching": {
+    "message": "در حال راه‌اندازی",
+    "description": "Popup status while the desktop app is starting"
+  },
+  "popup_launching_title": {
+    "message": "در حال راه‌اندازی Rayburst",
+    "description": "Popup launch progress title"
+  },
+  "popup_launching_hint": {
+    "message": "در انتظار آماده شدن برنامه دسکتاپ…",
+    "description": "Popup launch progress description"
+  },
+  "popup_launch_failed_title": {
+    "message": "Rayburst راه‌اندازی نشد",
+    "description": "Popup launch failure title"
+  },
+  "popup_launch_failed_hint": {
+    "message": "مطمئن شوید Rayburst نصب است و تنظیمات API درست هستند.",
+    "description": "Popup launch failure guidance"
+  },
+  "popup_launch_link_hint": {
+    "message": "مرورگر می‌تواند Rayburst را به‌جای آن با یک پیوند راه‌اندازی کند.",
+    "description": "Popup launch failure guidance when the desktop could not be started at all"
+  },
+  "popup_action_retry": {
+    "message": "تلاش دوباره",
+    "description": "Popup action to retry desktop launch"
+  },
+  "popup_action_launch_link": {
+    "message": "راه‌اندازی با پیوند",
+    "description": "Popup button: allow starting the desktop through its link and retry"
+  },
+  "options_diagnostics_column_time": {
+    "message": "زمان",
+    "description": "Diagnostic table column heading for event time"
+  },
+  "options_diagnostics_column_level": {
+    "message": "سطح",
+    "description": "Diagnostic table column heading for severity level"
+  },
+  "options_diagnostics_column_event": {
+    "message": "رویداد",
+    "description": "Diagnostic table column heading for event code"
+  },
+  "options_diagnostics_column_message": {
+    "message": "پیام",
+    "description": "Diagnostic table column heading for event message"
+  },
+  "options_diagnostics_pagination": {
+    "message": "$RANGE$ از $TOTAL$ · حداکثر $MAX$",
+    "description": "Diagnostic table pagination summary with visible range, filtered total, and retention limit",
+    "placeholders": {
+      "RANGE": {
+        "content": "$1",
+        "example": "1–10"
+      },
+      "TOTAL": {
+        "content": "$2",
+        "example": "37"
+      },
+      "MAX": {
+        "content": "$3",
+        "example": "100"
+      }
+    }
+  },
+  "options_diagnostics_log_entry_limit": {
+    "message": "سقف ورودی‌های گزارش",
+    "description": "Label for the maximum number of diagnostic log entries retained locally"
+  },
+  "options_diagnostics_entries_suffix": {
+    "message": "ورودی",
+    "description": "Unit suffix for the diagnostic log entry limit input"
+  },
+  "options_diagnostics_view_details": {
+    "message": "مشاهده جزئیات رویداد",
+    "description": "Accessible label for opening diagnostic event details"
+  },
+  "options_diagnostics_details_title": {
+    "message": "جزئیات رویداد",
+    "description": "Title of the diagnostic event details drawer"
+  },
+  "options_diagnostics_details_message": {
+    "message": "پیام",
+    "description": "Heading for the diagnostic event message"
+  },
+  "options_diagnostics_details_context": {
+    "message": "زمینه",
+    "description": "Heading for diagnostic event context fields"
+  },
+  "options_diagnostics_clear_confirm": {
+    "message": "تأیید پاک‌سازی",
+    "description": "Second-click confirmation label for clearing diagnostic logs"
+  },
+  "sniffer_tab": {
+    "message": "شناسایی",
+    "description": "Navigation label for discovering page resources"
+  },
+  "media_downloads": {
+    "message": "بارگیری‌ها",
+    "description": "Media discovery: downloads"
+  },
+  "media_discover": {
+    "message": "شناسایی رسانه‌های صفحه",
+    "description": "Media discovery: discover"
+  },
+  "media_scan": {
+    "message": "بررسی صفحه",
+    "description": "Media discovery: scan"
+  },
+  "media_clear": {
+    "message": "پاک کردن منابع",
+    "description": "Media discovery: clear"
+  },
+  "media_filter": {
+    "message": "فیلتر منابع",
+    "description": "Media discovery: filter"
+  },
+  "media_sources": {
+    "message": "منابع رسانه",
+    "description": "Media discovery: sources"
+  },
+  "media_source": {
+    "message": "منبع",
+    "description": "Media discovery: source"
+  },
+  "media_enable_site": {
+    "message": "فعال‌سازی در این سایت",
+    "description": "Media discovery: enable site"
+  },
+  "media_disable_site": {
+    "message": "غیرفعال‌سازی در این سایت",
+    "description": "Media discovery: disable site"
+  },
+  "media_inspect": {
+    "message": "بررسی قالب‌ها",
+    "description": "Media discovery: inspect"
+  },
+  "media_options": {
+    "message": "گزینه‌های رسانه",
+    "description": "Media discovery: options"
+  },
+  "media_back": {
+    "message": "بازگشت به منابع",
+    "description": "Media discovery: back"
+  },
+  "media_video": {
+    "message": "کیفیت ویدیو",
+    "description": "Media discovery: video"
+  },
+  "media_audio": {
+    "message": "صدا",
+    "description": "Media discovery: audio"
+  },
+  "media_subtitles": {
+    "message": "زیرنویس",
+    "description": "Media discovery: subtitles"
+  },
+  "media_format": {
+    "message": "قالب خروجی",
+    "description": "Media discovery: format"
+  },
+  "media_original": {
+    "message": "فایل اصلی",
+    "description": "Media discovery: original"
+  },
+  "media_record_limit": {
+    "message": "محدودیت ضبط (ثانیه)",
+    "description": "Media discovery: record limit"
+  },
+  "media_live": {
+    "message": "ضبط زنده",
+    "description": "Media discovery: live"
+  },
+  "media_download": {
+    "message": "بارگیری",
+    "description": "Media discovery: download"
+  },
+  "media_record": {
+    "message": "شروع ضبط",
+    "description": "Media discovery: record"
+  },
+  "media_cancel": {
+    "message": "لغو",
+    "description": "Media discovery: cancel"
+  },
+  "media_retry": {
+    "message": "تلاش مجدد",
+    "description": "Media discovery: retry"
+  },
+  "media_no_video": {
+    "message": "بدون ویدیو",
+    "description": "Media discovery: no video"
+  },
+  "media_no_audio": {
+    "message": "بدون صدا",
+    "description": "Media discovery: no audio"
+  },
+  "media_no_subtitles": {
+    "message": "بدون زیرنویس",
+    "description": "Media discovery: no subtitles"
+  },
+  "media_excluded_sites": {
+    "message": "سایت‌های رسانه‌ای مستثنا",
+    "description": "Media discovery: excluded sites"
+  },
+  "media_waiting": {
+    "message": "پخش‌کننده پیدا شد؛ در انتظار منبع رسانه.",
+    "description": "Media discovery: waiting"
+  },
+  "media_none": {
+    "message": "منبع رسانه‌ای پیدا نشد.",
+    "description": "Media discovery: none"
+  },
+  "media_paused": {
+    "message": "شناسایی رسانه متوقف شده است.",
+    "description": "Media discovery: paused"
+  },
+  "media_excluded": {
+    "message": "شناسایی رسانه در این سایت غیرفعال است.",
+    "description": "Media discovery: excluded"
+  },
+  "media_ambiguous": {
+    "message": "منابع به یک پخش‌کننده مشخص مرتبط نیستند. پیش از بارگیری بررسی کنید.",
+    "description": "Media discovery: ambiguous"
+  },
+  "media_loading": {
+    "message": "در حال بررسی رسانه…",
+    "description": "Media discovery: loading"
+  },
+  "media_submitted": {
+    "message": "بارگیری در Rayburst ایجاد شد.",
+    "description": "Media discovery: submitted"
+  },
+  "media_cancelled": {
+    "message": "بررسی لغو شد.",
+    "description": "Media discovery: cancelled"
+  },
+  "media_failed": {
+    "message": "عملیات ناموفق بود. برای بررسی وضعیت دوباره تلاش کنید.",
+    "description": "Media discovery: failed"
+  },
+  "media_unsupported": {
+    "message": "این رسانه یا روش درخواست پشتیبانی نمی‌شود.",
+    "description": "Media discovery: unsupported"
+  },
+  "media_invalid": {
+    "message": "ترکیب پشتیبانی‌شده‌ای از مسیرها، قالب و مدت انتخاب کنید.",
+    "description": "Media discovery: invalid"
+  },
+  "media_unavailable": {
+    "message": "این نسخهٔ برنامهٔ دسکتاپ نمی‌تواند جریان‌ها را دانلود کند. جدیدترین نسخهٔ Rayburst را نصب کنید.",
+    "description": "Media discovery: unavailable"
+  },
+  "media_expired": {
+    "message": "منبع یا بررسی منقضی شده است. رسانه را پخش و دوباره بررسی کنید.",
+    "description": "Media discovery: expired"
+  },
+  "media_auth": {
+    "message": "ورود به سایت، ارسال درخواست یا کلید API برنامه را بررسی کنید.",
+    "description": "Media discovery: auth"
+  },
+  "media_connection": {
+    "message": "Rayburst را اجرا و تنظیمات اتصال را بررسی کنید.",
+    "description": "Media discovery: connection"
+  },
+  "media_size_unknown": {
+    "message": "اندازه نامشخص",
+    "description": "Media discovery: size unknown"
+  },
+  "media_duration_unknown": {
+    "message": "مدت نامشخص",
+    "description": "Media discovery: duration unknown"
+  },
+  "media_includes_audio": {
+    "message": "شامل صدا",
+    "description": "Media discovery: includes audio"
+  },
+  "media_record_hint": {
+    "message": "صفر یعنی ضبط تا زمانی که در Rayburst متوقف کنید.",
+    "description": "Media discovery: record hint"
+  },
+  "media_inspect_hint": {
+    "message": "ابتدا بررسی کنید، سپس بارگیری را تأیید کنید.",
+    "description": "Media discovery: inspect hint"
+  },
+  "media_open_page": {
+    "message": "برای شناسایی رسانه یک صفحه وب باز کنید.",
+    "description": "Media discovery: open page"
+  },
+  "media_hint": {
+    "message": "ویدیو یا صدا را پخش کنید تا منابع خودکار شناسایی شوند.",
+    "description": "Media discovery: hint"
+  },
+  "media_ready": {
+    "message": "قالب‌ها آماده‌اند",
+    "description": "Media discovery: ready"
+  },
+  "media_confirming": {
+    "message": "در حال تأیید بارگیری…",
+    "description": "Media discovery: confirming"
+  },
+  "media_cancelling": {
+    "message": "در حال لغو بررسی…",
+    "description": "Media discovery: cancelling"
+  },
+  "options_color_scheme_rayburst": {
+    "message": "Rayburst"
+  },
+  "brand_tagline": {
+    "message": "بازتعریف افزونهٔ همراه مرورگر",
+    "description": "Localized Rayburst Connect brand slogan"
+  },
+  "resources_current": {
+    "message": "صفحهٔ فعلی"
+  },
+  "resources_other": {
+    "message": "همهٔ صفحه‌ها"
+  },
+  "resources_controls": {
+    "message": "کنترل پخش‌کننده"
+  },
+  "resources_expand": {
+    "message": "باز کردن فضای کار"
+  },
+  "resources_fullscreen": {
+    "message": "تمام‌صفحه"
+  },
+  "resources_import": {
+    "message": "افزودن منبع"
+  },
+  "resources_invert": {
+    "message": "وارونه کردن انتخاب"
+  },
+  "resources_key": {
+    "message": "کلید AES-128"
+  },
+  "resources_kind_collection": {
+    "message": "رسانهٔ ترکیبی"
+  },
+  "resources_kind_fragment": {
+    "message": "قطعه"
+  },
+  "resources_loop": {
+    "message": "تکرار"
+  },
+  "resources_manifest": {
+    "message": "فهرست پخش یا نشانی قطعه‌ها"
+  },
+  "resources_merge": {
+    "message": "ترکیب صدا و تصویر"
+  },
+  "resources_mute": {
+    "message": "بی‌صدا"
+  },
+  "resources_preview": {
+    "message": "پیش‌نمایش"
+  },
+  "resources_preview_unavailable": {
+    "message": "پیش‌نمایش در دسترس نیست. شاید بارگیری همچنان ممکن باشد."
+  },
+  "resources_reload": {
+    "message": "بارگذاری دوباره برای ضبط از ابتدا"
+  },
+  "resources_screenshot": {
+    "message": "ذخیرهٔ تصویر"
+  },
+  "resources_sequence": {
+    "message": "اتصال قطعه‌ها"
+  },
+  "resources_sidebar": {
+    "message": "باز کردن نوار کناری"
+  },
+  "resources_start": {
+    "message": "شروع"
+  },
+  "resources_start_time": {
+    "message": "شروع (ثانیه)"
+  },
+  "resources_end_time": {
+    "message": "پایان (0: انتهای منبع)"
+  },
+  "resources_stop": {
+    "message": "توقف"
+  },
+  "resources_test_keys": {
+    "message": "آزمایش کلیدهای یافت‌شده"
+  },
+  "resources_tools": {
+    "message": "ابزارهای رسانه"
+  },
+  "resources_volume": {
+    "message": "بلندی صدا"
+  },
+  "resources_preserve": {
+    "message": "نگه داشتن منابع پس از پیمایش"
+  },
+  "resources_deep": {
+    "message": "جست‌وجوی عمیق"
+  },
+  "resources_cache": {
+    "message": "ضبط بافر رسانه"
+  },
+  "resources_copy": {
+    "message": "رونوشت"
+  },
+  "resources_select_all": {
+    "message": "انتخاب همه"
+  },
+  "resources_name": {
+    "message": "نام"
+  },
+  "resources_size": {
+    "message": "حجم"
+  },
+  "resources_type": {
+    "message": "نوع"
+  },
+  "resources_speed": {
+    "message": "سرعت"
+  },
+  "resources_kind_image": {
+    "message": "تصاویر"
+  },
+  "resources_all": {
+    "message": "همه"
+  },
+  "resources_time": {
+    "message": "زمان"
+  },
+  "resources_video": {
+    "message": "شروع ضبط"
+  },
+  "resources_kind_embedded": {
+    "message": "منبع"
+  },
+  "resources_kind_file": {
+    "message": "فایل اصلی"
+  },
+  "resources_kind_subtitle": {
+    "message": "زیرنویس"
+  },
+  "resources_pause": {
+    "message": "مکث"
+  },
+  "resources_play": {
+    "message": "پخش"
+  },
+  "resources_kind_json": {
+    "message": "JSON"
+  },
+  "resources_url": {
+    "message": "URL"
+  },
+  "resources_pip": {
+    "message": "PiP"
+  },
+  "resources_sort": {
+    "message": "مرتب‌سازی"
+  },
+  "resources_auto": {
+    "message": "دانلود خودکار منابع جدید"
+  },
+  "resources_mobile": {
+    "message": "استفاده از User-Agent موبایل"
+  },
+  "media_settings_title": {
+    "message": "تنظیمات شناسایی"
+  },
+  "media_settings_any_size": {
+    "message": "هر اندازه‌ای"
+  },
+  "media_settings_capture": {
+    "message": "شناسایی"
+  },
+  "media_settings_edit": {
+    "message": "ویرایش"
+  },
+  "media_settings_remove": {
+    "message": "حذف"
+  },
+  "media_settings_invalid_rule": {
+    "message": "نحو، مقادیر و نوع‌های تکراری را بررسی کنید."
+  },
+  "media_settings_between": {
+    "message": "بین"
+  },
+  "media_settings_upper": {
+    "message": "حد بالا"
+  },
+  "media_settings_pattern": {
+    "message": "الگو"
+  },
+  "media_settings_action": {
+    "message": "عملکرد"
+  },
+  "media_settings_enabled": {
+    "message": "فعال"
+  },
+  "media_settings_ignore": {
+    "message": "نادیده گرفتن"
+  },
+  "media_settings_regex": {
+    "message": "عبارت‌های منظم"
+  },
+  "media_settings_regex_hint": {
+    "message": "اولین تطبیق بر قوانین نوع اولویت دارد."
+  },
+  "media_settings_flags": {
+    "message": "پرچم‌های عبارت منظم"
+  },
+  "media_settings_group": {
+    "message": "گروه نشانی (0: نشانی اصلی)"
+  },
+  "media_settings_test_url": {
+    "message": "نشانی آزمایشی"
+  },
+  "media_settings_no_match": {
+    "message": "بدون تطبیق"
+  },
+  "media_settings_behavior": {
+    "message": "رفتار"
+  },
+  "media_settings_capture_hint": {
+    "message": "فیلترهای شناسایی دانلود فهرست پخش را محدود نمی‌کنند."
+  },
+  "media_settings_newest": {
+    "message": "جدیدترین ابتدا"
+  },
+  "media_settings_quick": {
+    "message": "دانلود سریع"
+  },
+  "media_settings_quick_hint": {
+    "message": "در صورت وجود چند گزینه، ترک‌ها انتخاب شوند."
+  },
+  "media_settings_deep": {
+    "message": "جستجوی عمیق همیشه فعال باشد"
+  },
+  "media_settings_deep_hint": {
+    "message": "صفحات را دوباره بارگیری کنید. ممکن است بر پخش اثر بگذارد."
+  },
+  "media_settings_name_from": {
+    "message": "نام‌گذاری فایل‌های شناسایی‌شده بر اساس"
+  },
+  "media_settings_name_from_file": {
+    "message": "نام فایل"
+  },
+  "media_settings_name_from_title": {
+    "message": "عنوان صفحه"
+  },
+  "media_settings_include": {
+    "message": "فقط سایت‌های فهرست‌شده"
+  },
+  "media_settings_exclude": {
+    "message": "حذف سایت‌های فهرست‌شده"
+  },
+  "media_settings_autosave": {
+    "message": "تغییرات خودکار ذخیره می‌شوند."
+  },
+  "media_settings_restore": {
+    "message": "بازنشانی تنظیمات رسانه"
+  },
+  "media_settings_restore_hint": {
+    "message": "فقط تنظیمات رسانه بازنشانی شوند؟ اتصال تغییر نمی‌کند."
+  },
+  "media_settings_close_preview": {
+    "message": "بستن پیش‌نمایش"
+  },
+  "sniffer_page_count": {
+    "message": "منابع این صفحه: $1",
+    "description": "Resource count for the current browser tab; $1 is the full count"
+  },
+  "sniffer_results": {
+    "message": "نمایش $1 از $2 منبع",
+    "description": "Filtered resources in the selected scope; $1 is visible, $2 is total"
+  },
+  "popup_status_checking": {
+    "message": "در حال بررسی",
+    "description": "Connection status while the desktop check is pending"
+  },
+  "connection_unsupported_title": {
+    "message": "نسخهٔ برنامهٔ دسکتاپ پشتیبانی نمی‌شود"
+  },
+  "connection_upgrade_hint": {
+    "message": "جدیدترین نسخهٔ Rayburst را نصب کنید و دوباره متصل شوید."
+  },
+  "connection_legacy_title": {
+    "message": "به جدیدترین نسخهٔ Rayburst به‌روزرسانی کنید",
+    "description": "Title of the update notice shown while connected to an older desktop"
+  },
+  "connection_legacy_hint": {
+    "message": "$1 نسخهٔ قدیمی‌تری است و برخی قابلیت‌ها در دسترس نیستند.",
+    "description": "Shown while connected to an older desktop, $1 = its name and version",
+    "placeholders": {
+      "1": {
+        "content": "$1",
+        "example": "Motrix Next 3.9.9"
+      }
+    }
+  },
+  "connection_legacy_dismiss": {
+    "message": "بستن",
+    "description": "Accessible label of the button that closes the popup update notice"
+  },
+  "connection_get_rayburst": {
+    "message": "دریافت Rayburst"
+  },
+  "connection_check_again": {
+    "message": "بررسی دوباره"
+  },
+  "error_engine_starting": {
+    "message": "موتور Rayburst در حال راه‌اندازی است"
+  },
+  "error_engine_unavailable": {
+    "message": "موتور Rayburst در دسترس نیست"
+  },
+  "error_engine_hint": {
+    "message": "Rayburst را باز کنید، موتور را بررسی و دوباره متصل شوید."
+  },
+  "popup_site_rules": {
+    "message": "وب‌سایت فعلی"
+  },
+  "popup_site_allow": {
+    "message": "فعال‌سازی در این وب‌سایت"
+  },
+  "popup_site_exclude": {
+    "message": "مستثنا کردن این وب‌سایت"
+  },
+  "popup_task_waiting": {
+    "message": "در انتظار",
+    "description": "Popup task list: queued task"
+  },
+  "popup_task_paused": {
+    "message": "متوقف",
+    "description": "Popup task list: paused task"
+  },
+  "popup_task_failed": {
+    "message": "ناموفق",
+    "description": "Popup task list: failed task without a message"
+  },
+  "popup_task_pause": {
+    "message": "توقف",
+    "description": "Popup task list: pause button"
+  },
+  "popup_task_resume": {
+    "message": "ادامه",
+    "description": "Popup task list: resume button"
+  },
+  "popup_task_reveal": {
+    "message": "نمایش در پوشه",
+    "description": "Popup task list: show the finished file in its folder"
+  },
+  "popup_tasks_empty": {
+    "message": "هنوز دانلودی نیست",
+    "description": "Popup task list: nothing to show"
+  },
+  "options_alt_click_bypass_label": {
+    "message": "کلیک با Alt با مرورگر دانلود می‌کند",
+    "description": "Setting: holding Alt while clicking a link lets the browser download it"
+  },
+  "media_complete_video": {
+    "message": "ویدیوی کامل",
+    "description": "Media discovery: separate video and audio track files listed as one video"
+  },
+  "media_tracks": {
+    "message": "$1 مسیر",
+    "description": "Media discovery: number of track files in a complete video; $1 is the count"
+  },
+  "media_track_files": {
+    "message": "فایل‌های مسیر",
+    "description": "Media discovery: shows or hides the track files of a complete video"
+  }
+}

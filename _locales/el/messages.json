@@ -1,0 +1,1206 @@
+{
+  "options_website": {
+    "message": "Ιστότοπος"
+  },
+  "ext_name": {
+    "message": "Rayburst Connect",
+    "description": "Extension display name"
+  },
+  "ext_description": {
+    "message": "Στείλτε λήψεις και εντοπισμένα πολυμέσα στο Rayburst, με ανίχνευση σελίδας, προεπισκόπηση και καταγραφή.",
+    "description": "Extension description shown in browser and web store"
+  },
+  "popup_status_connected": {
+    "message": "Συνδεδεμένο",
+    "description": "Connection status badge when API is reachable"
+  },
+  "popup_status_disconnected": {
+    "message": "Αποσυνδεδεμένο",
+    "description": "Connection status badge when API is unreachable"
+  },
+  "popup_action_pause_all": {
+    "message": "Παύση όλων",
+    "description": "Button to pause all active downloads"
+  },
+  "popup_action_resume_all": {
+    "message": "Συνέχιση όλων",
+    "description": "Button to resume all paused downloads"
+  },
+  "popup_action_settings": {
+    "message": "Ρυθμίσεις",
+    "description": "Button to open the options page"
+  },
+  "popup_action_launch": {
+    "message": "Εκκίνηση Rayburst",
+    "description": "Button to launch the desktop app when disconnected"
+  },
+  "popup_action_open": {
+    "message": "Άνοιγμα Rayburst",
+    "description": "Button to focus the desktop app when already connected"
+  },
+  "popup_error_unreachable": {
+    "message": "Αδυναμία σύνδεσης με Rayburst",
+    "description": "Error message when API is unreachable"
+  },
+  "options_section_connection": {
+    "message": "Σύνδεση",
+    "description": "Settings section for API connection"
+  },
+  "options_test_connection": {
+    "message": "Δοκιμή σύνδεσης",
+    "description": "Button to test the API connection"
+  },
+  "options_section_behavior": {
+    "message": "Λήψη",
+    "description": "Settings section for download interception behavior"
+  },
+  "options_enabled_label": {
+    "message": "Ενεργοποίηση υποκλοπής λήψεων",
+    "description": "Toggle label for enabling/disabling download interception"
+  },
+  "options_section_rules": {
+    "message": "Κανόνες",
+    "description": "Settings section for download routing rules"
+  },
+  "options_add_rule": {
+    "message": "Προσθήκη κανόνα",
+    "description": "Button to add a new site rule"
+  },
+  "options_section_appearance": {
+    "message": "Εμφάνιση",
+    "description": "Settings section for theme"
+  },
+  "options_theme_system": {
+    "message": "Σύστημα",
+    "description": "Theme option: follow system preference"
+  },
+  "options_theme_light": {
+    "message": "Φωτεινό",
+    "description": "Theme option: light mode"
+  },
+  "options_theme_dark": {
+    "message": "Σκοτεινό",
+    "description": "Theme option: dark mode"
+  },
+  "options_section_diagnostics": {
+    "message": "Διαγνωστικά",
+    "description": "Settings section for diagnostic event log"
+  },
+  "context_menu_download": {
+    "message": "Λήψη με Rayburst",
+    "description": "Context menu item for downloading a link with Rayburst"
+  },
+  "options_header_title": {
+    "message": "Rayburst Connect",
+    "description": "Options page header title"
+  },
+  "options_header_subtitle": {
+    "message": "Ρυθμίσεις επέκτασης",
+    "description": "Options page header subtitle"
+  },
+  "options_testing_connection": {
+    "message": "Δοκιμή...",
+    "description": "Button text while testing connection"
+  },
+  "options_connection_success_prefix": {
+    "message": "Συνδεδεμένο · Rayburst",
+    "description": "Prefix for successful connection status"
+  },
+  "options_connection_success_motrix": {
+    "message": "Συνδεδεμένο · Motrix Next",
+    "description": "Connection status when Motrix Next answered"
+  },
+  "options_rules_empty": {
+    "message": "Δεν έχουν ρυθμιστεί κανόνες.",
+    "description": "Placeholder when no site rules exist"
+  },
+  "options_diagnostics_export": {
+    "message": "Εξαγωγή αναφοράς διαγνωστικών",
+    "description": "Button to export full diagnostic report as JSON file"
+  },
+  "options_diagnostics_clear": {
+    "message": "Εκκαθάριση αρχείου καταγραφής",
+    "description": "Button to clear diagnostic log"
+  },
+  "options_diagnostics_empty": {
+    "message": "Κανένα διαγνωστικό συμβάν.",
+    "description": "Placeholder when diagnostic log is empty"
+  },
+  "options_footer": {
+    "message": "Rayburst Connect v$version$",
+    "description": "Footer text with version number",
+    "placeholders": {
+      "version": {
+        "content": "$1"
+      }
+    }
+  },
+  "options_save": {
+    "message": "Αποθήκευση",
+    "description": "Save button in action bar"
+  },
+  "options_discard": {
+    "message": "Απόρριψη",
+    "description": "Discard button in action bar"
+  },
+  "options_discard_success": {
+    "message": "Οι αλλαγές επαναφέρθηκαν",
+    "description": "Toast after discarding unsaved settings changes"
+  },
+  "options_save_success": {
+    "message": "Οι ρυθμίσεις αποθηκεύτηκαν",
+    "description": "Toast after saving settings successfully"
+  },
+  "options_save_error": {
+    "message": "Αποτυχία αποθήκευσης ρυθμίσεων",
+    "description": "Toast when saving settings fails"
+  },
+  "options_changes_indicator": {
+    "message": "Μη αποθηκευμένες αλλαγές",
+    "description": "Indicator text showing there are unsaved modifications"
+  },
+  "options_color_scheme": {
+    "message": "Χρωματικό σχήμα",
+    "description": "Label for the color scheme picker"
+  },
+  "options_color_scheme_amber": {
+    "message": "Κεχριμπαρένιο χρυσό",
+    "description": "Amber Gold color scheme"
+  },
+  "options_color_scheme_space": {
+    "message": "Διαστημικό μπλε",
+    "description": "Space Blue color scheme"
+  },
+  "options_color_scheme_mint": {
+    "message": "Μέντα πράσινο",
+    "description": "Mint Green color scheme"
+  },
+  "options_color_scheme_rose": {
+    "message": "Τριανταφυλλί",
+    "description": "Rose Red color scheme"
+  },
+  "options_color_scheme_coral": {
+    "message": "Κοραλλί πορτοκαλί",
+    "description": "Coral Orange color scheme"
+  },
+  "options_color_scheme_glacier": {
+    "message": "Παγετώνα κυανό",
+    "description": "Glacier Cyan color scheme"
+  },
+  "options_color_scheme_evergreen": {
+    "message": "Αειθαλές",
+    "description": "Evergreen color scheme"
+  },
+  "options_color_scheme_graphite": {
+    "message": "Γραφίτης γκρι",
+    "description": "Graphite Grey color scheme"
+  },
+  "options_color_scheme_sakura": {
+    "message": "Σακούρα ροζ",
+    "description": "Sakura Pink color scheme"
+  },
+  "error_unknown": {
+    "message": "Παρουσιάστηκε άγνωστο σφάλμα",
+    "description": "Fallback error message"
+  },
+  "options_rule_always_intercept": {
+    "message": "Πάντα υποκλοπή",
+    "description": "Site rule action: always intercept downloads"
+  },
+  "options_rule_always_skip": {
+    "message": "Πάντα παράλειψη",
+    "description": "Site rule action: never intercept downloads"
+  },
+  "options_rule_use_global": {
+    "message": "Χρήση γενικής ρύθμισης",
+    "description": "Site rule action: follow the global setting"
+  },
+  "popup_error_auth": {
+    "message": "API secret mismatch",
+    "description": "Popup banner title when API secret is incorrect"
+  },
+  "popup_error_auth_hint": {
+    "message": "Check that the API secret in Settings matches your Rayburst configuration.",
+    "description": "Popup banner hint for API auth error"
+  },
+  "popup_error_timeout": {
+    "message": "Λήξη χρονικού ορίου σύνδεσης",
+    "description": "Popup banner title when API connection times out"
+  },
+  "popup_error_timeout_hint": {
+    "message": "Check your network or firewall settings. API port: $1",
+    "description": "Popup banner hint for timeout error, $1 = port number",
+    "placeholders": {
+      "1": {
+        "content": "$1",
+        "example": "29110"
+      }
+    }
+  },
+  "popup_error_unreachable_hint": {
+    "message": "Make sure Rayburst is running. API port: $1",
+    "description": "Popup banner hint for unreachable error, $1 = port number",
+    "placeholders": {
+      "1": {
+        "content": "$1",
+        "example": "29110"
+      }
+    }
+  },
+  "options_section_language": {
+    "message": "Γλώσσα",
+    "description": "Settings section for interface language"
+  },
+  "options_locale_auto": {
+    "message": "Αυτόματα",
+    "description": "Language option: follow browser language"
+  },
+  "options_locale_auto_desc": {
+    "message": "Ακολουθεί τη γλώσσα του προγράμματος περιήγησης",
+    "description": "Description for auto language option"
+  },
+  "options_desktop_unavailable_label": {
+    "message": "Όταν το Rayburst δεν είναι διαθέσιμο",
+    "description": "Unavailable desktop behavior label"
+  },
+  "options_desktop_unavailable_launch": {
+    "message": "Εκκίνηση Rayburst",
+    "description": "Launch desktop option"
+  },
+  "options_desktop_unavailable_browser": {
+    "message": "Χρήση προγράμματος περιήγησης",
+    "description": "Browser fallback option"
+  },
+  "options_desktop_startup_timeout_label": {
+    "message": "Χρονικό όριο εκκίνησης",
+    "description": "Desktop startup timeout label"
+  },
+  "options_desktop_open_link_label": {
+    "message": "Εκκίνηση του Rayburst μέσω συνδέσμου του προγράμματος περιήγησης (παλιά μέθοδος)",
+    "description": "Setting: start the desktop by opening its link in a tab instead of Native Messaging"
+  },
+  "options_seconds_suffix": {
+    "message": "δευτ.",
+    "description": "Seconds unit suffix"
+  },
+  "popup_stat_active": {
+    "message": "Ενεργές",
+    "description": "Task count label: currently downloading"
+  },
+  "popup_stat_waiting": {
+    "message": "Αναμονή",
+    "description": "Task count label: queued for download"
+  },
+  "popup_stat_stopped": {
+    "message": "Ολοκληρωμένες",
+    "description": "Task count label: completed or stopped"
+  },
+  "popup_toggle_enabled": {
+    "message": "Υποκλοπή ενεργή",
+    "description": "Label next to the interception toggle when active"
+  },
+  "popup_toggle_disabled": {
+    "message": "Σε παύση",
+    "description": "Label next to the interception toggle when inactive"
+  },
+  "options_api_port_label": {
+    "message": "API Port",
+    "description": "Label for the API port input"
+  },
+  "options_api_secret_label": {
+    "message": "API Secret",
+    "description": "Label for the API secret input"
+  },
+  "options_api_secret_placeholder": {
+    "message": "Paste from desktop app",
+    "description": "Placeholder text for API secret input"
+  },
+  "error_api_unreachable": {
+    "message": "Cannot connect to Rayburst",
+    "description": "Error when the API endpoint is unreachable"
+  },
+  "error_api_auth": {
+    "message": "API secret is incorrect",
+    "description": "Error when the API secret does not match"
+  },
+  "error_api_timeout": {
+    "message": "Λήξη χρονικού ορίου σύνδεσης",
+    "description": "Error when the API connection times out"
+  },
+  "options_hide_download_bar_label": {
+    "message": "Απόκρυψη της γραμμής λήψεων του προγράμματος περιήγησης",
+    "description": "Label for the optional browser download bar hiding setting."
+  },
+  "options_forward_request_headers_label": {
+    "message": "Προώθηση κεφαλίδων αιτήματος",
+    "description": "Label for the request header forwarding setting."
+  },
+  "options_forward_cookies_label": {
+    "message": "Προώθηση cookies",
+    "description": "Label for the cookie forwarding setting."
+  },
+  "options_permission_download_ui_denied": {
+    "message": "Παραχωρήστε την άδεια διεπαφής λήψεων για απόκρυψη της γραμμής λήψεων του προγράμματος περιήγησης.",
+    "description": "Toast shown when the optional downloads.ui permission is denied."
+  },
+  "options_permission_cookies_denied": {
+    "message": "Παραχωρήστε άδειες cookies και ιστότοπων για προώθηση cookies στο Rayburst.",
+    "description": "Toast shown when cookie forwarding permissions are unavailable."
+  },
+  "options_scope_browser_downloads_label": {
+    "message": "Λήψεις προγράμματος περιήγησης",
+    "description": "Label for the browser download interception scope toggle."
+  },
+  "options_scope_magnet_label": {
+    "message": "Σύνδεσμοι Magnet",
+    "description": "Label for the magnet link interception scope toggle."
+  },
+  "options_scope_ed2k_label": {
+    "message": "Σύνδεσμοι ED2K",
+    "description": "Label for the ED2K link interception scope toggle."
+  },
+  "options_scope_thunder_label": {
+    "message": "Σύνδεσμοι Thunder",
+    "description": "Label for the Thunder link interception scope toggle."
+  },
+  "options_scope_incognito_label": {
+    "message": "Λήψεις από ιδιωτικά παράθυρα",
+    "description": "Label for the private-window download interception toggle."
+  },
+  "options_scope_incognito_hint": {
+    "message": "Οι λήψεις από ιδιωτικά παράθυρα περνούν στο Rayburst και εμφανίζονται στη λίστα εργασιών και στο ιστορικό του. Το πρόγραμμα περιήγησης πρέπει επίσης να επιτρέπει αυτή την επέκταση σε ιδιωτικά παράθυρα.",
+    "description": "Hint under the private-window download interception toggle."
+  },
+  "options_scope_other_extensions_label": {
+    "message": "Λήψεις από άλλες επεκτάσεις",
+    "description": "Label for the toggle that takes over downloads other extensions start."
+  },
+  "options_scope_other_extensions_hint": {
+    "message": "Για παράδειγμα, σύνδεσμοι που επιλύει μια επέκταση ξεκλειδώματος συνδέσμων. Το Rayburst αναλαμβάνει μόνο αφού ελέγξει ότι λαμβάνει το ίδιο αρχείο.",
+    "description": "Hint under the other-extension download interception toggle."
+  },
+  "options_min_size_label": {
+    "message": "Ελάχιστο μέγεθος αρχείου",
+    "description": "Label for the minimum file size setting."
+  },
+  "options_min_size_value_label": {
+    "message": "Μέγεθος (MB)",
+    "description": "Label for the minimum file size numeric input."
+  },
+  "options_min_size_unknown_label": {
+    "message": "Άγνωστο μέγεθος",
+    "description": "Label for the unknown file size behavior selector."
+  },
+  "options_min_size_unknown_intercept": {
+    "message": "Μεταφορά στο Rayburst",
+    "description": "Option label for routing unknown-size downloads to Rayburst."
+  },
+  "options_min_size_unknown_skip": {
+    "message": "Μεταφορά στο πρόγραμμα περιήγησης",
+    "description": "Option label for leaving unknown-size downloads in the browser."
+  },
+  "options_duplicate_guard_label": {
+    "message": "Προστασία διπλών λήψεων",
+    "description": "Label for the duplicate download guard setting."
+  },
+  "options_duplicate_guard_window_label": {
+    "message": "Παράθυρο προστασίας",
+    "description": "Label for the duplicate download guard time window input."
+  },
+  "notification_duplicate_guard_title": {
+    "message": "Η εργασία υποβλήθηκε",
+    "description": "Notification title shown when a duplicate download is blocked."
+  },
+  "notification_duplicate_guard_body": {
+    "message": "Το διπλό αίτημα παραλείφθηκε",
+    "description": "Notification body shown when a duplicate download is blocked."
+  },
+  "notification_desktop_link_body": {
+    "message": "Κάντε κλικ για να ενεργοποιήσετε την εκκίνηση του Rayburst μέσω συνδέσμου του προγράμματος περιήγησης.",
+    "description": "Notification body after an unattended start failed; clicking opens the settings"
+  },
+  "options_privacy_section_label": {
+    "message": "Απόρρητο",
+    "description": "Subsection label for privacy-related download forwarding settings."
+  },
+  "options_download_handling_section_label": {
+    "message": "Χειρισμός λήψεων",
+    "description": "Subsection label for browser and desktop download handling settings."
+  },
+  "options_site_rules_label": {
+    "message": "Κανόνες ιστότοπων",
+    "description": "Subsection label for per-site download rules."
+  },
+  "options_file_extension_rule_label": {
+    "message": "Κανόνας επέκτασης αρχείου",
+    "description": "Label for the file extension rule toggle."
+  },
+  "options_file_extension_list_label": {
+    "message": "Επεκτάσεις",
+    "description": "Label for the file extension list input."
+  },
+  "options_file_extension_list_placeholder": {
+    "message": "Προσθήκη επέκτασης",
+    "description": "Placeholder for the file extension list input."
+  },
+  "options_file_extension_listed_action_label": {
+    "message": "Καταχωρημένες επεκτάσεις",
+    "description": "Label for the action selector applied to listed file extensions."
+  },
+  "options_file_extension_unknown_action_label": {
+    "message": "Άγνωστη επέκταση",
+    "description": "Label for the action selector applied when no file extension is detected."
+  },
+  "options_file_extension_action_intercept": {
+    "message": "Αποστολή στο Rayburst",
+    "description": "Option label for routing a matched extension to Rayburst."
+  },
+  "options_file_extension_action_skip": {
+    "message": "Χρήση προγράμματος περιήγησης",
+    "description": "Option label for leaving a matched extension in the browser."
+  },
+  "options_factory_reset_button": {
+    "message": "Επαναφορά ρυθμίσεων",
+    "description": "Button to stage a full settings reset."
+  },
+  "options_factory_reset_confirm": {
+    "message": "Κάντε ξανά κλικ για επαναφορά",
+    "description": "Second-click confirmation label for the reset button."
+  },
+  "options_factory_reset_ready": {
+    "message": "Οι προεπιλογές είναι έτοιμες για αποθήκευση",
+    "description": "Toast shown after default settings are staged for saving."
+  },
+  "options_section_maintenance": {
+    "message": "Συντήρηση",
+    "description": "Settings section for maintenance actions."
+  },
+  "options_settings_backup_title": {
+    "message": "Αντίγραφο ρυθμίσεων",
+    "description": "Maintenance section title for settings backup."
+  },
+  "options_settings_backup_export": {
+    "message": "Εξαγωγή ρυθμίσεων",
+    "description": "Button to export settings backup."
+  },
+  "options_settings_backup_import": {
+    "message": "Εισαγωγή ρυθμίσεων",
+    "description": "Button to import settings backup."
+  },
+  "options_settings_backup_exported": {
+    "message": "Το αντίγραφο εξήχθη",
+    "description": "Toast shown after settings backup export starts."
+  },
+  "options_settings_backup_export_error": {
+    "message": "Αποτυχία εξαγωγής αντιγράφου",
+    "description": "Toast shown when settings backup export fails."
+  },
+  "options_settings_backup_imported": {
+    "message": "Οι ρυθμίσεις εισήχθησαν. Ελέγξτε και αποθηκεύστε.",
+    "description": "Toast shown after settings backup is staged for saving."
+  },
+  "options_settings_backup_invalid": {
+    "message": "Μη έγκυρο αρχείο αντιγράφου",
+    "description": "Toast shown when selected settings backup is invalid."
+  },
+  "options_diagnostics_filter_all": {
+    "message": "Όλα",
+    "description": "Filter label for all diagnostic levels"
+  },
+  "options_diagnostics_filter_error": {
+    "message": "Σφάλμα",
+    "description": "Filter label for error diagnostic events"
+  },
+  "options_diagnostics_filter_warning": {
+    "message": "Προειδοποίηση",
+    "description": "Filter label for warning diagnostic events"
+  },
+  "options_diagnostics_filter_info": {
+    "message": "Πληροφορίες",
+    "description": "Filter label for informational diagnostic events"
+  },
+  "options_diagnostics_filter_code": {
+    "message": "Τύπος συμβάντος",
+    "description": "Placeholder for the diagnostic event type filter"
+  },
+  "options_diagnostics_clear_error": {
+    "message": "Δεν ήταν δυνατή η εκκαθάριση των διαγνωστικών συμβάντων",
+    "description": "Error shown when diagnostic events cannot be cleared"
+  },
+  "options_diagnostics_export_error": {
+    "message": "Δεν ήταν δυνατή η εξαγωγή της διαγνωστικής αναφοράς",
+    "description": "Error shown when the diagnostic report cannot be exported"
+  },
+  "popup_status_launching": {
+    "message": "Εκκίνηση",
+    "description": "Popup status while the desktop app is starting"
+  },
+  "popup_launching_title": {
+    "message": "Εκκίνηση του Rayburst",
+    "description": "Popup launch progress title"
+  },
+  "popup_launching_hint": {
+    "message": "Αναμονή μέχρι να είναι έτοιμη η εφαρμογή υπολογιστή…",
+    "description": "Popup launch progress description"
+  },
+  "popup_launch_failed_title": {
+    "message": "Δεν ήταν δυνατή η εκκίνηση του Rayburst",
+    "description": "Popup launch failure title"
+  },
+  "popup_launch_failed_hint": {
+    "message": "Ελέγξτε ότι το Rayburst είναι εγκατεστημένο και οι ρυθμίσεις API είναι σωστές.",
+    "description": "Popup launch failure guidance"
+  },
+  "popup_launch_link_hint": {
+    "message": "Το πρόγραμμα περιήγησης μπορεί να εκκινήσει το Rayburst μέσω συνδέσμου.",
+    "description": "Popup launch failure guidance when the desktop could not be started at all"
+  },
+  "popup_action_retry": {
+    "message": "Δοκιμάστε ξανά",
+    "description": "Popup action to retry desktop launch"
+  },
+  "popup_action_launch_link": {
+    "message": "Εκκίνηση μέσω συνδέσμου",
+    "description": "Popup button: allow starting the desktop through its link and retry"
+  },
+  "options_diagnostics_column_time": {
+    "message": "Ώρα",
+    "description": "Diagnostic table column heading for event time"
+  },
+  "options_diagnostics_column_level": {
+    "message": "Επίπεδο",
+    "description": "Diagnostic table column heading for severity level"
+  },
+  "options_diagnostics_column_event": {
+    "message": "Συμβάν",
+    "description": "Diagnostic table column heading for event code"
+  },
+  "options_diagnostics_column_message": {
+    "message": "Μήνυμα",
+    "description": "Diagnostic table column heading for event message"
+  },
+  "options_diagnostics_pagination": {
+    "message": "$RANGE$ από $TOTAL$ · μέγιστο $MAX$",
+    "description": "Diagnostic table pagination summary with visible range, filtered total, and retention limit",
+    "placeholders": {
+      "RANGE": {
+        "content": "$1",
+        "example": "1–10"
+      },
+      "TOTAL": {
+        "content": "$2",
+        "example": "37"
+      },
+      "MAX": {
+        "content": "$3",
+        "example": "100"
+      }
+    }
+  },
+  "options_diagnostics_log_entry_limit": {
+    "message": "Όριο καταχωρίσεων αρχείου καταγραφής",
+    "description": "Label for the maximum number of diagnostic log entries retained locally"
+  },
+  "options_diagnostics_entries_suffix": {
+    "message": "καταχωρίσεις",
+    "description": "Unit suffix for the diagnostic log entry limit input"
+  },
+  "options_diagnostics_view_details": {
+    "message": "Προβολή λεπτομερειών συμβάντος",
+    "description": "Accessible label for opening diagnostic event details"
+  },
+  "options_diagnostics_details_title": {
+    "message": "Λεπτομέρειες συμβάντος",
+    "description": "Title of the diagnostic event details drawer"
+  },
+  "options_diagnostics_details_message": {
+    "message": "Μήνυμα",
+    "description": "Heading for the diagnostic event message"
+  },
+  "options_diagnostics_details_context": {
+    "message": "Πλαίσιο",
+    "description": "Heading for diagnostic event context fields"
+  },
+  "options_diagnostics_clear_confirm": {
+    "message": "Επιβεβαίωση εκκαθάρισης",
+    "description": "Second-click confirmation label for clearing diagnostic logs"
+  },
+  "sniffer_tab": {
+    "message": "Ανίχνευση",
+    "description": "Navigation label for discovering page resources"
+  },
+  "media_downloads": {
+    "message": "Λήψεις",
+    "description": "Media discovery: downloads"
+  },
+  "media_discover": {
+    "message": "Εντοπισμός πολυμέσων σελίδας",
+    "description": "Media discovery: discover"
+  },
+  "media_scan": {
+    "message": "Σάρωση σελίδας",
+    "description": "Media discovery: scan"
+  },
+  "media_clear": {
+    "message": "Εκκαθάριση πηγών",
+    "description": "Media discovery: clear"
+  },
+  "media_filter": {
+    "message": "Φιλτράρισμα πηγών",
+    "description": "Media discovery: filter"
+  },
+  "media_sources": {
+    "message": "Πηγές πολυμέσων",
+    "description": "Media discovery: sources"
+  },
+  "media_source": {
+    "message": "Πηγή",
+    "description": "Media discovery: source"
+  },
+  "media_enable_site": {
+    "message": "Ενεργοποίηση σε αυτόν τον ιστότοπο",
+    "description": "Media discovery: enable site"
+  },
+  "media_disable_site": {
+    "message": "Απενεργοποίηση σε αυτόν τον ιστότοπο",
+    "description": "Media discovery: disable site"
+  },
+  "media_inspect": {
+    "message": "Έλεγχος μορφών",
+    "description": "Media discovery: inspect"
+  },
+  "media_options": {
+    "message": "Επιλογές πολυμέσων",
+    "description": "Media discovery: options"
+  },
+  "media_back": {
+    "message": "Επιστροφή στις πηγές",
+    "description": "Media discovery: back"
+  },
+  "media_video": {
+    "message": "Ποιότητα βίντεο",
+    "description": "Media discovery: video"
+  },
+  "media_audio": {
+    "message": "Ήχος",
+    "description": "Media discovery: audio"
+  },
+  "media_subtitles": {
+    "message": "Υπότιτλοι",
+    "description": "Media discovery: subtitles"
+  },
+  "media_format": {
+    "message": "Μορφή εξόδου",
+    "description": "Media discovery: format"
+  },
+  "media_original": {
+    "message": "Αρχικό αρχείο",
+    "description": "Media discovery: original"
+  },
+  "media_record_limit": {
+    "message": "Όριο εγγραφής (δευτερόλεπτα)",
+    "description": "Media discovery: record limit"
+  },
+  "media_live": {
+    "message": "Ζωντανή εγγραφή",
+    "description": "Media discovery: live"
+  },
+  "media_download": {
+    "message": "Λήψη",
+    "description": "Media discovery: download"
+  },
+  "media_record": {
+    "message": "Έναρξη εγγραφής",
+    "description": "Media discovery: record"
+  },
+  "media_cancel": {
+    "message": "Ακύρωση",
+    "description": "Media discovery: cancel"
+  },
+  "media_retry": {
+    "message": "Δοκιμή ξανά",
+    "description": "Media discovery: retry"
+  },
+  "media_no_video": {
+    "message": "Χωρίς βίντεο",
+    "description": "Media discovery: no video"
+  },
+  "media_no_audio": {
+    "message": "Χωρίς ήχο",
+    "description": "Media discovery: no audio"
+  },
+  "media_no_subtitles": {
+    "message": "Χωρίς υπότιτλους",
+    "description": "Media discovery: no subtitles"
+  },
+  "media_excluded_sites": {
+    "message": "Εξαιρούμενοι ιστότοποι πολυμέσων",
+    "description": "Media discovery: excluded sites"
+  },
+  "media_waiting": {
+    "message": "Βρέθηκε πρόγραμμα αναπαραγωγής· αναμονή πηγής πολυμέσων.",
+    "description": "Media discovery: waiting"
+  },
+  "media_none": {
+    "message": "Δεν βρέθηκαν πηγές πολυμέσων.",
+    "description": "Media discovery: none"
+  },
+  "media_paused": {
+    "message": "Ο εντοπισμός πολυμέσων έχει παύσει.",
+    "description": "Media discovery: paused"
+  },
+  "media_excluded": {
+    "message": "Ο εντοπισμός πολυμέσων είναι ανενεργός εδώ.",
+    "description": "Media discovery: excluded"
+  },
+  "media_ambiguous": {
+    "message": "Οι πηγές δεν αντιστοιχούν με βεβαιότητα σε ένα πρόγραμμα αναπαραγωγής. Ελέγξτε πριν τη λήψη.",
+    "description": "Media discovery: ambiguous"
+  },
+  "media_loading": {
+    "message": "Έλεγχος πολυμέσων…",
+    "description": "Media discovery: loading"
+  },
+  "media_submitted": {
+    "message": "Η λήψη δημιουργήθηκε στο Rayburst.",
+    "description": "Media discovery: submitted"
+  },
+  "media_cancelled": {
+    "message": "Ο έλεγχος ακυρώθηκε.",
+    "description": "Media discovery: cancelled"
+  },
+  "media_failed": {
+    "message": "Η ενέργεια απέτυχε. Δοκιμάστε ξανά για έλεγχο κατάστασης.",
+    "description": "Media discovery: failed"
+  },
+  "media_unsupported": {
+    "message": "Τα πολυμέσα ή η μέθοδος αιτήματος δεν υποστηρίζονται.",
+    "description": "Media discovery: unsupported"
+  },
+  "media_invalid": {
+    "message": "Επιλέξτε υποστηριζόμενο συνδυασμό κομματιών, μορφής και διάρκειας.",
+    "description": "Media discovery: invalid"
+  },
+  "media_unavailable": {
+    "message": "Αυτή η έκδοση της εφαρμογής υπολογιστή δεν μπορεί να κατεβάσει ροές. Εγκαταστήστε το νεότερο Rayburst.",
+    "description": "Media discovery: unavailable"
+  },
+  "media_expired": {
+    "message": "Η πηγή ή ο έλεγχος έληξε. Κάντε αναπαραγωγή και ελέγξτε ξανά.",
+    "description": "Media discovery: expired"
+  },
+  "media_auth": {
+    "message": "Ελέγξτε σύνδεση στον ιστότοπο, προώθηση αιτημάτων ή κλειδί API.",
+    "description": "Media discovery: auth"
+  },
+  "media_connection": {
+    "message": "Ξεκινήστε το Rayburst και ελέγξτε τη σύνδεση.",
+    "description": "Media discovery: connection"
+  },
+  "media_size_unknown": {
+    "message": "Άγνωστο μέγεθος",
+    "description": "Media discovery: size unknown"
+  },
+  "media_duration_unknown": {
+    "message": "Άγνωστη διάρκεια",
+    "description": "Media discovery: duration unknown"
+  },
+  "media_includes_audio": {
+    "message": "Περιλαμβάνει ήχο",
+    "description": "Media discovery: includes audio"
+  },
+  "media_record_hint": {
+    "message": "Το μηδέν καταγράφει μέχρι να σταματήσετε στο Rayburst.",
+    "description": "Media discovery: record hint"
+  },
+  "media_inspect_hint": {
+    "message": "Ελέγξτε πρώτα και επιβεβαιώστε μετά τη λήψη.",
+    "description": "Media discovery: inspect hint"
+  },
+  "media_open_page": {
+    "message": "Ανοίξτε μια ιστοσελίδα για εντοπισμό πολυμέσων.",
+    "description": "Media discovery: open page"
+  },
+  "media_hint": {
+    "message": "Αναπαραγάγετε βίντεο ή ήχο για αυτόματο εντοπισμό πηγών.",
+    "description": "Media discovery: hint"
+  },
+  "media_ready": {
+    "message": "Οι μορφές είναι έτοιμες",
+    "description": "Media discovery: ready"
+  },
+  "media_confirming": {
+    "message": "Επιβεβαίωση λήψης…",
+    "description": "Media discovery: confirming"
+  },
+  "media_cancelling": {
+    "message": "Ακύρωση ελέγχου…",
+    "description": "Media discovery: cancelling"
+  },
+  "options_color_scheme_rayburst": {
+    "message": "Rayburst"
+  },
+  "brand_tagline": {
+    "message": "Επαναπροσδιορίζουμε τη συνοδευτική επέκταση του προγράμματος περιήγησης",
+    "description": "Localized Rayburst Connect brand slogan"
+  },
+  "resources_current": {
+    "message": "Τρέχουσα σελίδα"
+  },
+  "resources_other": {
+    "message": "Όλες οι σελίδες"
+  },
+  "resources_controls": {
+    "message": "Έλεγχος αναπαραγωγής"
+  },
+  "resources_expand": {
+    "message": "Άνοιγμα χώρου εργασίας"
+  },
+  "resources_fullscreen": {
+    "message": "Πλήρης οθόνη"
+  },
+  "resources_import": {
+    "message": "Προσθήκη πηγής"
+  },
+  "resources_invert": {
+    "message": "Αντιστροφή επιλογής"
+  },
+  "resources_key": {
+    "message": "Κλειδί AES-128"
+  },
+  "resources_kind_collection": {
+    "message": "Συνδυασμένα πολυμέσα"
+  },
+  "resources_kind_fragment": {
+    "message": "Τμήμα"
+  },
+  "resources_loop": {
+    "message": "Επανάληψη"
+  },
+  "resources_manifest": {
+    "message": "Manifest ή διευθύνσεις τμημάτων"
+  },
+  "resources_merge": {
+    "message": "Συγχώνευση ήχου και βίντεο"
+  },
+  "resources_mute": {
+    "message": "Σίγαση"
+  },
+  "resources_preview": {
+    "message": "Προεπισκόπηση"
+  },
+  "resources_preview_unavailable": {
+    "message": "Η προεπισκόπηση δεν είναι διαθέσιμη. Η λήψη ίσως λειτουργεί."
+  },
+  "resources_reload": {
+    "message": "Επαναφόρτωση για καταγραφή από την αρχή"
+  },
+  "resources_screenshot": {
+    "message": "Αποθήκευση στιγμιότυπου"
+  },
+  "resources_sequence": {
+    "message": "Ένωση τμημάτων"
+  },
+  "resources_sidebar": {
+    "message": "Άνοιγμα πλαϊνού πίνακα"
+  },
+  "resources_start": {
+    "message": "Έναρξη"
+  },
+  "resources_start_time": {
+    "message": "Αρχή (δευτερόλεπτα)"
+  },
+  "resources_end_time": {
+    "message": "Τέλος (0: τέλος πηγής)"
+  },
+  "resources_stop": {
+    "message": "Διακοπή"
+  },
+  "resources_test_keys": {
+    "message": "Έλεγχος εντοπισμένων κλειδιών"
+  },
+  "resources_tools": {
+    "message": "Εργαλεία πολυμέσων"
+  },
+  "resources_volume": {
+    "message": "Ένταση"
+  },
+  "resources_preserve": {
+    "message": "Διατήρηση πηγών κατά την πλοήγηση"
+  },
+  "resources_deep": {
+    "message": "Βαθιά αναζήτηση"
+  },
+  "resources_cache": {
+    "message": "Καταγραφή προσωρινών δεδομένων"
+  },
+  "resources_copy": {
+    "message": "Αντιγραφή"
+  },
+  "resources_select_all": {
+    "message": "Επιλογή όλων"
+  },
+  "resources_name": {
+    "message": "Όνομα"
+  },
+  "resources_size": {
+    "message": "Μέγεθος"
+  },
+  "resources_type": {
+    "message": "Τύπος"
+  },
+  "resources_speed": {
+    "message": "Ταχύτητα"
+  },
+  "resources_kind_image": {
+    "message": "Εικόνες"
+  },
+  "resources_all": {
+    "message": "Όλα"
+  },
+  "resources_time": {
+    "message": "Ώρα"
+  },
+  "resources_video": {
+    "message": "Έναρξη εγγραφής"
+  },
+  "resources_kind_embedded": {
+    "message": "Πηγή"
+  },
+  "resources_kind_file": {
+    "message": "Αρχικό αρχείο"
+  },
+  "resources_kind_subtitle": {
+    "message": "Υπότιτλοι"
+  },
+  "resources_pause": {
+    "message": "Παύση"
+  },
+  "resources_play": {
+    "message": "Αναπαραγωγή"
+  },
+  "resources_kind_json": {
+    "message": "JSON"
+  },
+  "resources_url": {
+    "message": "URL"
+  },
+  "resources_pip": {
+    "message": "PiP"
+  },
+  "resources_sort": {
+    "message": "Ταξινόμηση"
+  },
+  "resources_auto": {
+    "message": "Αυτόματη λήψη νέων πόρων"
+  },
+  "resources_mobile": {
+    "message": "Χρήση User-Agent κινητού"
+  },
+  "media_settings_title": {
+    "message": "Ρυθμίσεις ανίχνευσης"
+  },
+  "media_settings_any_size": {
+    "message": "Κάθε μέγεθος"
+  },
+  "media_settings_capture": {
+    "message": "Εντοπισμός"
+  },
+  "media_settings_edit": {
+    "message": "Επεξεργασία"
+  },
+  "media_settings_remove": {
+    "message": "Αφαίρεση"
+  },
+  "media_settings_invalid_rule": {
+    "message": "Ελέγξτε τη σύνταξη, τις τιμές και τους διπλούς τύπους."
+  },
+  "media_settings_between": {
+    "message": "Μεταξύ"
+  },
+  "media_settings_upper": {
+    "message": "Άνω όριο"
+  },
+  "media_settings_pattern": {
+    "message": "Μοτίβο"
+  },
+  "media_settings_action": {
+    "message": "Ενέργεια"
+  },
+  "media_settings_enabled": {
+    "message": "Ενεργό"
+  },
+  "media_settings_ignore": {
+    "message": "Παράβλεψη"
+  },
+  "media_settings_regex": {
+    "message": "Κανονικές εκφράσεις"
+  },
+  "media_settings_regex_hint": {
+    "message": "Η πρώτη αντιστοίχιση υπερισχύει των κανόνων τύπου."
+  },
+  "media_settings_flags": {
+    "message": "Σημαίες έκφρασης"
+  },
+  "media_settings_group": {
+    "message": "Ομάδα URL (0: αρχικό URL)"
+  },
+  "media_settings_test_url": {
+    "message": "Δοκιμαστικό URL"
+  },
+  "media_settings_no_match": {
+    "message": "Καμία αντιστοίχιση"
+  },
+  "media_settings_behavior": {
+    "message": "Συμπεριφορά"
+  },
+  "media_settings_capture_hint": {
+    "message": "Τα φίλτρα δεν περιορίζουν τις λήψεις λιστών αναπαραγωγής."
+  },
+  "media_settings_newest": {
+    "message": "Νεότερα πρώτα"
+  },
+  "media_settings_quick": {
+    "message": "Γρήγορη λήψη"
+  },
+  "media_settings_quick_hint": {
+    "message": "Επιλογή κομματιών όταν υπάρχουν πολλές επιλογές."
+  },
+  "media_settings_deep": {
+    "message": "Πάντα ενεργή βαθιά αναζήτηση"
+  },
+  "media_settings_deep_hint": {
+    "message": "Επαναφορτώστε τις σελίδες. Μπορεί να επηρεάσει την αναπαραγωγή."
+  },
+  "media_settings_name_from": {
+    "message": "Ονομασία εντοπισμένων αρχείων με βάση"
+  },
+  "media_settings_name_from_file": {
+    "message": "Όνομα αρχείου"
+  },
+  "media_settings_name_from_title": {
+    "message": "Τίτλο σελίδας"
+  },
+  "media_settings_include": {
+    "message": "Μόνο οι αναφερόμενοι ιστότοποι"
+  },
+  "media_settings_exclude": {
+    "message": "Εξαίρεση αναφερόμενων ιστοτόπων"
+  },
+  "media_settings_autosave": {
+    "message": "Οι αλλαγές αποθηκεύονται αυτόματα."
+  },
+  "media_settings_restore": {
+    "message": "Επαναφορά ρυθμίσεων πολυμέσων"
+  },
+  "media_settings_restore_hint": {
+    "message": "Επαναφορά μόνο πολυμέσων; Η σύνδεση δεν αλλάζει."
+  },
+  "media_settings_close_preview": {
+    "message": "Κλείσιμο προεπισκόπησης"
+  },
+  "sniffer_page_count": {
+    "message": "Πόροι σε αυτήν τη σελίδα: $1",
+    "description": "Resource count for the current browser tab; $1 is the full count"
+  },
+  "sniffer_results": {
+    "message": "Εμφάνιση $1 από $2 πόρους",
+    "description": "Filtered resources in the selected scope; $1 is visible, $2 is total"
+  },
+  "popup_status_checking": {
+    "message": "Έλεγχος",
+    "description": "Connection status while the desktop check is pending"
+  },
+  "connection_unsupported_title": {
+    "message": "Μη υποστηριζόμενη έκδοση εφαρμογής"
+  },
+  "connection_upgrade_hint": {
+    "message": "Εγκαταστήστε το νεότερο Rayburst και συνδεθείτε ξανά."
+  },
+  "connection_legacy_title": {
+    "message": "Ενημερώστε στο νεότερο Rayburst",
+    "description": "Title of the update notice shown while connected to an older desktop"
+  },
+  "connection_legacy_hint": {
+    "message": "Το $1 είναι παλαιότερη έκδοση, γι’ αυτό ορισμένες λειτουργίες δεν είναι διαθέσιμες.",
+    "description": "Shown while connected to an older desktop, $1 = its name and version",
+    "placeholders": {
+      "1": {
+        "content": "$1",
+        "example": "Motrix Next 3.9.9"
+      }
+    }
+  },
+  "connection_legacy_dismiss": {
+    "message": "Κλείσιμο",
+    "description": "Accessible label of the button that closes the popup update notice"
+  },
+  "connection_get_rayburst": {
+    "message": "Λήψη Rayburst"
+  },
+  "connection_check_again": {
+    "message": "Νέος έλεγχος"
+  },
+  "error_engine_starting": {
+    "message": "Η μηχανή Rayburst ξεκινά"
+  },
+  "error_engine_unavailable": {
+    "message": "Η μηχανή Rayburst δεν είναι διαθέσιμη"
+  },
+  "error_engine_hint": {
+    "message": "Ανοίξτε το Rayburst, ελέγξτε τη μηχανή και συνδεθείτε ξανά."
+  },
+  "popup_site_rules": {
+    "message": "Τρέχων ιστότοπος"
+  },
+  "popup_site_allow": {
+    "message": "Ενεργοποίηση σε αυτόν τον ιστότοπο"
+  },
+  "popup_site_exclude": {
+    "message": "Εξαίρεση αυτού του ιστοτόπου"
+  },
+  "popup_task_waiting": {
+    "message": "Σε αναμονή",
+    "description": "Popup task list: queued task"
+  },
+  "popup_task_paused": {
+    "message": "Σε παύση",
+    "description": "Popup task list: paused task"
+  },
+  "popup_task_failed": {
+    "message": "Απέτυχε",
+    "description": "Popup task list: failed task without a message"
+  },
+  "popup_task_pause": {
+    "message": "Παύση",
+    "description": "Popup task list: pause button"
+  },
+  "popup_task_resume": {
+    "message": "Συνέχεια",
+    "description": "Popup task list: resume button"
+  },
+  "popup_task_reveal": {
+    "message": "Εμφάνιση στον φάκελο",
+    "description": "Popup task list: show the finished file in its folder"
+  },
+  "popup_tasks_empty": {
+    "message": "Δεν υπάρχουν λήψεις ακόμη",
+    "description": "Popup task list: nothing to show"
+  },
+  "options_alt_click_bypass_label": {
+    "message": "Alt + κλικ κάνει λήψη με το πρόγραμμα περιήγησης",
+    "description": "Setting: holding Alt while clicking a link lets the browser download it"
+  },
+  "media_complete_video": {
+    "message": "Πλήρες βίντεο",
+    "description": "Media discovery: separate video and audio track files listed as one video"
+  },
+  "media_tracks": {
+    "message": "Κομμάτια: $1",
+    "description": "Media discovery: number of track files in a complete video; $1 is the count"
+  },
+  "media_track_files": {
+    "message": "Αρχεία κομματιών",
+    "description": "Media discovery: shows or hides the track files of a complete video"
+  }
+}

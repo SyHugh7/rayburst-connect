@@ -1,0 +1,1206 @@
+{
+  "options_website": {
+    "message": "公式サイト"
+  },
+  "ext_name": {
+    "message": "Rayburst Connect",
+    "description": "Extension display name"
+  },
+  "ext_description": {
+    "message": "ダウンロードや検出したメディアを Rayburst に送信。ページ内のメディア検出、プレビュー、キャプチャに対応。",
+    "description": "Extension description shown in browser and web store"
+  },
+  "popup_status_connected": {
+    "message": "接続済み",
+    "description": "Connection status badge when API is reachable"
+  },
+  "popup_status_disconnected": {
+    "message": "未接続",
+    "description": "Connection status badge when API is unreachable"
+  },
+  "popup_action_pause_all": {
+    "message": "すべて一時停止",
+    "description": "Button to pause all active downloads"
+  },
+  "popup_action_resume_all": {
+    "message": "すべて再開",
+    "description": "Button to resume all paused downloads"
+  },
+  "popup_action_settings": {
+    "message": "設定",
+    "description": "Button to open the options page"
+  },
+  "popup_action_launch": {
+    "message": "Rayburstを起動",
+    "description": "Button to launch the desktop app when disconnected"
+  },
+  "popup_action_open": {
+    "message": "Rayburstを開く",
+    "description": "Button to focus the desktop app when already connected"
+  },
+  "popup_error_unreachable": {
+    "message": "Rayburstに接続できません",
+    "description": "Error message when API is unreachable"
+  },
+  "options_section_connection": {
+    "message": "接続",
+    "description": "Settings section for API connection"
+  },
+  "options_test_connection": {
+    "message": "接続テスト",
+    "description": "Button to test the API connection"
+  },
+  "options_section_behavior": {
+    "message": "ダウンロード",
+    "description": "Settings section for download interception behavior"
+  },
+  "options_enabled_label": {
+    "message": "ダウンロードの横取りを有効化",
+    "description": "Toggle label for enabling/disabling download interception"
+  },
+  "options_section_rules": {
+    "message": "ルール",
+    "description": "Settings section for download routing rules"
+  },
+  "options_add_rule": {
+    "message": "ルールを追加",
+    "description": "Button to add a new site rule"
+  },
+  "options_section_appearance": {
+    "message": "外観",
+    "description": "Settings section for theme"
+  },
+  "options_theme_system": {
+    "message": "システム",
+    "description": "Theme option: follow system preference"
+  },
+  "options_theme_light": {
+    "message": "ライト",
+    "description": "Theme option: light mode"
+  },
+  "options_theme_dark": {
+    "message": "ダーク",
+    "description": "Theme option: dark mode"
+  },
+  "options_section_diagnostics": {
+    "message": "診断",
+    "description": "Settings section for diagnostic event log"
+  },
+  "context_menu_download": {
+    "message": "Rayburstでダウンロード",
+    "description": "Context menu item for downloading a link with Rayburst"
+  },
+  "options_header_title": {
+    "message": "Rayburst Connect",
+    "description": "Options page header title"
+  },
+  "options_header_subtitle": {
+    "message": "拡張機能の設定",
+    "description": "Options page header subtitle"
+  },
+  "options_testing_connection": {
+    "message": "テスト中...",
+    "description": "Button text while testing connection"
+  },
+  "options_connection_success_prefix": {
+    "message": "接続済み · Rayburst",
+    "description": "Prefix for successful connection status"
+  },
+  "options_connection_success_motrix": {
+    "message": "接続済み · Motrix Next",
+    "description": "Connection status when Motrix Next answered"
+  },
+  "options_rules_empty": {
+    "message": "ルールが設定されていません。",
+    "description": "Placeholder when no site rules exist"
+  },
+  "options_diagnostics_export": {
+    "message": "診断レポートをエクスポート",
+    "description": "Button to export full diagnostic report as JSON file"
+  },
+  "options_diagnostics_clear": {
+    "message": "ログを消去",
+    "description": "Button to clear diagnostic log"
+  },
+  "options_diagnostics_empty": {
+    "message": "診断イベントはありません。",
+    "description": "Placeholder when diagnostic log is empty"
+  },
+  "options_footer": {
+    "message": "Rayburst 拡張機能 v$version$",
+    "description": "Footer text with version number",
+    "placeholders": {
+      "version": {
+        "content": "$1"
+      }
+    }
+  },
+  "options_save": {
+    "message": "保存",
+    "description": "Save button in action bar"
+  },
+  "options_discard": {
+    "message": "破棄",
+    "description": "Discard button in action bar"
+  },
+  "options_discard_success": {
+    "message": "変更を復元しました",
+    "description": "Toast after discarding unsaved settings changes"
+  },
+  "options_save_success": {
+    "message": "設定を保存しました",
+    "description": "Toast after saving settings successfully"
+  },
+  "options_save_error": {
+    "message": "設定の保存に失敗しました",
+    "description": "Toast when saving settings fails"
+  },
+  "options_changes_indicator": {
+    "message": "未保存の変更",
+    "description": "Indicator text showing there are unsaved modifications"
+  },
+  "options_color_scheme": {
+    "message": "カラースキーム",
+    "description": "Label for the color scheme picker"
+  },
+  "options_color_scheme_amber": {
+    "message": "アンバーゴールド",
+    "description": "Amber Gold color scheme"
+  },
+  "options_color_scheme_space": {
+    "message": "スペースブルー",
+    "description": "Space Blue color scheme"
+  },
+  "options_color_scheme_mint": {
+    "message": "ミントグリーン",
+    "description": "Mint Green color scheme"
+  },
+  "options_color_scheme_rose": {
+    "message": "ローズレッド",
+    "description": "Rose Red color scheme"
+  },
+  "options_color_scheme_coral": {
+    "message": "コーラルオレンジ",
+    "description": "Coral Orange color scheme"
+  },
+  "options_color_scheme_glacier": {
+    "message": "グレイシャーシアン",
+    "description": "Glacier Cyan color scheme"
+  },
+  "options_color_scheme_evergreen": {
+    "message": "エバーグリーン",
+    "description": "Evergreen color scheme"
+  },
+  "options_color_scheme_graphite": {
+    "message": "グラファイトグレー",
+    "description": "Graphite Grey color scheme"
+  },
+  "options_color_scheme_sakura": {
+    "message": "桜ピンク",
+    "description": "Sakura Pink color scheme"
+  },
+  "error_unknown": {
+    "message": "不明なエラーが発生しました",
+    "description": "Fallback error message"
+  },
+  "options_rule_always_intercept": {
+    "message": "常に横取り",
+    "description": "Site rule action: always intercept downloads"
+  },
+  "options_rule_always_skip": {
+    "message": "常にスキップ",
+    "description": "Site rule action: never intercept downloads"
+  },
+  "options_rule_use_global": {
+    "message": "グローバル設定に従う",
+    "description": "Site rule action: follow the global setting"
+  },
+  "popup_error_auth": {
+    "message": "API シークレット不一致",
+    "description": "Popup banner title when API secret is incorrect"
+  },
+  "popup_error_auth_hint": {
+    "message": "設定の API シークレットが Rayburst の設定と一致しているか確認してください。",
+    "description": "Popup banner hint for API auth error"
+  },
+  "popup_error_timeout": {
+    "message": "接続がタイムアウトしました",
+    "description": "Popup banner title when API connection times out"
+  },
+  "popup_error_timeout_hint": {
+    "message": "ネットワークまたはファイアウォールの設定を確認してください。API ポート: $1",
+    "description": "Popup banner hint for timeout error, $1 = port number",
+    "placeholders": {
+      "1": {
+        "content": "$1",
+        "example": "29110"
+      }
+    }
+  },
+  "popup_error_unreachable_hint": {
+    "message": "Rayburst が実行中であることを確認してください。API ポート: $1",
+    "description": "Popup banner hint for unreachable error, $1 = port number",
+    "placeholders": {
+      "1": {
+        "content": "$1",
+        "example": "29110"
+      }
+    }
+  },
+  "options_section_language": {
+    "message": "言語",
+    "description": "Settings section for interface language"
+  },
+  "options_locale_auto": {
+    "message": "自動",
+    "description": "Language option: follow browser language"
+  },
+  "options_locale_auto_desc": {
+    "message": "ブラウザの言語に従う",
+    "description": "Description for auto language option"
+  },
+  "options_desktop_unavailable_label": {
+    "message": "Rayburst が利用できない場合",
+    "description": "Unavailable desktop behavior label"
+  },
+  "options_desktop_unavailable_launch": {
+    "message": "Rayburst を起動",
+    "description": "Launch desktop option"
+  },
+  "options_desktop_unavailable_browser": {
+    "message": "ブラウザーを使用",
+    "description": "Browser fallback option"
+  },
+  "options_desktop_startup_timeout_label": {
+    "message": "起動タイムアウト",
+    "description": "Desktop startup timeout label"
+  },
+  "options_desktop_open_link_label": {
+    "message": "ブラウザーのリンクで Rayburst を起動（従来の方法）",
+    "description": "Setting: start the desktop by opening its link in a tab instead of Native Messaging"
+  },
+  "options_seconds_suffix": {
+    "message": "秒",
+    "description": "Seconds unit suffix"
+  },
+  "popup_stat_active": {
+    "message": "アクティブ",
+    "description": "Task count label: currently downloading"
+  },
+  "popup_stat_waiting": {
+    "message": "待機中",
+    "description": "Task count label: queued for download"
+  },
+  "popup_stat_stopped": {
+    "message": "完了",
+    "description": "Task count label: completed or stopped"
+  },
+  "popup_toggle_enabled": {
+    "message": "インターセプト中",
+    "description": "Label next to the interception toggle when active"
+  },
+  "popup_toggle_disabled": {
+    "message": "一時停止中",
+    "description": "Label next to the interception toggle when inactive"
+  },
+  "options_api_port_label": {
+    "message": "API ポート",
+    "description": "Label for the API port input"
+  },
+  "options_api_secret_label": {
+    "message": "API シークレット",
+    "description": "Label for the API secret input"
+  },
+  "options_api_secret_placeholder": {
+    "message": "デスクトップアプリから貼り付け",
+    "description": "Placeholder text for API secret input"
+  },
+  "error_api_unreachable": {
+    "message": "Rayburst に接続できません",
+    "description": "Error when the API endpoint is unreachable"
+  },
+  "error_api_auth": {
+    "message": "API シークレットが正しくありません",
+    "description": "Error when the API secret does not match"
+  },
+  "error_api_timeout": {
+    "message": "接続がタイムアウトしました",
+    "description": "Error when the API connection times out"
+  },
+  "options_hide_download_bar_label": {
+    "message": "ブラウザーのダウンロードバーを非表示",
+    "description": "Label for the optional browser download bar hiding setting."
+  },
+  "options_forward_request_headers_label": {
+    "message": "リクエストヘッダーを転送",
+    "description": "Label for the request header forwarding setting."
+  },
+  "options_forward_cookies_label": {
+    "message": "Cookie を転送",
+    "description": "Label for the cookie forwarding setting."
+  },
+  "options_permission_download_ui_denied": {
+    "message": "ブラウザーのダウンロードバーを非表示にするには、ダウンロード UI 権限を許可してください。",
+    "description": "Toast shown when the optional downloads.ui permission is denied."
+  },
+  "options_permission_cookies_denied": {
+    "message": "Cookie を Rayburst に転送するには、Cookie とサイトの権限を許可してください。",
+    "description": "Toast shown when cookie forwarding permissions are unavailable."
+  },
+  "options_scope_browser_downloads_label": {
+    "message": "ブラウザーのダウンロード",
+    "description": "Label for the browser download interception scope toggle."
+  },
+  "options_scope_magnet_label": {
+    "message": "Magnet リンク",
+    "description": "Label for the magnet link interception scope toggle."
+  },
+  "options_scope_ed2k_label": {
+    "message": "ED2K リンク",
+    "description": "Label for the ED2K link interception scope toggle."
+  },
+  "options_scope_thunder_label": {
+    "message": "Thunder リンク",
+    "description": "Label for the Thunder link interception scope toggle."
+  },
+  "options_scope_incognito_label": {
+    "message": "プライベートウィンドウのダウンロード",
+    "description": "Label for the private-window download interception toggle."
+  },
+  "options_scope_incognito_hint": {
+    "message": "プライベートウィンドウのダウンロードは Rayburst に渡され、タスク一覧と履歴に表示されます。ブラウザーでもこの拡張機能をプライベートウィンドウで許可する必要があります。",
+    "description": "Hint under the private-window download interception toggle."
+  },
+  "options_scope_other_extensions_label": {
+    "message": "他の拡張機能によるダウンロード",
+    "description": "Label for the toggle that takes over downloads other extensions start."
+  },
+  "options_scope_other_extensions_hint": {
+    "message": "たとえばリンク解決系の拡張機能が開始したダウンロードです。Rayburst は同じファイルを受け取れることを確認してから引き継ぎます。",
+    "description": "Hint under the other-extension download interception toggle."
+  },
+  "options_min_size_label": {
+    "message": "最小ファイルサイズ",
+    "description": "Label for the minimum file size setting."
+  },
+  "options_min_size_value_label": {
+    "message": "サイズ (MB)",
+    "description": "Label for the minimum file size numeric input."
+  },
+  "options_min_size_unknown_label": {
+    "message": "不明なサイズ",
+    "description": "Label for the unknown file size behavior selector."
+  },
+  "options_min_size_unknown_intercept": {
+    "message": "Rayburst に移す",
+    "description": "Option label for routing unknown-size downloads to Rayburst."
+  },
+  "options_min_size_unknown_skip": {
+    "message": "ブラウザーに移す",
+    "description": "Option label for leaving unknown-size downloads in the browser."
+  },
+  "options_duplicate_guard_label": {
+    "message": "重複ダウンロードガード",
+    "description": "Label for the duplicate download guard setting."
+  },
+  "options_duplicate_guard_window_label": {
+    "message": "ガード時間",
+    "description": "Label for the duplicate download guard time window input."
+  },
+  "notification_duplicate_guard_title": {
+    "message": "タスクを送信しました",
+    "description": "Notification title shown when a duplicate download is blocked."
+  },
+  "notification_duplicate_guard_body": {
+    "message": "重複リクエストをスキップしました",
+    "description": "Notification body shown when a duplicate download is blocked."
+  },
+  "notification_desktop_link_body": {
+    "message": "クリックして、ブラウザーのリンクで Rayburst を起動する設定をオンにします。",
+    "description": "Notification body after an unattended start failed; clicking opens the settings"
+  },
+  "options_privacy_section_label": {
+    "message": "プライバシー",
+    "description": "Subsection label for privacy-related download forwarding settings."
+  },
+  "options_download_handling_section_label": {
+    "message": "ダウンロード処理",
+    "description": "Subsection label for browser and desktop download handling settings."
+  },
+  "options_site_rules_label": {
+    "message": "サイトルール",
+    "description": "Subsection label for per-site download rules."
+  },
+  "options_file_extension_rule_label": {
+    "message": "ファイル拡張子ルール",
+    "description": "Label for the file extension rule toggle."
+  },
+  "options_file_extension_list_label": {
+    "message": "拡張子",
+    "description": "Label for the file extension list input."
+  },
+  "options_file_extension_list_placeholder": {
+    "message": "拡張子を追加",
+    "description": "Placeholder for the file extension list input."
+  },
+  "options_file_extension_listed_action_label": {
+    "message": "指定した拡張子",
+    "description": "Label for the action selector applied to listed file extensions."
+  },
+  "options_file_extension_unknown_action_label": {
+    "message": "不明な拡張子",
+    "description": "Label for the action selector applied when no file extension is detected."
+  },
+  "options_file_extension_action_intercept": {
+    "message": "Rayburst に送信",
+    "description": "Option label for routing a matched extension to Rayburst."
+  },
+  "options_file_extension_action_skip": {
+    "message": "ブラウザーを使用",
+    "description": "Option label for leaving a matched extension in the browser."
+  },
+  "options_factory_reset_button": {
+    "message": "設定をリセット",
+    "description": "Button to stage a full settings reset."
+  },
+  "options_factory_reset_confirm": {
+    "message": "もう一度クリックしてリセット",
+    "description": "Second-click confirmation label for the reset button."
+  },
+  "options_factory_reset_ready": {
+    "message": "デフォルトを保存できます",
+    "description": "Toast shown after default settings are staged for saving."
+  },
+  "options_section_maintenance": {
+    "message": "メンテナンス",
+    "description": "Settings section for maintenance actions."
+  },
+  "options_settings_backup_title": {
+    "message": "設定バックアップ",
+    "description": "Maintenance section title for settings backup."
+  },
+  "options_settings_backup_export": {
+    "message": "設定をエクスポート",
+    "description": "Button to export settings backup."
+  },
+  "options_settings_backup_import": {
+    "message": "設定をインポート",
+    "description": "Button to import settings backup."
+  },
+  "options_settings_backup_exported": {
+    "message": "バックアップをエクスポートしました",
+    "description": "Toast shown after settings backup export starts."
+  },
+  "options_settings_backup_export_error": {
+    "message": "バックアップをエクスポートできませんでした",
+    "description": "Toast shown when settings backup export fails."
+  },
+  "options_settings_backup_imported": {
+    "message": "設定をインポートしました。確認して保存してください。",
+    "description": "Toast shown after settings backup is staged for saving."
+  },
+  "options_settings_backup_invalid": {
+    "message": "バックアップファイルが無効です",
+    "description": "Toast shown when selected settings backup is invalid."
+  },
+  "options_diagnostics_filter_all": {
+    "message": "すべて",
+    "description": "Filter label for all diagnostic levels"
+  },
+  "options_diagnostics_filter_error": {
+    "message": "エラー",
+    "description": "Filter label for error diagnostic events"
+  },
+  "options_diagnostics_filter_warning": {
+    "message": "警告",
+    "description": "Filter label for warning diagnostic events"
+  },
+  "options_diagnostics_filter_info": {
+    "message": "情報",
+    "description": "Filter label for informational diagnostic events"
+  },
+  "options_diagnostics_filter_code": {
+    "message": "イベントの種類",
+    "description": "Placeholder for the diagnostic event type filter"
+  },
+  "options_diagnostics_clear_error": {
+    "message": "診断イベントを消去できませんでした",
+    "description": "Error shown when diagnostic events cannot be cleared"
+  },
+  "options_diagnostics_export_error": {
+    "message": "診断レポートをエクスポートできませんでした",
+    "description": "Error shown when the diagnostic report cannot be exported"
+  },
+  "popup_status_launching": {
+    "message": "起動中",
+    "description": "Popup status while the desktop app is starting"
+  },
+  "popup_launching_title": {
+    "message": "Rayburst を起動しています",
+    "description": "Popup launch progress title"
+  },
+  "popup_launching_hint": {
+    "message": "デスクトップアプリの準備を待っています…",
+    "description": "Popup launch progress description"
+  },
+  "popup_launch_failed_title": {
+    "message": "Rayburst を起動できませんでした",
+    "description": "Popup launch failure title"
+  },
+  "popup_launch_failed_hint": {
+    "message": "Rayburst がインストールされ、API 設定が正しいことを確認してください。",
+    "description": "Popup launch failure guidance"
+  },
+  "popup_launch_link_hint": {
+    "message": "代わりにブラウザーからリンクで Rayburst を起動できます。",
+    "description": "Popup launch failure guidance when the desktop could not be started at all"
+  },
+  "popup_action_retry": {
+    "message": "再試行",
+    "description": "Popup action to retry desktop launch"
+  },
+  "popup_action_launch_link": {
+    "message": "リンクで起動",
+    "description": "Popup button: allow starting the desktop through its link and retry"
+  },
+  "options_diagnostics_column_time": {
+    "message": "時刻",
+    "description": "Diagnostic table column heading for event time"
+  },
+  "options_diagnostics_column_level": {
+    "message": "レベル",
+    "description": "Diagnostic table column heading for severity level"
+  },
+  "options_diagnostics_column_event": {
+    "message": "イベント",
+    "description": "Diagnostic table column heading for event code"
+  },
+  "options_diagnostics_column_message": {
+    "message": "メッセージ",
+    "description": "Diagnostic table column heading for event message"
+  },
+  "options_diagnostics_pagination": {
+    "message": "$TOTAL$件中$RANGE$ · 最大$MAX$件",
+    "description": "Diagnostic table pagination summary with visible range, filtered total, and retention limit",
+    "placeholders": {
+      "RANGE": {
+        "content": "$1",
+        "example": "1–10"
+      },
+      "TOTAL": {
+        "content": "$2",
+        "example": "37"
+      },
+      "MAX": {
+        "content": "$3",
+        "example": "100"
+      }
+    }
+  },
+  "options_diagnostics_log_entry_limit": {
+    "message": "ログ項目上限",
+    "description": "Label for the maximum number of diagnostic log entries retained locally"
+  },
+  "options_diagnostics_entries_suffix": {
+    "message": "件",
+    "description": "Unit suffix for the diagnostic log entry limit input"
+  },
+  "options_diagnostics_view_details": {
+    "message": "イベントの詳細を表示",
+    "description": "Accessible label for opening diagnostic event details"
+  },
+  "options_diagnostics_details_title": {
+    "message": "イベント詳細",
+    "description": "Title of the diagnostic event details drawer"
+  },
+  "options_diagnostics_details_message": {
+    "message": "メッセージ",
+    "description": "Heading for the diagnostic event message"
+  },
+  "options_diagnostics_details_context": {
+    "message": "コンテキスト",
+    "description": "Heading for diagnostic event context fields"
+  },
+  "options_diagnostics_clear_confirm": {
+    "message": "消去を確認",
+    "description": "Second-click confirmation label for clearing diagnostic logs"
+  },
+  "sniffer_tab": {
+    "message": "検出",
+    "description": "Navigation label for discovering page resources"
+  },
+  "media_downloads": {
+    "message": "ダウンロード",
+    "description": "Media discovery: downloads"
+  },
+  "media_discover": {
+    "message": "ページのメディアを検出",
+    "description": "Media discovery: discover"
+  },
+  "media_scan": {
+    "message": "ページをスキャン",
+    "description": "Media discovery: scan"
+  },
+  "media_clear": {
+    "message": "ソースを消去",
+    "description": "Media discovery: clear"
+  },
+  "media_filter": {
+    "message": "ソースを絞り込み",
+    "description": "Media discovery: filter"
+  },
+  "media_sources": {
+    "message": "メディアソース",
+    "description": "Media discovery: sources"
+  },
+  "media_source": {
+    "message": "ソース",
+    "description": "Media discovery: source"
+  },
+  "media_enable_site": {
+    "message": "このサイトで有効にする",
+    "description": "Media discovery: enable site"
+  },
+  "media_disable_site": {
+    "message": "このサイトで無効にする",
+    "description": "Media discovery: disable site"
+  },
+  "media_inspect": {
+    "message": "形式を調べる",
+    "description": "Media discovery: inspect"
+  },
+  "media_options": {
+    "message": "メディア設定",
+    "description": "Media discovery: options"
+  },
+  "media_back": {
+    "message": "ソース一覧に戻る",
+    "description": "Media discovery: back"
+  },
+  "media_video": {
+    "message": "動画の画質",
+    "description": "Media discovery: video"
+  },
+  "media_audio": {
+    "message": "音声",
+    "description": "Media discovery: audio"
+  },
+  "media_subtitles": {
+    "message": "字幕",
+    "description": "Media discovery: subtitles"
+  },
+  "media_format": {
+    "message": "出力形式",
+    "description": "Media discovery: format"
+  },
+  "media_original": {
+    "message": "元のファイル",
+    "description": "Media discovery: original"
+  },
+  "media_record_limit": {
+    "message": "録画上限（秒）",
+    "description": "Media discovery: record limit"
+  },
+  "media_live": {
+    "message": "ライブ録画",
+    "description": "Media discovery: live"
+  },
+  "media_download": {
+    "message": "ダウンロード",
+    "description": "Media discovery: download"
+  },
+  "media_record": {
+    "message": "録画を開始",
+    "description": "Media discovery: record"
+  },
+  "media_cancel": {
+    "message": "キャンセル",
+    "description": "Media discovery: cancel"
+  },
+  "media_retry": {
+    "message": "再試行",
+    "description": "Media discovery: retry"
+  },
+  "media_no_video": {
+    "message": "動画なし",
+    "description": "Media discovery: no video"
+  },
+  "media_no_audio": {
+    "message": "音声なし",
+    "description": "Media discovery: no audio"
+  },
+  "media_no_subtitles": {
+    "message": "字幕なし",
+    "description": "Media discovery: no subtitles"
+  },
+  "media_excluded_sites": {
+    "message": "除外されたメディアサイト",
+    "description": "Media discovery: excluded sites"
+  },
+  "media_waiting": {
+    "message": "プレーヤーを検出しました。メディアソースを待っています。",
+    "description": "Media discovery: waiting"
+  },
+  "media_none": {
+    "message": "メディアソースが見つかりません。",
+    "description": "Media discovery: none"
+  },
+  "media_paused": {
+    "message": "メディア検出は一時停止中です。",
+    "description": "Media discovery: paused"
+  },
+  "media_excluded": {
+    "message": "このサイトではメディア検出が無効です。",
+    "description": "Media discovery: excluded"
+  },
+  "media_ambiguous": {
+    "message": "ソースを特定のプレーヤーに対応付けられません。ダウンロード前に確認してください。",
+    "description": "Media discovery: ambiguous"
+  },
+  "media_loading": {
+    "message": "メディアを調査中…",
+    "description": "Media discovery: loading"
+  },
+  "media_submitted": {
+    "message": "Rayburst にダウンロードを作成しました。",
+    "description": "Media discovery: submitted"
+  },
+  "media_cancelled": {
+    "message": "調査をキャンセルしました。",
+    "description": "Media discovery: cancelled"
+  },
+  "media_failed": {
+    "message": "操作に失敗しました。再試行して状態を確認してください。",
+    "description": "Media discovery: failed"
+  },
+  "media_unsupported": {
+    "message": "このメディアまたはリクエスト方式は未対応です。",
+    "description": "Media discovery: unsupported"
+  },
+  "media_invalid": {
+    "message": "対応するトラック、形式、時間の組み合わせを選んでください。",
+    "description": "Media discovery: invalid"
+  },
+  "media_unavailable": {
+    "message": "このデスクトップ版ではストリームをダウンロードできません。最新版の Rayburst をインストールしてください。",
+    "description": "Media discovery: unavailable"
+  },
+  "media_expired": {
+    "message": "ソースまたは調査の期限が切れました。再生して再調査してください。",
+    "description": "Media discovery: expired"
+  },
+  "media_auth": {
+    "message": "ログイン状態、リクエスト転送、デスクトップ API シークレットを確認してください。",
+    "description": "Media discovery: auth"
+  },
+  "media_connection": {
+    "message": "Rayburst を起動し、接続設定を確認してください。",
+    "description": "Media discovery: connection"
+  },
+  "media_size_unknown": {
+    "message": "サイズ不明",
+    "description": "Media discovery: size unknown"
+  },
+  "media_duration_unknown": {
+    "message": "長さ不明",
+    "description": "Media discovery: duration unknown"
+  },
+  "media_includes_audio": {
+    "message": "音声を含む",
+    "description": "Media discovery: includes audio"
+  },
+  "media_record_hint": {
+    "message": "ゼロの場合、Rayburst で停止するまで録画します。",
+    "description": "Media discovery: record hint"
+  },
+  "media_inspect_hint": {
+    "message": "形式を調べてからダウンロードを確定します。",
+    "description": "Media discovery: inspect hint"
+  },
+  "media_open_page": {
+    "message": "ウェブページを開いてメディアを検出してください。",
+    "description": "Media discovery: open page"
+  },
+  "media_hint": {
+    "message": "動画や音声を再生するとソースを自動検出します。",
+    "description": "Media discovery: hint"
+  },
+  "media_ready": {
+    "message": "形式の準備完了",
+    "description": "Media discovery: ready"
+  },
+  "media_confirming": {
+    "message": "ダウンロードを確認中…",
+    "description": "Media discovery: confirming"
+  },
+  "media_cancelling": {
+    "message": "調査をキャンセル中…",
+    "description": "Media discovery: cancelling"
+  },
+  "options_color_scheme_rayburst": {
+    "message": "Rayburst"
+  },
+  "brand_tagline": {
+    "message": "連携ブラウザー拡張機能を再定義する",
+    "description": "Localized Rayburst Connect brand slogan"
+  },
+  "resources_current": {
+    "message": "現在のページ"
+  },
+  "resources_other": {
+    "message": "すべてのページ"
+  },
+  "resources_controls": {
+    "message": "プレーヤー操作"
+  },
+  "resources_expand": {
+    "message": "ワークスペースを開く"
+  },
+  "resources_fullscreen": {
+    "message": "全画面"
+  },
+  "resources_import": {
+    "message": "ソースを追加"
+  },
+  "resources_invert": {
+    "message": "選択を反転"
+  },
+  "resources_key": {
+    "message": "AES-128 キー"
+  },
+  "resources_kind_collection": {
+    "message": "結合メディア"
+  },
+  "resources_kind_fragment": {
+    "message": "セグメント"
+  },
+  "resources_loop": {
+    "message": "繰り返し"
+  },
+  "resources_manifest": {
+    "message": "マニフェストまたはセグメントの URL"
+  },
+  "resources_merge": {
+    "message": "音声と映像を結合"
+  },
+  "resources_mute": {
+    "message": "ミュート"
+  },
+  "resources_preview": {
+    "message": "プレビュー"
+  },
+  "resources_preview_unavailable": {
+    "message": "プレビューできません。ダウンロードは可能な場合があります。"
+  },
+  "resources_reload": {
+    "message": "再読み込みして最初から取得"
+  },
+  "resources_screenshot": {
+    "message": "スクリーンショットを保存"
+  },
+  "resources_sequence": {
+    "message": "セグメントを結合"
+  },
+  "resources_sidebar": {
+    "message": "サイドバーを開く"
+  },
+  "resources_start": {
+    "message": "開始"
+  },
+  "resources_start_time": {
+    "message": "開始位置（秒）"
+  },
+  "resources_end_time": {
+    "message": "終了位置（0：末尾）"
+  },
+  "resources_stop": {
+    "message": "停止"
+  },
+  "resources_test_keys": {
+    "message": "検出したキーを検証"
+  },
+  "resources_tools": {
+    "message": "メディアツール"
+  },
+  "resources_volume": {
+    "message": "音量"
+  },
+  "resources_preserve": {
+    "message": "ページ移動後もソースを保持"
+  },
+  "resources_deep": {
+    "message": "詳細検索"
+  },
+  "resources_cache": {
+    "message": "メディアバッファを取得"
+  },
+  "resources_copy": {
+    "message": "コピー"
+  },
+  "resources_select_all": {
+    "message": "すべてを選択"
+  },
+  "resources_name": {
+    "message": "ファイル名"
+  },
+  "resources_size": {
+    "message": "サイズ"
+  },
+  "resources_type": {
+    "message": "種類"
+  },
+  "resources_speed": {
+    "message": "速度"
+  },
+  "resources_kind_image": {
+    "message": "画像"
+  },
+  "resources_all": {
+    "message": "すべて"
+  },
+  "resources_time": {
+    "message": "時刻"
+  },
+  "resources_video": {
+    "message": "録画を開始"
+  },
+  "resources_kind_embedded": {
+    "message": "ソース"
+  },
+  "resources_kind_file": {
+    "message": "元のファイル"
+  },
+  "resources_kind_subtitle": {
+    "message": "字幕"
+  },
+  "resources_pause": {
+    "message": "一時停止"
+  },
+  "resources_play": {
+    "message": "再生"
+  },
+  "resources_kind_json": {
+    "message": "JSON"
+  },
+  "resources_url": {
+    "message": "URL"
+  },
+  "resources_pip": {
+    "message": "PiP"
+  },
+  "resources_sort": {
+    "message": "並べ替え"
+  },
+  "resources_auto": {
+    "message": "新しく見つかったリソースを自動ダウンロード"
+  },
+  "resources_mobile": {
+    "message": "モバイルの User-Agent を使用"
+  },
+  "media_settings_title": {
+    "message": "検出設定"
+  },
+  "media_settings_any_size": {
+    "message": "サイズ制限なし"
+  },
+  "media_settings_capture": {
+    "message": "検出"
+  },
+  "media_settings_edit": {
+    "message": "編集"
+  },
+  "media_settings_remove": {
+    "message": "削除"
+  },
+  "media_settings_invalid_rule": {
+    "message": "構文、値、種類の重複を確認してください。"
+  },
+  "media_settings_between": {
+    "message": "範囲"
+  },
+  "media_settings_upper": {
+    "message": "上限"
+  },
+  "media_settings_pattern": {
+    "message": "パターン"
+  },
+  "media_settings_action": {
+    "message": "操作"
+  },
+  "media_settings_enabled": {
+    "message": "有効"
+  },
+  "media_settings_ignore": {
+    "message": "無視"
+  },
+  "media_settings_regex": {
+    "message": "正規表現"
+  },
+  "media_settings_regex_hint": {
+    "message": "最初の一致を優先し、種類のルールを上書きします。"
+  },
+  "media_settings_flags": {
+    "message": "正規表現フラグ"
+  },
+  "media_settings_group": {
+    "message": "URL取得グループ（0：元のURL）"
+  },
+  "media_settings_test_url": {
+    "message": "テストURL"
+  },
+  "media_settings_no_match": {
+    "message": "一致なし"
+  },
+  "media_settings_behavior": {
+    "message": "動作"
+  },
+  "media_settings_capture_hint": {
+    "message": "検出フィルターはプレイリストのダウンロードを制限しません。"
+  },
+  "media_settings_newest": {
+    "message": "新しい順"
+  },
+  "media_settings_quick": {
+    "message": "クイックダウンロード"
+  },
+  "media_settings_quick_hint": {
+    "message": "選択肢がある場合はトラックを選びます。"
+  },
+  "media_settings_deep": {
+    "message": "詳細検索を常に有効にする"
+  },
+  "media_settings_deep_hint": {
+    "message": "再読み込みで反映します。再生に影響する場合があります。"
+  },
+  "media_settings_name_from": {
+    "message": "検出したファイルの名前"
+  },
+  "media_settings_name_from_file": {
+    "message": "ファイル名"
+  },
+  "media_settings_name_from_title": {
+    "message": "ページタイトル"
+  },
+  "media_settings_include": {
+    "message": "指定サイトのみ"
+  },
+  "media_settings_exclude": {
+    "message": "指定サイトを除外"
+  },
+  "media_settings_autosave": {
+    "message": "変更は自動保存されます。"
+  },
+  "media_settings_restore": {
+    "message": "メディア設定を初期化"
+  },
+  "media_settings_restore_hint": {
+    "message": "メディア設定のみ初期化しますか？接続設定は変わりません。"
+  },
+  "media_settings_close_preview": {
+    "message": "プレビューを閉じる"
+  },
+  "sniffer_page_count": {
+    "message": "このページのリソース数: $1",
+    "description": "Resource count for the current browser tab; $1 is the full count"
+  },
+  "sniffer_results": {
+    "message": "$2 件中 $1 件のリソースを表示",
+    "description": "Filtered resources in the selected scope; $1 is visible, $2 is total"
+  },
+  "popup_status_checking": {
+    "message": "確認中",
+    "description": "Connection status while the desktop check is pending"
+  },
+  "connection_unsupported_title": {
+    "message": "未対応のデスクトップ版です"
+  },
+  "connection_upgrade_hint": {
+    "message": "最新版の Rayburst をインストールして再接続してください。"
+  },
+  "connection_legacy_title": {
+    "message": "最新版の Rayburst に更新してください",
+    "description": "Title of the update notice shown while connected to an older desktop"
+  },
+  "connection_legacy_hint": {
+    "message": "$1 は古いバージョンのため、一部の機能を利用できません。",
+    "description": "Shown while connected to an older desktop, $1 = its name and version",
+    "placeholders": {
+      "1": {
+        "content": "$1",
+        "example": "Motrix Next 3.9.9"
+      }
+    }
+  },
+  "connection_legacy_dismiss": {
+    "message": "閉じる",
+    "description": "Accessible label of the button that closes the popup update notice"
+  },
+  "connection_get_rayburst": {
+    "message": "Rayburst を入手"
+  },
+  "connection_check_again": {
+    "message": "再確認"
+  },
+  "error_engine_starting": {
+    "message": "Rayburst エンジンを起動中"
+  },
+  "error_engine_unavailable": {
+    "message": "Rayburst エンジンを利用できません"
+  },
+  "error_engine_hint": {
+    "message": "Rayburst を開いてエンジンを確認し、再接続してください。"
+  },
+  "popup_site_rules": {
+    "message": "現在のサイト"
+  },
+  "popup_site_allow": {
+    "message": "このサイトで有効にする"
+  },
+  "popup_site_exclude": {
+    "message": "このサイトを除外"
+  },
+  "popup_task_waiting": {
+    "message": "待機中",
+    "description": "Popup task list: queued task"
+  },
+  "popup_task_paused": {
+    "message": "一時停止中",
+    "description": "Popup task list: paused task"
+  },
+  "popup_task_failed": {
+    "message": "失敗",
+    "description": "Popup task list: failed task without a message"
+  },
+  "popup_task_pause": {
+    "message": "一時停止",
+    "description": "Popup task list: pause button"
+  },
+  "popup_task_resume": {
+    "message": "再開",
+    "description": "Popup task list: resume button"
+  },
+  "popup_task_reveal": {
+    "message": "フォルダーに表示",
+    "description": "Popup task list: show the finished file in its folder"
+  },
+  "popup_tasks_empty": {
+    "message": "ダウンロードはまだありません",
+    "description": "Popup task list: nothing to show"
+  },
+  "options_alt_click_bypass_label": {
+    "message": "Alt を押しながらクリックでブラウザーにダウンロードさせる",
+    "description": "Setting: holding Alt while clicking a link lets the browser download it"
+  },
+  "media_complete_video": {
+    "message": "完全な動画",
+    "description": "Media discovery: separate video and audio track files listed as one video"
+  },
+  "media_tracks": {
+    "message": "$1 トラック",
+    "description": "Media discovery: number of track files in a complete video; $1 is the count"
+  },
+  "media_track_files": {
+    "message": "トラックファイル",
+    "description": "Media discovery: shows or hides the track files of a complete video"
+  }
+}

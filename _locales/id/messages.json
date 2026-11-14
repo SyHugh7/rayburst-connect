@@ -1,0 +1,1206 @@
+{
+  "options_website": {
+    "message": "Situs web"
+  },
+  "ext_name": {
+    "message": "Rayburst Connect",
+    "description": "Extension display name"
+  },
+  "ext_description": {
+    "message": "Kirim unduhan dan media yang ditemukan ke Rayburst, dengan deteksi media halaman, pratinjau, dan alat perekaman.",
+    "description": "Extension description shown in browser and web store"
+  },
+  "popup_status_connected": {
+    "message": "Terhubung",
+    "description": "Connection status badge when API is reachable"
+  },
+  "popup_status_disconnected": {
+    "message": "Terputus",
+    "description": "Connection status badge when API is unreachable"
+  },
+  "popup_action_pause_all": {
+    "message": "Jeda semua",
+    "description": "Button to pause all active downloads"
+  },
+  "popup_action_resume_all": {
+    "message": "Lanjutkan semua",
+    "description": "Button to resume all paused downloads"
+  },
+  "popup_action_settings": {
+    "message": "Pengaturan",
+    "description": "Button to open the options page"
+  },
+  "popup_action_launch": {
+    "message": "Jalankan Rayburst",
+    "description": "Button to launch the desktop app when disconnected"
+  },
+  "popup_action_open": {
+    "message": "Buka Rayburst",
+    "description": "Button to focus the desktop app when already connected"
+  },
+  "popup_error_unreachable": {
+    "message": "Tidak dapat terhubung ke Rayburst",
+    "description": "Error message when API is unreachable"
+  },
+  "options_section_connection": {
+    "message": "Koneksi",
+    "description": "Settings section for API connection"
+  },
+  "options_test_connection": {
+    "message": "Tes koneksi",
+    "description": "Button to test the API connection"
+  },
+  "options_section_behavior": {
+    "message": "Unduhan",
+    "description": "Settings section for download interception behavior"
+  },
+  "options_enabled_label": {
+    "message": "Aktifkan intersepsi unduhan",
+    "description": "Toggle label for enabling/disabling download interception"
+  },
+  "options_section_rules": {
+    "message": "Aturan",
+    "description": "Settings section for download routing rules"
+  },
+  "options_add_rule": {
+    "message": "Tambah aturan",
+    "description": "Button to add a new site rule"
+  },
+  "options_section_appearance": {
+    "message": "Tampilan",
+    "description": "Settings section for theme"
+  },
+  "options_theme_system": {
+    "message": "Sistem",
+    "description": "Theme option: follow system preference"
+  },
+  "options_theme_light": {
+    "message": "Terang",
+    "description": "Theme option: light mode"
+  },
+  "options_theme_dark": {
+    "message": "Gelap",
+    "description": "Theme option: dark mode"
+  },
+  "options_section_diagnostics": {
+    "message": "Diagnostik",
+    "description": "Settings section for diagnostic event log"
+  },
+  "context_menu_download": {
+    "message": "Unduh dengan Rayburst",
+    "description": "Context menu item for downloading a link with Rayburst"
+  },
+  "options_header_title": {
+    "message": "Rayburst Connect",
+    "description": "Options page header title"
+  },
+  "options_header_subtitle": {
+    "message": "Pengaturan ekstensi",
+    "description": "Options page header subtitle"
+  },
+  "options_testing_connection": {
+    "message": "Menguji...",
+    "description": "Button text while testing connection"
+  },
+  "options_connection_success_prefix": {
+    "message": "Terhubung · Rayburst",
+    "description": "Prefix for successful connection status"
+  },
+  "options_connection_success_motrix": {
+    "message": "Terhubung · Motrix Next",
+    "description": "Connection status when Motrix Next answered"
+  },
+  "options_rules_empty": {
+    "message": "Belum ada aturan yang dikonfigurasi.",
+    "description": "Placeholder when no site rules exist"
+  },
+  "options_diagnostics_export": {
+    "message": "Ekspor laporan diagnostik",
+    "description": "Button to export full diagnostic report as JSON file"
+  },
+  "options_diagnostics_clear": {
+    "message": "Hapus log",
+    "description": "Button to clear diagnostic log"
+  },
+  "options_diagnostics_empty": {
+    "message": "Tidak ada peristiwa diagnostik.",
+    "description": "Placeholder when diagnostic log is empty"
+  },
+  "options_footer": {
+    "message": "Rayburst Connect v$version$",
+    "description": "Footer text with version number",
+    "placeholders": {
+      "version": {
+        "content": "$1"
+      }
+    }
+  },
+  "options_save": {
+    "message": "Simpan",
+    "description": "Save button in action bar"
+  },
+  "options_discard": {
+    "message": "Buang",
+    "description": "Discard button in action bar"
+  },
+  "options_discard_success": {
+    "message": "Perubahan dipulihkan",
+    "description": "Toast after discarding unsaved settings changes"
+  },
+  "options_save_success": {
+    "message": "Pengaturan disimpan",
+    "description": "Toast after saving settings successfully"
+  },
+  "options_save_error": {
+    "message": "Gagal menyimpan pengaturan",
+    "description": "Toast when saving settings fails"
+  },
+  "options_changes_indicator": {
+    "message": "Perubahan belum disimpan",
+    "description": "Indicator text showing there are unsaved modifications"
+  },
+  "options_color_scheme": {
+    "message": "Skema warna",
+    "description": "Label for the color scheme picker"
+  },
+  "options_color_scheme_amber": {
+    "message": "Emas amber",
+    "description": "Amber Gold color scheme"
+  },
+  "options_color_scheme_space": {
+    "message": "Biru angkasa",
+    "description": "Space Blue color scheme"
+  },
+  "options_color_scheme_mint": {
+    "message": "Hijau mint",
+    "description": "Mint Green color scheme"
+  },
+  "options_color_scheme_rose": {
+    "message": "Merah mawar",
+    "description": "Rose Red color scheme"
+  },
+  "options_color_scheme_coral": {
+    "message": "Oranye koral",
+    "description": "Coral Orange color scheme"
+  },
+  "options_color_scheme_glacier": {
+    "message": "Sian glasier",
+    "description": "Glacier Cyan color scheme"
+  },
+  "options_color_scheme_evergreen": {
+    "message": "Hijau abadi",
+    "description": "Evergreen color scheme"
+  },
+  "options_color_scheme_graphite": {
+    "message": "Abu-abu grafit",
+    "description": "Graphite Grey color scheme"
+  },
+  "options_color_scheme_sakura": {
+    "message": "Merah muda sakura",
+    "description": "Sakura Pink color scheme"
+  },
+  "error_unknown": {
+    "message": "Terjadi kesalahan yang tidak diketahui",
+    "description": "Fallback error message"
+  },
+  "options_rule_always_intercept": {
+    "message": "Selalu intersepsi",
+    "description": "Site rule action: always intercept downloads"
+  },
+  "options_rule_always_skip": {
+    "message": "Selalu lewati",
+    "description": "Site rule action: never intercept downloads"
+  },
+  "options_rule_use_global": {
+    "message": "Gunakan pengaturan global",
+    "description": "Site rule action: follow the global setting"
+  },
+  "popup_error_auth": {
+    "message": "API secret mismatch",
+    "description": "Popup banner title when API secret is incorrect"
+  },
+  "popup_error_auth_hint": {
+    "message": "Check that the API secret in Settings matches your Rayburst configuration.",
+    "description": "Popup banner hint for API auth error"
+  },
+  "popup_error_timeout": {
+    "message": "Koneksi habis waktu",
+    "description": "Popup banner title when API connection times out"
+  },
+  "popup_error_timeout_hint": {
+    "message": "Check your network or firewall settings. API port: $1",
+    "description": "Popup banner hint for timeout error, $1 = port number",
+    "placeholders": {
+      "1": {
+        "content": "$1",
+        "example": "29110"
+      }
+    }
+  },
+  "popup_error_unreachable_hint": {
+    "message": "Make sure Rayburst is running. API port: $1",
+    "description": "Popup banner hint for unreachable error, $1 = port number",
+    "placeholders": {
+      "1": {
+        "content": "$1",
+        "example": "29110"
+      }
+    }
+  },
+  "options_section_language": {
+    "message": "Bahasa",
+    "description": "Settings section for interface language"
+  },
+  "options_locale_auto": {
+    "message": "Otomatis",
+    "description": "Language option: follow browser language"
+  },
+  "options_locale_auto_desc": {
+    "message": "Mengikuti bahasa browser",
+    "description": "Description for auto language option"
+  },
+  "options_desktop_unavailable_label": {
+    "message": "Saat Rayburst tidak tersedia",
+    "description": "Unavailable desktop behavior label"
+  },
+  "options_desktop_unavailable_launch": {
+    "message": "Jalankan Rayburst",
+    "description": "Launch desktop option"
+  },
+  "options_desktop_unavailable_browser": {
+    "message": "Gunakan Browser",
+    "description": "Browser fallback option"
+  },
+  "options_desktop_startup_timeout_label": {
+    "message": "Batas Waktu Mulai",
+    "description": "Desktop startup timeout label"
+  },
+  "options_desktop_open_link_label": {
+    "message": "Jalankan Rayburst melalui tautan browser (cara lama)",
+    "description": "Setting: start the desktop by opening its link in a tab instead of Native Messaging"
+  },
+  "options_seconds_suffix": {
+    "message": "dtk",
+    "description": "Seconds unit suffix"
+  },
+  "popup_stat_active": {
+    "message": "Aktif",
+    "description": "Task count label: currently downloading"
+  },
+  "popup_stat_waiting": {
+    "message": "Menunggu",
+    "description": "Task count label: queued for download"
+  },
+  "popup_stat_stopped": {
+    "message": "Selesai",
+    "description": "Task count label: completed or stopped"
+  },
+  "popup_toggle_enabled": {
+    "message": "Menginterepsi",
+    "description": "Label next to the interception toggle when active"
+  },
+  "popup_toggle_disabled": {
+    "message": "Dijeda",
+    "description": "Label next to the interception toggle when inactive"
+  },
+  "options_api_port_label": {
+    "message": "API Port",
+    "description": "Label for the API port input"
+  },
+  "options_api_secret_label": {
+    "message": "API Secret",
+    "description": "Label for the API secret input"
+  },
+  "options_api_secret_placeholder": {
+    "message": "Paste from desktop app",
+    "description": "Placeholder text for API secret input"
+  },
+  "error_api_unreachable": {
+    "message": "Cannot connect to Rayburst",
+    "description": "Error when the API endpoint is unreachable"
+  },
+  "error_api_auth": {
+    "message": "API secret is incorrect",
+    "description": "Error when the API secret does not match"
+  },
+  "error_api_timeout": {
+    "message": "Koneksi habis waktu",
+    "description": "Error when the API connection times out"
+  },
+  "options_hide_download_bar_label": {
+    "message": "Sembunyikan Bilah Unduhan Browser",
+    "description": "Label for the optional browser download bar hiding setting."
+  },
+  "options_forward_request_headers_label": {
+    "message": "Teruskan Header Permintaan",
+    "description": "Label for the request header forwarding setting."
+  },
+  "options_forward_cookies_label": {
+    "message": "Teruskan Cookie",
+    "description": "Label for the cookie forwarding setting."
+  },
+  "options_permission_download_ui_denied": {
+    "message": "Berikan izin UI unduhan untuk menyembunyikan bilah unduhan browser.",
+    "description": "Toast shown when the optional downloads.ui permission is denied."
+  },
+  "options_permission_cookies_denied": {
+    "message": "Berikan izin cookie dan situs untuk meneruskan cookie ke Rayburst.",
+    "description": "Toast shown when cookie forwarding permissions are unavailable."
+  },
+  "options_scope_browser_downloads_label": {
+    "message": "Unduhan Browser",
+    "description": "Label for the browser download interception scope toggle."
+  },
+  "options_scope_magnet_label": {
+    "message": "Tautan Magnet",
+    "description": "Label for the magnet link interception scope toggle."
+  },
+  "options_scope_ed2k_label": {
+    "message": "Tautan ED2K",
+    "description": "Label for the ED2K link interception scope toggle."
+  },
+  "options_scope_thunder_label": {
+    "message": "Tautan Thunder",
+    "description": "Label for the Thunder link interception scope toggle."
+  },
+  "options_scope_incognito_label": {
+    "message": "Unduhan dari jendela pribadi",
+    "description": "Label for the private-window download interception toggle."
+  },
+  "options_scope_incognito_hint": {
+    "message": "Unduhan dari jendela pribadi diteruskan ke Rayburst dan muncul di daftar tugas serta riwayatnya. Peramban juga harus mengizinkan ekstensi ini di jendela pribadi.",
+    "description": "Hint under the private-window download interception toggle."
+  },
+  "options_scope_other_extensions_label": {
+    "message": "Unduhan dari ekstensi lain",
+    "description": "Label for the toggle that takes over downloads other extensions start."
+  },
+  "options_scope_other_extensions_hint": {
+    "message": "Misalnya tautan yang diurai oleh ekstensi pembuka tautan. Rayburst baru mengambil alih setelah memastikan menerima file yang sama.",
+    "description": "Hint under the other-extension download interception toggle."
+  },
+  "options_min_size_label": {
+    "message": "Ukuran File Minimum",
+    "description": "Label for the minimum file size setting."
+  },
+  "options_min_size_value_label": {
+    "message": "Ukuran (MB)",
+    "description": "Label for the minimum file size numeric input."
+  },
+  "options_min_size_unknown_label": {
+    "message": "Ukuran Tidak Diketahui",
+    "description": "Label for the unknown file size behavior selector."
+  },
+  "options_min_size_unknown_intercept": {
+    "message": "Alihkan ke Rayburst",
+    "description": "Option label for routing unknown-size downloads to Rayburst."
+  },
+  "options_min_size_unknown_skip": {
+    "message": "Alihkan ke peramban",
+    "description": "Option label for leaving unknown-size downloads in the browser."
+  },
+  "options_duplicate_guard_label": {
+    "message": "Pelindung Unduhan Duplikat",
+    "description": "Label for the duplicate download guard setting."
+  },
+  "options_duplicate_guard_window_label": {
+    "message": "Jendela Perlindungan",
+    "description": "Label for the duplicate download guard time window input."
+  },
+  "notification_duplicate_guard_title": {
+    "message": "Tugas dikirim",
+    "description": "Notification title shown when a duplicate download is blocked."
+  },
+  "notification_duplicate_guard_body": {
+    "message": "Permintaan duplikat dilewati",
+    "description": "Notification body shown when a duplicate download is blocked."
+  },
+  "notification_desktop_link_body": {
+    "message": "Klik untuk mengaktifkan menjalankan Rayburst melalui tautan browser.",
+    "description": "Notification body after an unattended start failed; clicking opens the settings"
+  },
+  "options_privacy_section_label": {
+    "message": "Privasi",
+    "description": "Subsection label for privacy-related download forwarding settings."
+  },
+  "options_download_handling_section_label": {
+    "message": "Penanganan Unduhan",
+    "description": "Subsection label for browser and desktop download handling settings."
+  },
+  "options_site_rules_label": {
+    "message": "Aturan Situs",
+    "description": "Subsection label for per-site download rules."
+  },
+  "options_file_extension_rule_label": {
+    "message": "Aturan Ekstensi File",
+    "description": "Label for the file extension rule toggle."
+  },
+  "options_file_extension_list_label": {
+    "message": "Ekstensi",
+    "description": "Label for the file extension list input."
+  },
+  "options_file_extension_list_placeholder": {
+    "message": "Tambah ekstensi",
+    "description": "Placeholder for the file extension list input."
+  },
+  "options_file_extension_listed_action_label": {
+    "message": "Ekstensi terdaftar",
+    "description": "Label for the action selector applied to listed file extensions."
+  },
+  "options_file_extension_unknown_action_label": {
+    "message": "Ekstensi tidak dikenal",
+    "description": "Label for the action selector applied when no file extension is detected."
+  },
+  "options_file_extension_action_intercept": {
+    "message": "Kirim ke Rayburst",
+    "description": "Option label for routing a matched extension to Rayburst."
+  },
+  "options_file_extension_action_skip": {
+    "message": "Gunakan browser",
+    "description": "Option label for leaving a matched extension in the browser."
+  },
+  "options_factory_reset_button": {
+    "message": "Reset pengaturan",
+    "description": "Button to stage a full settings reset."
+  },
+  "options_factory_reset_confirm": {
+    "message": "Klik lagi untuk reset",
+    "description": "Second-click confirmation label for the reset button."
+  },
+  "options_factory_reset_ready": {
+    "message": "Default siap disimpan",
+    "description": "Toast shown after default settings are staged for saving."
+  },
+  "options_section_maintenance": {
+    "message": "Pemeliharaan",
+    "description": "Settings section for maintenance actions."
+  },
+  "options_settings_backup_title": {
+    "message": "Cadangan Pengaturan",
+    "description": "Maintenance section title for settings backup."
+  },
+  "options_settings_backup_export": {
+    "message": "Ekspor Pengaturan",
+    "description": "Button to export settings backup."
+  },
+  "options_settings_backup_import": {
+    "message": "Impor Pengaturan",
+    "description": "Button to import settings backup."
+  },
+  "options_settings_backup_exported": {
+    "message": "Cadangan diekspor",
+    "description": "Toast shown after settings backup export starts."
+  },
+  "options_settings_backup_export_error": {
+    "message": "Gagal mengekspor cadangan",
+    "description": "Toast shown when settings backup export fails."
+  },
+  "options_settings_backup_imported": {
+    "message": "Pengaturan diimpor. Tinjau lalu simpan.",
+    "description": "Toast shown after settings backup is staged for saving."
+  },
+  "options_settings_backup_invalid": {
+    "message": "File cadangan tidak valid",
+    "description": "Toast shown when selected settings backup is invalid."
+  },
+  "options_diagnostics_filter_all": {
+    "message": "Semua",
+    "description": "Filter label for all diagnostic levels"
+  },
+  "options_diagnostics_filter_error": {
+    "message": "Kesalahan",
+    "description": "Filter label for error diagnostic events"
+  },
+  "options_diagnostics_filter_warning": {
+    "message": "Peringatan",
+    "description": "Filter label for warning diagnostic events"
+  },
+  "options_diagnostics_filter_info": {
+    "message": "Info",
+    "description": "Filter label for informational diagnostic events"
+  },
+  "options_diagnostics_filter_code": {
+    "message": "Jenis peristiwa",
+    "description": "Placeholder for the diagnostic event type filter"
+  },
+  "options_diagnostics_clear_error": {
+    "message": "Gagal menghapus peristiwa diagnostik",
+    "description": "Error shown when diagnostic events cannot be cleared"
+  },
+  "options_diagnostics_export_error": {
+    "message": "Gagal mengekspor laporan diagnostik",
+    "description": "Error shown when the diagnostic report cannot be exported"
+  },
+  "popup_status_launching": {
+    "message": "Memulai",
+    "description": "Popup status while the desktop app is starting"
+  },
+  "popup_launching_title": {
+    "message": "Memulai Rayburst",
+    "description": "Popup launch progress title"
+  },
+  "popup_launching_hint": {
+    "message": "Menunggu aplikasi desktop siap…",
+    "description": "Popup launch progress description"
+  },
+  "popup_launch_failed_title": {
+    "message": "Rayburst tidak dapat dimulai",
+    "description": "Popup launch failure title"
+  },
+  "popup_launch_failed_hint": {
+    "message": "Pastikan Rayburst terpasang dan pengaturan API-nya benar.",
+    "description": "Popup launch failure guidance"
+  },
+  "popup_launch_link_hint": {
+    "message": "Browser dapat menjalankan Rayburst melalui tautan sebagai gantinya.",
+    "description": "Popup launch failure guidance when the desktop could not be started at all"
+  },
+  "popup_action_retry": {
+    "message": "Coba Lagi",
+    "description": "Popup action to retry desktop launch"
+  },
+  "popup_action_launch_link": {
+    "message": "Jalankan melalui tautan",
+    "description": "Popup button: allow starting the desktop through its link and retry"
+  },
+  "options_diagnostics_column_time": {
+    "message": "Waktu",
+    "description": "Diagnostic table column heading for event time"
+  },
+  "options_diagnostics_column_level": {
+    "message": "Tingkat",
+    "description": "Diagnostic table column heading for severity level"
+  },
+  "options_diagnostics_column_event": {
+    "message": "Peristiwa",
+    "description": "Diagnostic table column heading for event code"
+  },
+  "options_diagnostics_column_message": {
+    "message": "Pesan",
+    "description": "Diagnostic table column heading for event message"
+  },
+  "options_diagnostics_pagination": {
+    "message": "$RANGE$ dari $TOTAL$ · maks. $MAX$",
+    "description": "Diagnostic table pagination summary with visible range, filtered total, and retention limit",
+    "placeholders": {
+      "RANGE": {
+        "content": "$1",
+        "example": "1–10"
+      },
+      "TOTAL": {
+        "content": "$2",
+        "example": "37"
+      },
+      "MAX": {
+        "content": "$3",
+        "example": "100"
+      }
+    }
+  },
+  "options_diagnostics_log_entry_limit": {
+    "message": "Batas entri log",
+    "description": "Label for the maximum number of diagnostic log entries retained locally"
+  },
+  "options_diagnostics_entries_suffix": {
+    "message": "entri",
+    "description": "Unit suffix for the diagnostic log entry limit input"
+  },
+  "options_diagnostics_view_details": {
+    "message": "Lihat detail peristiwa",
+    "description": "Accessible label for opening diagnostic event details"
+  },
+  "options_diagnostics_details_title": {
+    "message": "Detail peristiwa",
+    "description": "Title of the diagnostic event details drawer"
+  },
+  "options_diagnostics_details_message": {
+    "message": "Pesan",
+    "description": "Heading for the diagnostic event message"
+  },
+  "options_diagnostics_details_context": {
+    "message": "Konteks",
+    "description": "Heading for diagnostic event context fields"
+  },
+  "options_diagnostics_clear_confirm": {
+    "message": "Konfirmasi hapus",
+    "description": "Second-click confirmation label for clearing diagnostic logs"
+  },
+  "sniffer_tab": {
+    "message": "Deteksi",
+    "description": "Navigation label for discovering page resources"
+  },
+  "media_downloads": {
+    "message": "Unduhan",
+    "description": "Media discovery: downloads"
+  },
+  "media_discover": {
+    "message": "Temukan media halaman",
+    "description": "Media discovery: discover"
+  },
+  "media_scan": {
+    "message": "Pindai halaman",
+    "description": "Media discovery: scan"
+  },
+  "media_clear": {
+    "message": "Hapus sumber",
+    "description": "Media discovery: clear"
+  },
+  "media_filter": {
+    "message": "Filter sumber",
+    "description": "Media discovery: filter"
+  },
+  "media_sources": {
+    "message": "Sumber media",
+    "description": "Media discovery: sources"
+  },
+  "media_source": {
+    "message": "Sumber",
+    "description": "Media discovery: source"
+  },
+  "media_enable_site": {
+    "message": "Aktifkan di situs ini",
+    "description": "Media discovery: enable site"
+  },
+  "media_disable_site": {
+    "message": "Nonaktifkan di situs ini",
+    "description": "Media discovery: disable site"
+  },
+  "media_inspect": {
+    "message": "Periksa format",
+    "description": "Media discovery: inspect"
+  },
+  "media_options": {
+    "message": "Opsi media",
+    "description": "Media discovery: options"
+  },
+  "media_back": {
+    "message": "Kembali ke sumber",
+    "description": "Media discovery: back"
+  },
+  "media_video": {
+    "message": "Kualitas video",
+    "description": "Media discovery: video"
+  },
+  "media_audio": {
+    "message": "Audio",
+    "description": "Media discovery: audio"
+  },
+  "media_subtitles": {
+    "message": "Subtitel",
+    "description": "Media discovery: subtitles"
+  },
+  "media_format": {
+    "message": "Format keluaran",
+    "description": "Media discovery: format"
+  },
+  "media_original": {
+    "message": "Berkas asli",
+    "description": "Media discovery: original"
+  },
+  "media_record_limit": {
+    "message": "Batas rekaman (detik)",
+    "description": "Media discovery: record limit"
+  },
+  "media_live": {
+    "message": "Rekaman langsung",
+    "description": "Media discovery: live"
+  },
+  "media_download": {
+    "message": "Unduh",
+    "description": "Media discovery: download"
+  },
+  "media_record": {
+    "message": "Mulai merekam",
+    "description": "Media discovery: record"
+  },
+  "media_cancel": {
+    "message": "Batal",
+    "description": "Media discovery: cancel"
+  },
+  "media_retry": {
+    "message": "Coba lagi",
+    "description": "Media discovery: retry"
+  },
+  "media_no_video": {
+    "message": "Tanpa video",
+    "description": "Media discovery: no video"
+  },
+  "media_no_audio": {
+    "message": "Tanpa audio",
+    "description": "Media discovery: no audio"
+  },
+  "media_no_subtitles": {
+    "message": "Tanpa subtitel",
+    "description": "Media discovery: no subtitles"
+  },
+  "media_excluded_sites": {
+    "message": "Situs media yang dikecualikan",
+    "description": "Media discovery: excluded sites"
+  },
+  "media_waiting": {
+    "message": "Pemutar ditemukan; menunggu sumber media.",
+    "description": "Media discovery: waiting"
+  },
+  "media_none": {
+    "message": "Sumber media tidak ditemukan.",
+    "description": "Media discovery: none"
+  },
+  "media_paused": {
+    "message": "Penemuan media dijeda.",
+    "description": "Media discovery: paused"
+  },
+  "media_excluded": {
+    "message": "Penemuan media dinonaktifkan di situs ini.",
+    "description": "Media discovery: excluded"
+  },
+  "media_ambiguous": {
+    "message": "Sumber tidak dapat dipasangkan dengan satu pemutar. Periksa sebelum mengunduh.",
+    "description": "Media discovery: ambiguous"
+  },
+  "media_loading": {
+    "message": "Memeriksa media…",
+    "description": "Media discovery: loading"
+  },
+  "media_submitted": {
+    "message": "Unduhan dibuat di Rayburst.",
+    "description": "Media discovery: submitted"
+  },
+  "media_cancelled": {
+    "message": "Pemeriksaan dibatalkan.",
+    "description": "Media discovery: cancelled"
+  },
+  "media_failed": {
+    "message": "Operasi gagal. Coba lagi untuk memeriksa status.",
+    "description": "Media discovery: failed"
+  },
+  "media_unsupported": {
+    "message": "Media atau metode permintaan ini tidak didukung.",
+    "description": "Media discovery: unsupported"
+  },
+  "media_invalid": {
+    "message": "Pilih kombinasi trek, format, dan durasi yang didukung.",
+    "description": "Media discovery: invalid"
+  },
+  "media_unavailable": {
+    "message": "Versi aplikasi desktop ini tidak dapat mengunduh stream. Instal Rayburst terbaru.",
+    "description": "Media discovery: unavailable"
+  },
+  "media_expired": {
+    "message": "Sumber atau pemeriksaan kedaluwarsa. Putar dan periksa lagi.",
+    "description": "Media discovery: expired"
+  },
+  "media_auth": {
+    "message": "Periksa login, penerusan permintaan, atau kunci API desktop.",
+    "description": "Media discovery: auth"
+  },
+  "media_connection": {
+    "message": "Jalankan Rayburst dan periksa koneksi.",
+    "description": "Media discovery: connection"
+  },
+  "media_size_unknown": {
+    "message": "Ukuran tidak diketahui",
+    "description": "Media discovery: size unknown"
+  },
+  "media_duration_unknown": {
+    "message": "Durasi tidak diketahui",
+    "description": "Media discovery: duration unknown"
+  },
+  "media_includes_audio": {
+    "message": "Termasuk audio",
+    "description": "Media discovery: includes audio"
+  },
+  "media_record_hint": {
+    "message": "Nol merekam hingga dihentikan di Rayburst.",
+    "description": "Media discovery: record hint"
+  },
+  "media_inspect_hint": {
+    "message": "Periksa dahulu, lalu konfirmasi unduhan.",
+    "description": "Media discovery: inspect hint"
+  },
+  "media_open_page": {
+    "message": "Buka halaman web untuk menemukan media.",
+    "description": "Media discovery: open page"
+  },
+  "media_hint": {
+    "message": "Putar video atau audio untuk menemukan sumber secara otomatis.",
+    "description": "Media discovery: hint"
+  },
+  "media_ready": {
+    "message": "Format siap",
+    "description": "Media discovery: ready"
+  },
+  "media_confirming": {
+    "message": "Mengonfirmasi unduhan…",
+    "description": "Media discovery: confirming"
+  },
+  "media_cancelling": {
+    "message": "Membatalkan pemeriksaan…",
+    "description": "Media discovery: cancelling"
+  },
+  "options_color_scheme_rayburst": {
+    "message": "Rayburst"
+  },
+  "brand_tagline": {
+    "message": "Mendefinisikan ulang ekstensi peramban pendamping",
+    "description": "Localized Rayburst Connect brand slogan"
+  },
+  "resources_current": {
+    "message": "Halaman saat ini"
+  },
+  "resources_other": {
+    "message": "Semua halaman"
+  },
+  "resources_controls": {
+    "message": "Kontrol pemutar"
+  },
+  "resources_expand": {
+    "message": "Buka ruang kerja"
+  },
+  "resources_fullscreen": {
+    "message": "Layar penuh"
+  },
+  "resources_import": {
+    "message": "Tambah sumber"
+  },
+  "resources_invert": {
+    "message": "Balik pilihan"
+  },
+  "resources_key": {
+    "message": "Kunci AES-128"
+  },
+  "resources_kind_collection": {
+    "message": "Media gabungan"
+  },
+  "resources_kind_fragment": {
+    "message": "Segmen"
+  },
+  "resources_loop": {
+    "message": "Ulangi"
+  },
+  "resources_manifest": {
+    "message": "Manifest atau URL segmen"
+  },
+  "resources_merge": {
+    "message": "Gabungkan audio dan video"
+  },
+  "resources_mute": {
+    "message": "Bisukan"
+  },
+  "resources_preview": {
+    "message": "Pratinjau"
+  },
+  "resources_preview_unavailable": {
+    "message": "Pratinjau tidak tersedia. Unduhan mungkin masih dapat dilakukan."
+  },
+  "resources_reload": {
+    "message": "Muat ulang untuk menangkap dari awal"
+  },
+  "resources_screenshot": {
+    "message": "Simpan tangkapan layar"
+  },
+  "resources_sequence": {
+    "message": "Gabungkan segmen"
+  },
+  "resources_sidebar": {
+    "message": "Buka bilah samping"
+  },
+  "resources_start": {
+    "message": "Mulai"
+  },
+  "resources_start_time": {
+    "message": "Awal (detik)"
+  },
+  "resources_end_time": {
+    "message": "Akhir (0: akhir sumber)"
+  },
+  "resources_stop": {
+    "message": "Hentikan"
+  },
+  "resources_test_keys": {
+    "message": "Uji kunci yang ditemukan"
+  },
+  "resources_tools": {
+    "message": "Alat media"
+  },
+  "resources_volume": {
+    "message": "Volume"
+  },
+  "resources_preserve": {
+    "message": "Simpan sumber setelah navigasi"
+  },
+  "resources_deep": {
+    "message": "Pencarian mendalam"
+  },
+  "resources_cache": {
+    "message": "Tangkap buffer media"
+  },
+  "resources_copy": {
+    "message": "Salin"
+  },
+  "resources_select_all": {
+    "message": "Pilih Semua"
+  },
+  "resources_name": {
+    "message": "Nama"
+  },
+  "resources_size": {
+    "message": "Ukuran"
+  },
+  "resources_type": {
+    "message": "Jenis"
+  },
+  "resources_speed": {
+    "message": "Kecepatan"
+  },
+  "resources_kind_image": {
+    "message": "Gambar"
+  },
+  "resources_all": {
+    "message": "Semua"
+  },
+  "resources_time": {
+    "message": "Waktu"
+  },
+  "resources_video": {
+    "message": "Mulai merekam"
+  },
+  "resources_kind_embedded": {
+    "message": "Sumber"
+  },
+  "resources_kind_file": {
+    "message": "Berkas asli"
+  },
+  "resources_kind_subtitle": {
+    "message": "Subtitel"
+  },
+  "resources_pause": {
+    "message": "Jeda"
+  },
+  "resources_play": {
+    "message": "Putar"
+  },
+  "resources_kind_json": {
+    "message": "JSON"
+  },
+  "resources_url": {
+    "message": "URL"
+  },
+  "resources_pip": {
+    "message": "PiP"
+  },
+  "resources_sort": {
+    "message": "Urutkan"
+  },
+  "resources_auto": {
+    "message": "Unduh sumber daya baru secara otomatis"
+  },
+  "resources_mobile": {
+    "message": "Gunakan User-Agent seluler"
+  },
+  "media_settings_title": {
+    "message": "Pengaturan deteksi"
+  },
+  "media_settings_any_size": {
+    "message": "Semua ukuran"
+  },
+  "media_settings_capture": {
+    "message": "Tangkap"
+  },
+  "media_settings_edit": {
+    "message": "Edit"
+  },
+  "media_settings_remove": {
+    "message": "Hapus"
+  },
+  "media_settings_invalid_rule": {
+    "message": "Periksa sintaks, nilai, dan jenis duplikat."
+  },
+  "media_settings_between": {
+    "message": "Antara"
+  },
+  "media_settings_upper": {
+    "message": "Batas atas"
+  },
+  "media_settings_pattern": {
+    "message": "Pola"
+  },
+  "media_settings_action": {
+    "message": "Tindakan"
+  },
+  "media_settings_enabled": {
+    "message": "Aktif"
+  },
+  "media_settings_ignore": {
+    "message": "Abaikan"
+  },
+  "media_settings_regex": {
+    "message": "Ekspresi reguler"
+  },
+  "media_settings_regex_hint": {
+    "message": "Kecocokan pertama mengesampingkan aturan jenis."
+  },
+  "media_settings_flags": {
+    "message": "Flag regex"
+  },
+  "media_settings_group": {
+    "message": "Grup URL (0: URL asli)"
+  },
+  "media_settings_test_url": {
+    "message": "URL pengujian"
+  },
+  "media_settings_no_match": {
+    "message": "Tidak cocok"
+  },
+  "media_settings_behavior": {
+    "message": "Perilaku"
+  },
+  "media_settings_capture_hint": {
+    "message": "Filter penangkapan tidak membatasi unduhan daftar putar."
+  },
+  "media_settings_newest": {
+    "message": "Terbaru dahulu"
+  },
+  "media_settings_quick": {
+    "message": "Unduh cepat"
+  },
+  "media_settings_quick_hint": {
+    "message": "Pilih trek jika tersedia beberapa pilihan."
+  },
+  "media_settings_deep": {
+    "message": "Selalu aktifkan pencarian mendalam"
+  },
+  "media_settings_deep_hint": {
+    "message": "Muat ulang halaman. Dapat memengaruhi pemutaran."
+  },
+  "media_settings_name_from": {
+    "message": "Beri nama berkas yang terdeteksi dengan"
+  },
+  "media_settings_name_from_file": {
+    "message": "Nama berkas"
+  },
+  "media_settings_name_from_title": {
+    "message": "Judul halaman"
+  },
+  "media_settings_include": {
+    "message": "Hanya situs terdaftar"
+  },
+  "media_settings_exclude": {
+    "message": "Kecualikan situs terdaftar"
+  },
+  "media_settings_autosave": {
+    "message": "Perubahan disimpan otomatis."
+  },
+  "media_settings_restore": {
+    "message": "Pulihkan pengaturan media"
+  },
+  "media_settings_restore_hint": {
+    "message": "Reset media saja? Pengaturan koneksi tetap sama."
+  },
+  "media_settings_close_preview": {
+    "message": "Tutup pratinjau"
+  },
+  "sniffer_page_count": {
+    "message": "Sumber daya di halaman ini: $1",
+    "description": "Resource count for the current browser tab; $1 is the full count"
+  },
+  "sniffer_results": {
+    "message": "Menampilkan $1 dari $2 sumber daya",
+    "description": "Filtered resources in the selected scope; $1 is visible, $2 is total"
+  },
+  "popup_status_checking": {
+    "message": "Memeriksa",
+    "description": "Connection status while the desktop check is pending"
+  },
+  "connection_unsupported_title": {
+    "message": "Versi desktop tidak didukung"
+  },
+  "connection_upgrade_hint": {
+    "message": "Instal Rayburst terbaru, lalu hubungkan kembali."
+  },
+  "connection_legacy_title": {
+    "message": "Perbarui ke Rayburst terbaru",
+    "description": "Title of the update notice shown while connected to an older desktop"
+  },
+  "connection_legacy_hint": {
+    "message": "$1 adalah versi lama, jadi beberapa fitur tidak tersedia.",
+    "description": "Shown while connected to an older desktop, $1 = its name and version",
+    "placeholders": {
+      "1": {
+        "content": "$1",
+        "example": "Motrix Next 3.9.9"
+      }
+    }
+  },
+  "connection_legacy_dismiss": {
+    "message": "Tutup",
+    "description": "Accessible label of the button that closes the popup update notice"
+  },
+  "connection_get_rayburst": {
+    "message": "Unduh Rayburst"
+  },
+  "connection_check_again": {
+    "message": "Periksa lagi"
+  },
+  "error_engine_starting": {
+    "message": "Mesin Rayburst sedang dimulai"
+  },
+  "error_engine_unavailable": {
+    "message": "Mesin Rayburst tidak tersedia"
+  },
+  "error_engine_hint": {
+    "message": "Buka Rayburst untuk memeriksa mesin, lalu hubungkan kembali."
+  },
+  "popup_site_rules": {
+    "message": "Situs saat ini"
+  },
+  "popup_site_allow": {
+    "message": "Aktifkan di situs ini"
+  },
+  "popup_site_exclude": {
+    "message": "Kecualikan situs ini"
+  },
+  "popup_task_waiting": {
+    "message": "Menunggu",
+    "description": "Popup task list: queued task"
+  },
+  "popup_task_paused": {
+    "message": "Dijeda",
+    "description": "Popup task list: paused task"
+  },
+  "popup_task_failed": {
+    "message": "Gagal",
+    "description": "Popup task list: failed task without a message"
+  },
+  "popup_task_pause": {
+    "message": "Jeda",
+    "description": "Popup task list: pause button"
+  },
+  "popup_task_resume": {
+    "message": "Lanjutkan",
+    "description": "Popup task list: resume button"
+  },
+  "popup_task_reveal": {
+    "message": "Tampilkan di folder",
+    "description": "Popup task list: show the finished file in its folder"
+  },
+  "popup_tasks_empty": {
+    "message": "Belum ada unduhan",
+    "description": "Popup task list: nothing to show"
+  },
+  "options_alt_click_bypass_label": {
+    "message": "Alt + klik mengunduh dengan browser",
+    "description": "Setting: holding Alt while clicking a link lets the browser download it"
+  },
+  "media_complete_video": {
+    "message": "Video lengkap",
+    "description": "Media discovery: separate video and audio track files listed as one video"
+  },
+  "media_tracks": {
+    "message": "$1 trek",
+    "description": "Media discovery: number of track files in a complete video; $1 is the count"
+  },
+  "media_track_files": {
+    "message": "Berkas trek",
+    "description": "Media discovery: shows or hides the track files of a complete video"
+  }
+}

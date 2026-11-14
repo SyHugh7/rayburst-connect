@@ -1,0 +1,1206 @@
+{
+  "options_website": {
+    "message": "वेबसाइट"
+  },
+  "ext_name": {
+    "message": "Rayburst Connect",
+    "description": "Extension display name"
+  },
+  "ext_description": {
+    "message": "डाउनलोड और मिले हुए मीडिया को Rayburst में भेजें। पेज पर मीडिया खोजें, प्रीव्यू देखें और कैप्चर करें।",
+    "description": "Extension description shown in browser and web store"
+  },
+  "popup_status_connected": {
+    "message": "कनेक्टेड",
+    "description": "Connection status badge when API is reachable"
+  },
+  "popup_status_disconnected": {
+    "message": "डिस्कनेक्टेड",
+    "description": "Connection status badge when API is unreachable"
+  },
+  "popup_action_pause_all": {
+    "message": "सभी रोकें",
+    "description": "Button to pause all active downloads"
+  },
+  "popup_action_resume_all": {
+    "message": "सभी फिर शुरू करें",
+    "description": "Button to resume all paused downloads"
+  },
+  "popup_action_settings": {
+    "message": "सेटिंग्स",
+    "description": "Button to open the options page"
+  },
+  "popup_action_launch": {
+    "message": "Rayburst शुरू करें",
+    "description": "Button to launch the desktop app when disconnected"
+  },
+  "popup_action_open": {
+    "message": "Rayburst खोलें",
+    "description": "Button to focus the desktop app when already connected"
+  },
+  "popup_error_unreachable": {
+    "message": "Rayburst से कनेक्ट नहीं हो सका",
+    "description": "Error message when API is unreachable"
+  },
+  "options_section_connection": {
+    "message": "कनेक्शन",
+    "description": "Settings section for API connection"
+  },
+  "options_test_connection": {
+    "message": "कनेक्शन जांचें",
+    "description": "Button to test the API connection"
+  },
+  "options_section_behavior": {
+    "message": "डाउनलोड",
+    "description": "Settings section for download interception behavior"
+  },
+  "options_enabled_label": {
+    "message": "डाउनलोड इंटरसेप्शन सक्षम करें",
+    "description": "Toggle label for enabling/disabling download interception"
+  },
+  "options_section_rules": {
+    "message": "नियम",
+    "description": "Settings section for download routing rules"
+  },
+  "options_add_rule": {
+    "message": "नियम जोड़ें",
+    "description": "Button to add a new site rule"
+  },
+  "options_section_appearance": {
+    "message": "दिखावट",
+    "description": "Settings section for theme"
+  },
+  "options_theme_system": {
+    "message": "सिस्टम",
+    "description": "Theme option: follow system preference"
+  },
+  "options_theme_light": {
+    "message": "लाइट",
+    "description": "Theme option: light mode"
+  },
+  "options_theme_dark": {
+    "message": "डार्क",
+    "description": "Theme option: dark mode"
+  },
+  "options_section_diagnostics": {
+    "message": "निदान",
+    "description": "Settings section for diagnostic event log"
+  },
+  "context_menu_download": {
+    "message": "Rayburst से डाउनलोड करें",
+    "description": "Context menu item for downloading a link with Rayburst"
+  },
+  "options_header_title": {
+    "message": "Rayburst Connect",
+    "description": "Options page header title"
+  },
+  "options_header_subtitle": {
+    "message": "एक्सटेंशन सेटिंग्स",
+    "description": "Options page header subtitle"
+  },
+  "options_testing_connection": {
+    "message": "जांच हो रही है...",
+    "description": "Button text while testing connection"
+  },
+  "options_connection_success_prefix": {
+    "message": "कनेक्टेड · Rayburst",
+    "description": "Prefix for successful connection status"
+  },
+  "options_connection_success_motrix": {
+    "message": "कनेक्टेड · Motrix Next",
+    "description": "Connection status when Motrix Next answered"
+  },
+  "options_rules_empty": {
+    "message": "कोई नियम कॉन्फ़िगर नहीं है।",
+    "description": "Placeholder when no site rules exist"
+  },
+  "options_diagnostics_export": {
+    "message": "निदान रिपोर्ट एक्सपोर्ट करें",
+    "description": "Button to export full diagnostic report as JSON file"
+  },
+  "options_diagnostics_clear": {
+    "message": "लॉग साफ करें",
+    "description": "Button to clear diagnostic log"
+  },
+  "options_diagnostics_empty": {
+    "message": "कोई निदान इवेंट नहीं।",
+    "description": "Placeholder when diagnostic log is empty"
+  },
+  "options_footer": {
+    "message": "Rayburst Connect v$version$",
+    "description": "Footer text with version number",
+    "placeholders": {
+      "version": {
+        "content": "$1"
+      }
+    }
+  },
+  "options_save": {
+    "message": "सहेजें",
+    "description": "Save button in action bar"
+  },
+  "options_discard": {
+    "message": "छोड़ें",
+    "description": "Discard button in action bar"
+  },
+  "options_discard_success": {
+    "message": "बदलाव बहाल किए गए",
+    "description": "Toast after discarding unsaved settings changes"
+  },
+  "options_save_success": {
+    "message": "सेटिंग्स सहेजी गईं",
+    "description": "Toast after saving settings successfully"
+  },
+  "options_save_error": {
+    "message": "सेटिंग्स सहेजने में विफल",
+    "description": "Toast when saving settings fails"
+  },
+  "options_changes_indicator": {
+    "message": "सहेजे नहीं गए बदलाव",
+    "description": "Indicator text showing there are unsaved modifications"
+  },
+  "options_color_scheme": {
+    "message": "रंग योजना",
+    "description": "Label for the color scheme picker"
+  },
+  "options_color_scheme_amber": {
+    "message": "एम्बर गोल्ड",
+    "description": "Amber Gold color scheme"
+  },
+  "options_color_scheme_space": {
+    "message": "स्पेस ब्लू",
+    "description": "Space Blue color scheme"
+  },
+  "options_color_scheme_mint": {
+    "message": "मिंट ग्रीन",
+    "description": "Mint Green color scheme"
+  },
+  "options_color_scheme_rose": {
+    "message": "रोज रेड",
+    "description": "Rose Red color scheme"
+  },
+  "options_color_scheme_coral": {
+    "message": "कोरल ऑरेंज",
+    "description": "Coral Orange color scheme"
+  },
+  "options_color_scheme_glacier": {
+    "message": "ग्लेशियर सायन",
+    "description": "Glacier Cyan color scheme"
+  },
+  "options_color_scheme_evergreen": {
+    "message": "एवरग्रीन",
+    "description": "Evergreen color scheme"
+  },
+  "options_color_scheme_graphite": {
+    "message": "ग्रेफाइट ग्रे",
+    "description": "Graphite Grey color scheme"
+  },
+  "options_color_scheme_sakura": {
+    "message": "साकुरा पिंक",
+    "description": "Sakura Pink color scheme"
+  },
+  "error_unknown": {
+    "message": "अज्ञात त्रुटि हुई",
+    "description": "Fallback error message"
+  },
+  "options_rule_always_intercept": {
+    "message": "हमेशा इंटरसेप्ट करें",
+    "description": "Site rule action: always intercept downloads"
+  },
+  "options_rule_always_skip": {
+    "message": "हमेशा छोड़ें",
+    "description": "Site rule action: never intercept downloads"
+  },
+  "options_rule_use_global": {
+    "message": "ग्लोबल सेटिंग उपयोग करें",
+    "description": "Site rule action: follow the global setting"
+  },
+  "popup_error_auth": {
+    "message": "API secret मेल नहीं खाता",
+    "description": "Popup banner title when API secret is incorrect"
+  },
+  "popup_error_auth_hint": {
+    "message": "जांचें कि Settings में API secret आपके Rayburst कॉन्फ़िगरेशन से मेल खाता है।",
+    "description": "Popup banner hint for API auth error"
+  },
+  "popup_error_timeout": {
+    "message": "कनेक्शन समय समाप्त",
+    "description": "Popup banner title when API connection times out"
+  },
+  "popup_error_timeout_hint": {
+    "message": "अपना नेटवर्क या firewall सेटिंग्स जांचें। API port: $1",
+    "description": "Popup banner hint for timeout error, $1 = port number",
+    "placeholders": {
+      "1": {
+        "content": "$1",
+        "example": "29110"
+      }
+    }
+  },
+  "popup_error_unreachable_hint": {
+    "message": "सुनिश्चित करें कि Rayburst चल रहा है। API port: $1",
+    "description": "Popup banner hint for unreachable error, $1 = port number",
+    "placeholders": {
+      "1": {
+        "content": "$1",
+        "example": "29110"
+      }
+    }
+  },
+  "options_section_language": {
+    "message": "भाषा",
+    "description": "Settings section for interface language"
+  },
+  "options_locale_auto": {
+    "message": "स्वचालित",
+    "description": "Language option: follow browser language"
+  },
+  "options_locale_auto_desc": {
+    "message": "ब्राउज़र भाषा का अनुसरण करें",
+    "description": "Description for auto language option"
+  },
+  "options_desktop_unavailable_label": {
+    "message": "Rayburst उपलब्ध न होने पर",
+    "description": "Unavailable desktop behavior label"
+  },
+  "options_desktop_unavailable_launch": {
+    "message": "Rayburst शुरू करें",
+    "description": "Launch desktop option"
+  },
+  "options_desktop_unavailable_browser": {
+    "message": "ब्राउज़र का उपयोग करें",
+    "description": "Browser fallback option"
+  },
+  "options_desktop_startup_timeout_label": {
+    "message": "स्टार्टअप समय-सीमा",
+    "description": "Desktop startup timeout label"
+  },
+  "options_desktop_open_link_label": {
+    "message": "ब्राउज़र लिंक से Rayburst शुरू करें (पुराना तरीका)",
+    "description": "Setting: start the desktop by opening its link in a tab instead of Native Messaging"
+  },
+  "options_seconds_suffix": {
+    "message": "सेकंड",
+    "description": "Seconds unit suffix"
+  },
+  "popup_stat_active": {
+    "message": "सक्रिय",
+    "description": "Task count label: currently downloading"
+  },
+  "popup_stat_waiting": {
+    "message": "प्रतीक्षा में",
+    "description": "Task count label: queued for download"
+  },
+  "popup_stat_stopped": {
+    "message": "पूर्ण",
+    "description": "Task count label: completed or stopped"
+  },
+  "popup_toggle_enabled": {
+    "message": "इंटरसेप्ट चालू",
+    "description": "Label next to the interception toggle when active"
+  },
+  "popup_toggle_disabled": {
+    "message": "रुका हुआ",
+    "description": "Label next to the interception toggle when inactive"
+  },
+  "options_api_port_label": {
+    "message": "API Port",
+    "description": "Label for the API port input"
+  },
+  "options_api_secret_label": {
+    "message": "API Secret",
+    "description": "Label for the API secret input"
+  },
+  "options_api_secret_placeholder": {
+    "message": "डेस्कटॉप ऐप से पेस्ट करें",
+    "description": "Placeholder text for API secret input"
+  },
+  "error_api_unreachable": {
+    "message": "Rayburst से कनेक्ट नहीं हो सका",
+    "description": "Error when the API endpoint is unreachable"
+  },
+  "error_api_auth": {
+    "message": "API secret गलत है",
+    "description": "Error when the API secret does not match"
+  },
+  "error_api_timeout": {
+    "message": "कनेक्शन समय समाप्त",
+    "description": "Error when the API connection times out"
+  },
+  "options_hide_download_bar_label": {
+    "message": "ब्राउज़र डाउनलोड बार छिपाएं",
+    "description": "Label for the optional browser download bar hiding setting."
+  },
+  "options_forward_request_headers_label": {
+    "message": "Request Headers फॉरवर्ड करें",
+    "description": "Label for the request header forwarding setting."
+  },
+  "options_forward_cookies_label": {
+    "message": "Cookies फॉरवर्ड करें",
+    "description": "Label for the cookie forwarding setting."
+  },
+  "options_permission_download_ui_denied": {
+    "message": "ब्राउज़र डाउनलोड बार छिपाने के लिए download UI अनुमति दें।",
+    "description": "Toast shown when the optional downloads.ui permission is denied."
+  },
+  "options_permission_cookies_denied": {
+    "message": "Cookies को Rayburst तक फॉरवर्ड करने के लिए cookie और site अनुमतियां दें।",
+    "description": "Toast shown when cookie forwarding permissions are unavailable."
+  },
+  "options_scope_browser_downloads_label": {
+    "message": "सामान्य डाउनलोड (HTTP / HTTPS / FTP / Torrent)",
+    "description": "Label for the browser download interception scope toggle."
+  },
+  "options_scope_magnet_label": {
+    "message": "Magnet Links (magnet:)",
+    "description": "Label for the magnet link interception scope toggle."
+  },
+  "options_scope_ed2k_label": {
+    "message": "ED2K Links (ed2k:)",
+    "description": "Label for the ED2K link interception scope toggle."
+  },
+  "options_scope_thunder_label": {
+    "message": "Thunder Links (thunder:)",
+    "description": "Label for the Thunder link interception scope toggle."
+  },
+  "options_scope_incognito_label": {
+    "message": "निजी विंडो के डाउनलोड",
+    "description": "Label for the private-window download interception toggle."
+  },
+  "options_scope_incognito_hint": {
+    "message": "निजी विंडो के डाउनलोड Rayburst को जाते हैं और उसकी कार्य सूची व इतिहास में दिखते हैं। ब्राउज़र को भी इस एक्सटेंशन को निजी विंडो में अनुमति देनी होगी।",
+    "description": "Hint under the private-window download interception toggle."
+  },
+  "options_scope_other_extensions_label": {
+    "message": "अन्य एक्सटेंशन के डाउनलोड",
+    "description": "Label for the toggle that takes over downloads other extensions start."
+  },
+  "options_scope_other_extensions_hint": {
+    "message": "जैसे लिंक अनलॉक करने वाले एक्सटेंशन द्वारा हल किए गए लिंक। Rayburst यह जाँचने के बाद ही लेता है कि उसे वही फ़ाइल मिल रही है।",
+    "description": "Hint under the other-extension download interception toggle."
+  },
+  "options_min_size_label": {
+    "message": "छोटी फ़ाइल फ़िल्टर",
+    "description": "Label for the minimum file size setting."
+  },
+  "options_min_size_value_label": {
+    "message": "फ़ाइल इससे छोटी हो",
+    "description": "Label for the minimum file size numeric input."
+  },
+  "options_min_size_unknown_label": {
+    "message": "जब आकार अज्ञात हो",
+    "description": "Label for the unknown file size behavior selector."
+  },
+  "options_min_size_unknown_intercept": {
+    "message": "Rayburst को स्थानांतरित करें",
+    "description": "Option label for routing unknown-size downloads to Rayburst."
+  },
+  "options_min_size_unknown_skip": {
+    "message": "ब्राउज़र को स्थानांतरित करें",
+    "description": "Option label for leaving unknown-size downloads in the browser."
+  },
+  "options_duplicate_guard_label": {
+    "message": "डुप्लिकेट डाउनलोड गार्ड",
+    "description": "Label for the duplicate download guard setting."
+  },
+  "options_duplicate_guard_window_label": {
+    "message": "गार्ड विंडो",
+    "description": "Label for the duplicate download guard time window input."
+  },
+  "notification_duplicate_guard_title": {
+    "message": "कार्य भेजा गया",
+    "description": "Notification title shown when a duplicate download is blocked."
+  },
+  "notification_duplicate_guard_body": {
+    "message": "डुप्लिकेट अनुरोध छोड़ा गया",
+    "description": "Notification body shown when a duplicate download is blocked."
+  },
+  "notification_desktop_link_body": {
+    "message": "ब्राउज़र लिंक से Rayburst शुरू करना चालू करने के लिए क्लिक करें।",
+    "description": "Notification body after an unattended start failed; clicking opens the settings"
+  },
+  "options_privacy_section_label": {
+    "message": "गोपनीयता",
+    "description": "Subsection label for privacy-related download forwarding settings."
+  },
+  "options_download_handling_section_label": {
+    "message": "डाउनलोड हैंडलिंग",
+    "description": "Subsection label for browser and desktop download handling settings."
+  },
+  "options_site_rules_label": {
+    "message": "साइट नियम",
+    "description": "Subsection label for per-site download rules."
+  },
+  "options_file_extension_rule_label": {
+    "message": "फ़ाइल एक्सटेंशन नियम",
+    "description": "Label for the file extension rule toggle."
+  },
+  "options_file_extension_list_label": {
+    "message": "एक्सटेंशन",
+    "description": "Label for the file extension list input."
+  },
+  "options_file_extension_list_placeholder": {
+    "message": "एक्सटेंशन जोड़ें",
+    "description": "Placeholder for the file extension list input."
+  },
+  "options_file_extension_listed_action_label": {
+    "message": "सूचीबद्ध एक्सटेंशन",
+    "description": "Label for the action selector applied to listed file extensions."
+  },
+  "options_file_extension_unknown_action_label": {
+    "message": "अज्ञात एक्सटेंशन",
+    "description": "Label for the action selector applied when no file extension is detected."
+  },
+  "options_file_extension_action_intercept": {
+    "message": "Rayburst को भेजें",
+    "description": "Option label for routing a matched extension to Rayburst."
+  },
+  "options_file_extension_action_skip": {
+    "message": "ब्राउज़र का उपयोग करें",
+    "description": "Option label for leaving a matched extension in the browser."
+  },
+  "options_factory_reset_button": {
+    "message": "सेटिंग रीसेट करें",
+    "description": "Button to stage a full settings reset."
+  },
+  "options_factory_reset_confirm": {
+    "message": "रीसेट करने के लिए फिर क्लिक करें",
+    "description": "Second-click confirmation label for the reset button."
+  },
+  "options_factory_reset_ready": {
+    "message": "डिफ़ॉल्ट सहेजने के लिए तैयार हैं",
+    "description": "Toast shown after default settings are staged for saving."
+  },
+  "options_section_maintenance": {
+    "message": "रखरखाव",
+    "description": "Settings section for maintenance actions."
+  },
+  "options_settings_backup_title": {
+    "message": "सेटिंग बैकअप",
+    "description": "Maintenance section title for settings backup."
+  },
+  "options_settings_backup_export": {
+    "message": "सेटिंग निर्यात करें",
+    "description": "Button to export settings backup."
+  },
+  "options_settings_backup_import": {
+    "message": "सेटिंग आयात करें",
+    "description": "Button to import settings backup."
+  },
+  "options_settings_backup_exported": {
+    "message": "बैकअप निर्यात हो गया",
+    "description": "Toast shown after settings backup export starts."
+  },
+  "options_settings_backup_export_error": {
+    "message": "बैकअप निर्यात नहीं हुआ",
+    "description": "Toast shown when settings backup export fails."
+  },
+  "options_settings_backup_imported": {
+    "message": "सेटिंग आयात हो गई. जांचें और सहेजें.",
+    "description": "Toast shown after settings backup is staged for saving."
+  },
+  "options_settings_backup_invalid": {
+    "message": "बैकअप फाइल अमान्य है",
+    "description": "Toast shown when selected settings backup is invalid."
+  },
+  "options_diagnostics_filter_all": {
+    "message": "सभी",
+    "description": "Filter label for all diagnostic levels"
+  },
+  "options_diagnostics_filter_error": {
+    "message": "त्रुटि",
+    "description": "Filter label for error diagnostic events"
+  },
+  "options_diagnostics_filter_warning": {
+    "message": "चेतावनी",
+    "description": "Filter label for warning diagnostic events"
+  },
+  "options_diagnostics_filter_info": {
+    "message": "जानकारी",
+    "description": "Filter label for informational diagnostic events"
+  },
+  "options_diagnostics_filter_code": {
+    "message": "इवेंट प्रकार",
+    "description": "Placeholder for the diagnostic event type filter"
+  },
+  "options_diagnostics_clear_error": {
+    "message": "डायग्नोस्टिक इवेंट साफ़ नहीं किए जा सके",
+    "description": "Error shown when diagnostic events cannot be cleared"
+  },
+  "options_diagnostics_export_error": {
+    "message": "डायग्नोस्टिक रिपोर्ट निर्यात नहीं की जा सकी",
+    "description": "Error shown when the diagnostic report cannot be exported"
+  },
+  "popup_status_launching": {
+    "message": "शुरू हो रहा है",
+    "description": "Popup status while the desktop app is starting"
+  },
+  "popup_launching_title": {
+    "message": "Rayburst शुरू हो रहा है",
+    "description": "Popup launch progress title"
+  },
+  "popup_launching_hint": {
+    "message": "डेस्कटॉप ऐप के तैयार होने की प्रतीक्षा की जा रही है…",
+    "description": "Popup launch progress description"
+  },
+  "popup_launch_failed_title": {
+    "message": "Rayburst शुरू नहीं हो सका",
+    "description": "Popup launch failure title"
+  },
+  "popup_launch_failed_hint": {
+    "message": "जाँचें कि Rayburst इंस्टॉल है और उसकी API सेटिंग सही हैं।",
+    "description": "Popup launch failure guidance"
+  },
+  "popup_launch_link_hint": {
+    "message": "ब्राउज़र इसके बजाय लिंक से Rayburst शुरू कर सकता है।",
+    "description": "Popup launch failure guidance when the desktop could not be started at all"
+  },
+  "popup_action_retry": {
+    "message": "फिर कोशिश करें",
+    "description": "Popup action to retry desktop launch"
+  },
+  "popup_action_launch_link": {
+    "message": "लिंक से शुरू करें",
+    "description": "Popup button: allow starting the desktop through its link and retry"
+  },
+  "options_diagnostics_column_time": {
+    "message": "समय",
+    "description": "Diagnostic table column heading for event time"
+  },
+  "options_diagnostics_column_level": {
+    "message": "स्तर",
+    "description": "Diagnostic table column heading for severity level"
+  },
+  "options_diagnostics_column_event": {
+    "message": "इवेंट",
+    "description": "Diagnostic table column heading for event code"
+  },
+  "options_diagnostics_column_message": {
+    "message": "संदेश",
+    "description": "Diagnostic table column heading for event message"
+  },
+  "options_diagnostics_pagination": {
+    "message": "$TOTAL$ में से $RANGE$ · अधिकतम $MAX$",
+    "description": "Diagnostic table pagination summary with visible range, filtered total, and retention limit",
+    "placeholders": {
+      "RANGE": {
+        "content": "$1",
+        "example": "1–10"
+      },
+      "TOTAL": {
+        "content": "$2",
+        "example": "37"
+      },
+      "MAX": {
+        "content": "$3",
+        "example": "100"
+      }
+    }
+  },
+  "options_diagnostics_log_entry_limit": {
+    "message": "लॉग प्रविष्टि सीमा",
+    "description": "Label for the maximum number of diagnostic log entries retained locally"
+  },
+  "options_diagnostics_entries_suffix": {
+    "message": "प्रविष्टियाँ",
+    "description": "Unit suffix for the diagnostic log entry limit input"
+  },
+  "options_diagnostics_view_details": {
+    "message": "इवेंट विवरण देखें",
+    "description": "Accessible label for opening diagnostic event details"
+  },
+  "options_diagnostics_details_title": {
+    "message": "इवेंट विवरण",
+    "description": "Title of the diagnostic event details drawer"
+  },
+  "options_diagnostics_details_message": {
+    "message": "संदेश",
+    "description": "Heading for the diagnostic event message"
+  },
+  "options_diagnostics_details_context": {
+    "message": "संदर्भ",
+    "description": "Heading for diagnostic event context fields"
+  },
+  "options_diagnostics_clear_confirm": {
+    "message": "साफ़ करने की पुष्टि",
+    "description": "Second-click confirmation label for clearing diagnostic logs"
+  },
+  "sniffer_tab": {
+    "message": "खोज",
+    "description": "Navigation label for discovering page resources"
+  },
+  "media_downloads": {
+    "message": "डाउनलोड",
+    "description": "Media discovery: downloads"
+  },
+  "media_discover": {
+    "message": "पेज मीडिया खोजें",
+    "description": "Media discovery: discover"
+  },
+  "media_scan": {
+    "message": "पेज स्कैन करें",
+    "description": "Media discovery: scan"
+  },
+  "media_clear": {
+    "message": "स्रोत साफ़ करें",
+    "description": "Media discovery: clear"
+  },
+  "media_filter": {
+    "message": "स्रोत फ़िल्टर करें",
+    "description": "Media discovery: filter"
+  },
+  "media_sources": {
+    "message": "मीडिया स्रोत",
+    "description": "Media discovery: sources"
+  },
+  "media_source": {
+    "message": "स्रोत",
+    "description": "Media discovery: source"
+  },
+  "media_enable_site": {
+    "message": "इस साइट पर चालू करें",
+    "description": "Media discovery: enable site"
+  },
+  "media_disable_site": {
+    "message": "इस साइट पर बंद करें",
+    "description": "Media discovery: disable site"
+  },
+  "media_inspect": {
+    "message": "फ़ॉर्मैट जाँचें",
+    "description": "Media discovery: inspect"
+  },
+  "media_options": {
+    "message": "मीडिया विकल्प",
+    "description": "Media discovery: options"
+  },
+  "media_back": {
+    "message": "स्रोतों पर वापस जाएँ",
+    "description": "Media discovery: back"
+  },
+  "media_video": {
+    "message": "वीडियो गुणवत्ता",
+    "description": "Media discovery: video"
+  },
+  "media_audio": {
+    "message": "ऑडियो",
+    "description": "Media discovery: audio"
+  },
+  "media_subtitles": {
+    "message": "उपशीर्षक",
+    "description": "Media discovery: subtitles"
+  },
+  "media_format": {
+    "message": "आउटपुट फ़ॉर्मैट",
+    "description": "Media discovery: format"
+  },
+  "media_original": {
+    "message": "मूल फ़ाइल",
+    "description": "Media discovery: original"
+  },
+  "media_record_limit": {
+    "message": "रिकॉर्डिंग सीमा (सेकंड)",
+    "description": "Media discovery: record limit"
+  },
+  "media_live": {
+    "message": "लाइव रिकॉर्डिंग",
+    "description": "Media discovery: live"
+  },
+  "media_download": {
+    "message": "डाउनलोड करें",
+    "description": "Media discovery: download"
+  },
+  "media_record": {
+    "message": "रिकॉर्डिंग शुरू करें",
+    "description": "Media discovery: record"
+  },
+  "media_cancel": {
+    "message": "रद्द करें",
+    "description": "Media discovery: cancel"
+  },
+  "media_retry": {
+    "message": "फिर प्रयास करें",
+    "description": "Media discovery: retry"
+  },
+  "media_no_video": {
+    "message": "वीडियो नहीं",
+    "description": "Media discovery: no video"
+  },
+  "media_no_audio": {
+    "message": "ऑडियो नहीं",
+    "description": "Media discovery: no audio"
+  },
+  "media_no_subtitles": {
+    "message": "उपशीर्षक नहीं",
+    "description": "Media discovery: no subtitles"
+  },
+  "media_excluded_sites": {
+    "message": "बाहर रखी गई मीडिया साइटें",
+    "description": "Media discovery: excluded sites"
+  },
+  "media_waiting": {
+    "message": "प्लेयर मिला; मीडिया स्रोत की प्रतीक्षा है।",
+    "description": "Media discovery: waiting"
+  },
+  "media_none": {
+    "message": "कोई मीडिया स्रोत नहीं मिला।",
+    "description": "Media discovery: none"
+  },
+  "media_paused": {
+    "message": "मीडिया खोज रुकी हुई है।",
+    "description": "Media discovery: paused"
+  },
+  "media_excluded": {
+    "message": "इस साइट पर मीडिया खोज बंद है।",
+    "description": "Media discovery: excluded"
+  },
+  "media_ambiguous": {
+    "message": "इन स्रोतों को किसी एक प्लेयर से नहीं जोड़ा जा सका। डाउनलोड से पहले जाँचें।",
+    "description": "Media discovery: ambiguous"
+  },
+  "media_loading": {
+    "message": "मीडिया जाँचा जा रहा है…",
+    "description": "Media discovery: loading"
+  },
+  "media_submitted": {
+    "message": "Rayburst में डाउनलोड बनाया गया।",
+    "description": "Media discovery: submitted"
+  },
+  "media_cancelled": {
+    "message": "जाँच रद्द कर दी गई।",
+    "description": "Media discovery: cancelled"
+  },
+  "media_failed": {
+    "message": "कार्रवाई विफल हुई। स्थिति जाँचने के लिए फिर प्रयास करें।",
+    "description": "Media discovery: failed"
+  },
+  "media_unsupported": {
+    "message": "यह मीडिया या अनुरोध विधि समर्थित नहीं है।",
+    "description": "Media discovery: unsupported"
+  },
+  "media_invalid": {
+    "message": "ट्रैक, फ़ॉर्मैट और अवधि का समर्थित संयोजन चुनें।",
+    "description": "Media discovery: invalid"
+  },
+  "media_unavailable": {
+    "message": "डेस्कटॉप ऐप का यह संस्करण स्ट्रीम डाउनलोड नहीं कर सकता। Rayburst का नवीनतम संस्करण इंस्टॉल करें।",
+    "description": "Media discovery: unavailable"
+  },
+  "media_expired": {
+    "message": "स्रोत या जाँच की अवधि समाप्त हुई। मीडिया चलाकर फिर जाँचें।",
+    "description": "Media discovery: expired"
+  },
+  "media_auth": {
+    "message": "लॉगिन, अनुरोध अग्रेषण या डेस्कटॉप API कुंजी जाँचें।",
+    "description": "Media discovery: auth"
+  },
+  "media_connection": {
+    "message": "Rayburst शुरू करें और कनेक्शन सेटिंग जाँचें।",
+    "description": "Media discovery: connection"
+  },
+  "media_size_unknown": {
+    "message": "आकार अज्ञात",
+    "description": "Media discovery: size unknown"
+  },
+  "media_duration_unknown": {
+    "message": "अवधि अज्ञात",
+    "description": "Media discovery: duration unknown"
+  },
+  "media_includes_audio": {
+    "message": "ऑडियो शामिल है",
+    "description": "Media discovery: includes audio"
+  },
+  "media_record_hint": {
+    "message": "शून्य रखने पर Rayburst में रोकने तक रिकॉर्डिंग चलेगी।",
+    "description": "Media discovery: record hint"
+  },
+  "media_inspect_hint": {
+    "message": "पहले जाँचें, फिर डाउनलोड की पुष्टि करें।",
+    "description": "Media discovery: inspect hint"
+  },
+  "media_open_page": {
+    "message": "मीडिया खोजने के लिए वेब पेज खोलें।",
+    "description": "Media discovery: open page"
+  },
+  "media_hint": {
+    "message": "स्रोत अपने आप खोजने के लिए वीडियो या ऑडियो चलाएँ।",
+    "description": "Media discovery: hint"
+  },
+  "media_ready": {
+    "message": "फ़ॉर्मैट तैयार हैं",
+    "description": "Media discovery: ready"
+  },
+  "media_confirming": {
+    "message": "डाउनलोड की पुष्टि हो रही है…",
+    "description": "Media discovery: confirming"
+  },
+  "media_cancelling": {
+    "message": "जाँच रद्द हो रही है…",
+    "description": "Media discovery: cancelling"
+  },
+  "options_color_scheme_rayburst": {
+    "message": "Rayburst"
+  },
+  "brand_tagline": {
+    "message": "सहायक ब्राउज़र एक्सटेंशन को नया रूप",
+    "description": "Localized Rayburst Connect brand slogan"
+  },
+  "resources_current": {
+    "message": "वर्तमान पेज"
+  },
+  "resources_other": {
+    "message": "सभी पेज"
+  },
+  "resources_controls": {
+    "message": "प्लेयर नियंत्रण"
+  },
+  "resources_expand": {
+    "message": "कार्यस्थल खोलें"
+  },
+  "resources_fullscreen": {
+    "message": "पूर्ण स्क्रीन"
+  },
+  "resources_import": {
+    "message": "स्रोत जोड़ें"
+  },
+  "resources_invert": {
+    "message": "चयन उलटें"
+  },
+  "resources_key": {
+    "message": "AES-128 कुंजी"
+  },
+  "resources_kind_collection": {
+    "message": "संयुक्त मीडिया"
+  },
+  "resources_kind_fragment": {
+    "message": "खंड"
+  },
+  "resources_loop": {
+    "message": "दोहराएँ"
+  },
+  "resources_manifest": {
+    "message": "मैनिफ़ेस्ट या खंड URL"
+  },
+  "resources_merge": {
+    "message": "ऑडियो और वीडियो मिलाएँ"
+  },
+  "resources_mute": {
+    "message": "म्यूट"
+  },
+  "resources_preview": {
+    "message": "पूर्वावलोकन"
+  },
+  "resources_preview_unavailable": {
+    "message": "पूर्वावलोकन उपलब्ध नहीं है। डाउनलोड फिर भी संभव हो सकता है।"
+  },
+  "resources_reload": {
+    "message": "शुरू से कैप्चर करने के लिए फिर लोड करें"
+  },
+  "resources_screenshot": {
+    "message": "स्क्रीनशॉट सहेजें"
+  },
+  "resources_sequence": {
+    "message": "खंड जोड़ें"
+  },
+  "resources_sidebar": {
+    "message": "साइडबार खोलें"
+  },
+  "resources_start": {
+    "message": "शुरू करें"
+  },
+  "resources_start_time": {
+    "message": "शुरुआत (सेकंड)"
+  },
+  "resources_end_time": {
+    "message": "अंत (0: स्रोत का अंत)"
+  },
+  "resources_stop": {
+    "message": "रोकें"
+  },
+  "resources_test_keys": {
+    "message": "मिली कुंजियाँ जाँचें"
+  },
+  "resources_tools": {
+    "message": "मीडिया उपकरण"
+  },
+  "resources_volume": {
+    "message": "आवाज़"
+  },
+  "resources_preserve": {
+    "message": "नेविगेशन के बाद स्रोत रखें"
+  },
+  "resources_deep": {
+    "message": "गहन खोज"
+  },
+  "resources_cache": {
+    "message": "मीडिया बफ़र कैप्चर करें"
+  },
+  "resources_copy": {
+    "message": "कॉपी करें"
+  },
+  "resources_select_all": {
+    "message": "सब चुनें"
+  },
+  "resources_name": {
+    "message": "नाम"
+  },
+  "resources_size": {
+    "message": "आकार"
+  },
+  "resources_type": {
+    "message": "प्रकार"
+  },
+  "resources_speed": {
+    "message": "Speed"
+  },
+  "resources_kind_image": {
+    "message": "चित्र"
+  },
+  "resources_all": {
+    "message": "सभी"
+  },
+  "resources_time": {
+    "message": "समय"
+  },
+  "resources_video": {
+    "message": "रिकॉर्डिंग शुरू करें"
+  },
+  "resources_kind_embedded": {
+    "message": "स्रोत"
+  },
+  "resources_kind_file": {
+    "message": "मूल फ़ाइल"
+  },
+  "resources_kind_subtitle": {
+    "message": "उपशीर्षक"
+  },
+  "resources_pause": {
+    "message": "विराम"
+  },
+  "resources_play": {
+    "message": "चलाएँ"
+  },
+  "resources_kind_json": {
+    "message": "JSON"
+  },
+  "resources_url": {
+    "message": "URL"
+  },
+  "resources_pip": {
+    "message": "PiP"
+  },
+  "resources_sort": {
+    "message": "क्रमबद्ध करें"
+  },
+  "resources_auto": {
+    "message": "नए संसाधन अपने आप डाउनलोड करें"
+  },
+  "resources_mobile": {
+    "message": "मोबाइल User-Agent इस्तेमाल करें"
+  },
+  "media_settings_title": {
+    "message": "खोज सेटिंग्स"
+  },
+  "media_settings_any_size": {
+    "message": "कोई भी आकार"
+  },
+  "media_settings_capture": {
+    "message": "खोजें"
+  },
+  "media_settings_edit": {
+    "message": "संपादित करें"
+  },
+  "media_settings_remove": {
+    "message": "हटाएँ"
+  },
+  "media_settings_invalid_rule": {
+    "message": "सिंटैक्स, मान और दोहराए गए प्रकार जाँचें।"
+  },
+  "media_settings_between": {
+    "message": "के बीच"
+  },
+  "media_settings_upper": {
+    "message": "ऊपरी सीमा"
+  },
+  "media_settings_pattern": {
+    "message": "पैटर्न"
+  },
+  "media_settings_action": {
+    "message": "क्रिया"
+  },
+  "media_settings_enabled": {
+    "message": "सक्रिय"
+  },
+  "media_settings_ignore": {
+    "message": "अनदेखा करें"
+  },
+  "media_settings_regex": {
+    "message": "रेगुलर एक्सप्रेशन"
+  },
+  "media_settings_regex_hint": {
+    "message": "पहला मिलान प्रकार के नियमों से प्राथमिकता लेता है।"
+  },
+  "media_settings_flags": {
+    "message": "रेगुलर एक्सप्रेशन फ़्लैग"
+  },
+  "media_settings_group": {
+    "message": "URL समूह (0: मूल URL)"
+  },
+  "media_settings_test_url": {
+    "message": "परीक्षण URL"
+  },
+  "media_settings_no_match": {
+    "message": "कोई मिलान नहीं"
+  },
+  "media_settings_behavior": {
+    "message": "व्यवहार"
+  },
+  "media_settings_capture_hint": {
+    "message": "कैप्चर फ़िल्टर प्लेलिस्ट डाउनलोड को सीमित नहीं करते।"
+  },
+  "media_settings_newest": {
+    "message": "नवीनतम पहले"
+  },
+  "media_settings_quick": {
+    "message": "त्वरित डाउनलोड"
+  },
+  "media_settings_quick_hint": {
+    "message": "एक से अधिक विकल्प होने पर ट्रैक चुनें।"
+  },
+  "media_settings_deep": {
+    "message": "गहन खोज हमेशा सक्रिय रखें"
+  },
+  "media_settings_deep_hint": {
+    "message": "लागू करने के लिए पृष्ठ फिर लोड करें। प्लेबैक प्रभावित हो सकता है।"
+  },
+  "media_settings_name_from": {
+    "message": "पकड़ी गई फ़ाइलों का नाम"
+  },
+  "media_settings_name_from_file": {
+    "message": "फ़ाइल का नाम"
+  },
+  "media_settings_name_from_title": {
+    "message": "पेज का शीर्षक"
+  },
+  "media_settings_include": {
+    "message": "केवल सूचीबद्ध साइटें"
+  },
+  "media_settings_exclude": {
+    "message": "सूचीबद्ध साइटें छोड़ें"
+  },
+  "media_settings_autosave": {
+    "message": "बदलाव अपने आप सहेजे जाते हैं।"
+  },
+  "media_settings_restore": {
+    "message": "मीडिया के डिफ़ॉल्ट बहाल करें"
+  },
+  "media_settings_restore_hint": {
+    "message": "केवल मीडिया सेटिंग रीसेट करें? कनेक्शन नहीं बदलेगा।"
+  },
+  "media_settings_close_preview": {
+    "message": "पूर्वावलोकन बंद करें"
+  },
+  "sniffer_page_count": {
+    "message": "इस पेज पर संसाधन: $1",
+    "description": "Resource count for the current browser tab; $1 is the full count"
+  },
+  "sniffer_results": {
+    "message": "$2 में से $1 संसाधन दिखाए जा रहे हैं",
+    "description": "Filtered resources in the selected scope; $1 is visible, $2 is total"
+  },
+  "popup_status_checking": {
+    "message": "जाँच जारी है",
+    "description": "Connection status while the desktop check is pending"
+  },
+  "connection_unsupported_title": {
+    "message": "डेस्कटॉप संस्करण समर्थित नहीं है"
+  },
+  "connection_upgrade_hint": {
+    "message": "Rayburst का नवीनतम संस्करण इंस्टॉल करें, फिर दोबारा कनेक्ट करें।"
+  },
+  "connection_legacy_title": {
+    "message": "Rayburst का नवीनतम संस्करण इंस्टॉल करें",
+    "description": "Title of the update notice shown while connected to an older desktop"
+  },
+  "connection_legacy_hint": {
+    "message": "$1 पुराना संस्करण है, इसलिए कुछ सुविधाएँ उपलब्ध नहीं हैं।",
+    "description": "Shown while connected to an older desktop, $1 = its name and version",
+    "placeholders": {
+      "1": {
+        "content": "$1",
+        "example": "Motrix Next 3.9.9"
+      }
+    }
+  },
+  "connection_legacy_dismiss": {
+    "message": "बंद करें",
+    "description": "Accessible label of the button that closes the popup update notice"
+  },
+  "connection_get_rayburst": {
+    "message": "Rayburst डाउनलोड करें"
+  },
+  "connection_check_again": {
+    "message": "फिर जाँचें"
+  },
+  "error_engine_starting": {
+    "message": "Rayburst इंजन शुरू हो रहा है"
+  },
+  "error_engine_unavailable": {
+    "message": "Rayburst इंजन उपलब्ध नहीं है"
+  },
+  "error_engine_hint": {
+    "message": "इंजन जाँचने के लिए Rayburst खोलें, फिर दोबारा कनेक्ट करें।"
+  },
+  "popup_site_rules": {
+    "message": "वर्तमान वेबसाइट"
+  },
+  "popup_site_allow": {
+    "message": "इस वेबसाइट पर सक्षम करें"
+  },
+  "popup_site_exclude": {
+    "message": "इस वेबसाइट को छोड़ें"
+  },
+  "popup_task_waiting": {
+    "message": "प्रतीक्षा में",
+    "description": "Popup task list: queued task"
+  },
+  "popup_task_paused": {
+    "message": "रुका हुआ",
+    "description": "Popup task list: paused task"
+  },
+  "popup_task_failed": {
+    "message": "विफल",
+    "description": "Popup task list: failed task without a message"
+  },
+  "popup_task_pause": {
+    "message": "रोकें",
+    "description": "Popup task list: pause button"
+  },
+  "popup_task_resume": {
+    "message": "फिर शुरू करें",
+    "description": "Popup task list: resume button"
+  },
+  "popup_task_reveal": {
+    "message": "फ़ोल्डर में दिखाएँ",
+    "description": "Popup task list: show the finished file in its folder"
+  },
+  "popup_tasks_empty": {
+    "message": "अभी कोई डाउनलोड नहीं",
+    "description": "Popup task list: nothing to show"
+  },
+  "options_alt_click_bypass_label": {
+    "message": "Alt दबाकर क्लिक करने पर ब्राउज़र से डाउनलोड",
+    "description": "Setting: holding Alt while clicking a link lets the browser download it"
+  },
+  "media_complete_video": {
+    "message": "पूरा वीडियो",
+    "description": "Media discovery: separate video and audio track files listed as one video"
+  },
+  "media_tracks": {
+    "message": "$1 ट्रैक",
+    "description": "Media discovery: number of track files in a complete video; $1 is the count"
+  },
+  "media_track_files": {
+    "message": "ट्रैक फ़ाइलें",
+    "description": "Media discovery: shows or hides the track files of a complete video"
+  }
+}

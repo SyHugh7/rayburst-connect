@@ -1,0 +1,1206 @@
+{
+  "options_website": {
+    "message": "Weboldal"
+  },
+  "ext_name": {
+    "message": "Rayburst Connect",
+    "description": "Extension display name"
+  },
+  "ext_description": {
+    "message": "Küldje a letöltéseket és a felismert médiát a Rayburstbe. Médiafelderítés, előnézet és rögzítési eszközök.",
+    "description": "Extension description shown in browser and web store"
+  },
+  "popup_status_connected": {
+    "message": "Csatlakozva",
+    "description": "Connection status badge when API is reachable"
+  },
+  "popup_status_disconnected": {
+    "message": "Leválasztva",
+    "description": "Connection status badge when API is unreachable"
+  },
+  "popup_action_pause_all": {
+    "message": "Összes szüneteltetése",
+    "description": "Button to pause all active downloads"
+  },
+  "popup_action_resume_all": {
+    "message": "Összes folytatása",
+    "description": "Button to resume all paused downloads"
+  },
+  "popup_action_settings": {
+    "message": "Beállítások",
+    "description": "Button to open the options page"
+  },
+  "popup_action_launch": {
+    "message": "Rayburst indítása",
+    "description": "Button to launch the desktop app when disconnected"
+  },
+  "popup_action_open": {
+    "message": "Rayburst megnyitása",
+    "description": "Button to focus the desktop app when already connected"
+  },
+  "popup_error_unreachable": {
+    "message": "Nem lehet csatlakozni a Rayburst-hez",
+    "description": "Error message when API is unreachable"
+  },
+  "options_section_connection": {
+    "message": "Kapcsolat",
+    "description": "Settings section for API connection"
+  },
+  "options_test_connection": {
+    "message": "Kapcsolat tesztelése",
+    "description": "Button to test the API connection"
+  },
+  "options_section_behavior": {
+    "message": "Letoltes",
+    "description": "Settings section for download interception behavior"
+  },
+  "options_enabled_label": {
+    "message": "Letöltés elfogás engedélyezése",
+    "description": "Toggle label for enabling/disabling download interception"
+  },
+  "options_section_rules": {
+    "message": "Szabalyok",
+    "description": "Settings section for download routing rules"
+  },
+  "options_add_rule": {
+    "message": "Szabály hozzáadása",
+    "description": "Button to add a new site rule"
+  },
+  "options_section_appearance": {
+    "message": "Megjelenés",
+    "description": "Settings section for theme"
+  },
+  "options_theme_system": {
+    "message": "Rendszer",
+    "description": "Theme option: follow system preference"
+  },
+  "options_theme_light": {
+    "message": "Világos",
+    "description": "Theme option: light mode"
+  },
+  "options_theme_dark": {
+    "message": "Sötét",
+    "description": "Theme option: dark mode"
+  },
+  "options_section_diagnostics": {
+    "message": "Diagnosztika",
+    "description": "Settings section for diagnostic event log"
+  },
+  "context_menu_download": {
+    "message": "Letöltés Rayburst-tel",
+    "description": "Context menu item for downloading a link with Rayburst"
+  },
+  "options_header_title": {
+    "message": "Rayburst Connect",
+    "description": "Options page header title"
+  },
+  "options_header_subtitle": {
+    "message": "Bővítmény beállítások",
+    "description": "Options page header subtitle"
+  },
+  "options_testing_connection": {
+    "message": "Tesztelés...",
+    "description": "Button text while testing connection"
+  },
+  "options_connection_success_prefix": {
+    "message": "Csatlakozva · Rayburst",
+    "description": "Prefix for successful connection status"
+  },
+  "options_connection_success_motrix": {
+    "message": "Csatlakozva · Motrix Next",
+    "description": "Connection status when Motrix Next answered"
+  },
+  "options_rules_empty": {
+    "message": "Nincsenek beállított szabályok.",
+    "description": "Placeholder when no site rules exist"
+  },
+  "options_diagnostics_export": {
+    "message": "Diagnosztikai jelentés exportálása",
+    "description": "Button to export full diagnostic report as JSON file"
+  },
+  "options_diagnostics_clear": {
+    "message": "Napló törlése",
+    "description": "Button to clear diagnostic log"
+  },
+  "options_diagnostics_empty": {
+    "message": "Nincsenek diagnosztikai események.",
+    "description": "Placeholder when diagnostic log is empty"
+  },
+  "options_footer": {
+    "message": "Rayburst Connect v$version$",
+    "description": "Footer text with version number",
+    "placeholders": {
+      "version": {
+        "content": "$1"
+      }
+    }
+  },
+  "options_save": {
+    "message": "Mentés",
+    "description": "Save button in action bar"
+  },
+  "options_discard": {
+    "message": "Elvetés",
+    "description": "Discard button in action bar"
+  },
+  "options_discard_success": {
+    "message": "Módosítások visszaállítva",
+    "description": "Toast after discarding unsaved settings changes"
+  },
+  "options_save_success": {
+    "message": "Beállítások mentve",
+    "description": "Toast after saving settings successfully"
+  },
+  "options_save_error": {
+    "message": "Beállítások mentése sikertelen",
+    "description": "Toast when saving settings fails"
+  },
+  "options_changes_indicator": {
+    "message": "Nem mentett változások",
+    "description": "Indicator text showing there are unsaved modifications"
+  },
+  "options_color_scheme": {
+    "message": "Színséma",
+    "description": "Label for the color scheme picker"
+  },
+  "options_color_scheme_amber": {
+    "message": "Borostyán arany",
+    "description": "Amber Gold color scheme"
+  },
+  "options_color_scheme_space": {
+    "message": "Űrkék",
+    "description": "Space Blue color scheme"
+  },
+  "options_color_scheme_mint": {
+    "message": "Menta zöld",
+    "description": "Mint Green color scheme"
+  },
+  "options_color_scheme_rose": {
+    "message": "Rózsa piros",
+    "description": "Rose Red color scheme"
+  },
+  "options_color_scheme_coral": {
+    "message": "Korall narancs",
+    "description": "Coral Orange color scheme"
+  },
+  "options_color_scheme_glacier": {
+    "message": "Gleccser cián",
+    "description": "Glacier Cyan color scheme"
+  },
+  "options_color_scheme_evergreen": {
+    "message": "Örökzöld",
+    "description": "Evergreen color scheme"
+  },
+  "options_color_scheme_graphite": {
+    "message": "Grafit szürke",
+    "description": "Graphite Grey color scheme"
+  },
+  "options_color_scheme_sakura": {
+    "message": "Sakura rózsaszín",
+    "description": "Sakura Pink color scheme"
+  },
+  "error_unknown": {
+    "message": "Ismeretlen hiba történt",
+    "description": "Fallback error message"
+  },
+  "options_rule_always_intercept": {
+    "message": "Mindig elfogás",
+    "description": "Site rule action: always intercept downloads"
+  },
+  "options_rule_always_skip": {
+    "message": "Mindig kihagyás",
+    "description": "Site rule action: never intercept downloads"
+  },
+  "options_rule_use_global": {
+    "message": "Globális beállítás használata",
+    "description": "Site rule action: follow the global setting"
+  },
+  "popup_error_auth": {
+    "message": "API secret mismatch",
+    "description": "Popup banner title when API secret is incorrect"
+  },
+  "popup_error_auth_hint": {
+    "message": "Check that the API secret in Settings matches your Rayburst configuration.",
+    "description": "Popup banner hint for API auth error"
+  },
+  "popup_error_timeout": {
+    "message": "A kapcsolat időtúllépése",
+    "description": "Popup banner title when API connection times out"
+  },
+  "popup_error_timeout_hint": {
+    "message": "Check your network or firewall settings. API port: $1",
+    "description": "Popup banner hint for timeout error, $1 = port number",
+    "placeholders": {
+      "1": {
+        "content": "$1",
+        "example": "29110"
+      }
+    }
+  },
+  "popup_error_unreachable_hint": {
+    "message": "Make sure Rayburst is running. API port: $1",
+    "description": "Popup banner hint for unreachable error, $1 = port number",
+    "placeholders": {
+      "1": {
+        "content": "$1",
+        "example": "29110"
+      }
+    }
+  },
+  "options_section_language": {
+    "message": "Nyelv",
+    "description": "Settings section for interface language"
+  },
+  "options_locale_auto": {
+    "message": "Automatikus",
+    "description": "Language option: follow browser language"
+  },
+  "options_locale_auto_desc": {
+    "message": "A böngésző nyelvének követése",
+    "description": "Description for auto language option"
+  },
+  "options_desktop_unavailable_label": {
+    "message": "Ha a Rayburst nem érhető el",
+    "description": "Unavailable desktop behavior label"
+  },
+  "options_desktop_unavailable_launch": {
+    "message": "Rayburst indítása",
+    "description": "Launch desktop option"
+  },
+  "options_desktop_unavailable_browser": {
+    "message": "Böngésző használata",
+    "description": "Browser fallback option"
+  },
+  "options_desktop_startup_timeout_label": {
+    "message": "Indítási időkorlát",
+    "description": "Desktop startup timeout label"
+  },
+  "options_desktop_open_link_label": {
+    "message": "Rayburst indítása böngészőhivatkozással (régi módszer)",
+    "description": "Setting: start the desktop by opening its link in a tab instead of Native Messaging"
+  },
+  "options_seconds_suffix": {
+    "message": "mp",
+    "description": "Seconds unit suffix"
+  },
+  "popup_stat_active": {
+    "message": "Aktív",
+    "description": "Task count label: currently downloading"
+  },
+  "popup_stat_waiting": {
+    "message": "Várakozik",
+    "description": "Task count label: queued for download"
+  },
+  "popup_stat_stopped": {
+    "message": "Kész",
+    "description": "Task count label: completed or stopped"
+  },
+  "popup_toggle_enabled": {
+    "message": "Elfogás aktív",
+    "description": "Label next to the interception toggle when active"
+  },
+  "popup_toggle_disabled": {
+    "message": "Szüneteltetve",
+    "description": "Label next to the interception toggle when inactive"
+  },
+  "options_api_port_label": {
+    "message": "API Port",
+    "description": "Label for the API port input"
+  },
+  "options_api_secret_label": {
+    "message": "API Secret",
+    "description": "Label for the API secret input"
+  },
+  "options_api_secret_placeholder": {
+    "message": "Paste from desktop app",
+    "description": "Placeholder text for API secret input"
+  },
+  "error_api_unreachable": {
+    "message": "Cannot connect to Rayburst",
+    "description": "Error when the API endpoint is unreachable"
+  },
+  "error_api_auth": {
+    "message": "API secret is incorrect",
+    "description": "Error when the API secret does not match"
+  },
+  "error_api_timeout": {
+    "message": "A kapcsolat időtúllépése",
+    "description": "Error when the API connection times out"
+  },
+  "options_hide_download_bar_label": {
+    "message": "Böngésző letöltési sávjának elrejtése",
+    "description": "Label for the optional browser download bar hiding setting."
+  },
+  "options_forward_request_headers_label": {
+    "message": "Kérésfejlécek továbbítása",
+    "description": "Label for the request header forwarding setting."
+  },
+  "options_forward_cookies_label": {
+    "message": "Cookie-k továbbítása",
+    "description": "Label for the cookie forwarding setting."
+  },
+  "options_permission_download_ui_denied": {
+    "message": "Add meg a letöltési felület engedélyét a böngésző letöltési sávjának elrejtéséhez.",
+    "description": "Toast shown when the optional downloads.ui permission is denied."
+  },
+  "options_permission_cookies_denied": {
+    "message": "Add meg a cookie- és webhelyengedélyeket a cookie-k Rayburst felé továbbításához.",
+    "description": "Toast shown when cookie forwarding permissions are unavailable."
+  },
+  "options_scope_browser_downloads_label": {
+    "message": "Böngészős letöltések",
+    "description": "Label for the browser download interception scope toggle."
+  },
+  "options_scope_magnet_label": {
+    "message": "Magnet hivatkozások",
+    "description": "Label for the magnet link interception scope toggle."
+  },
+  "options_scope_ed2k_label": {
+    "message": "ED2K hivatkozások",
+    "description": "Label for the ED2K link interception scope toggle."
+  },
+  "options_scope_thunder_label": {
+    "message": "Thunder hivatkozások",
+    "description": "Label for the Thunder link interception scope toggle."
+  },
+  "options_scope_incognito_label": {
+    "message": "Privát ablakok letöltései",
+    "description": "Label for the private-window download interception toggle."
+  },
+  "options_scope_incognito_hint": {
+    "message": "A privát ablakok letöltései a Rayburstbe kerülnek, és megjelennek a feladatlistájában és az előzményekben. A böngészőnek is engedélyeznie kell ezt a bővítményt privát ablakokban.",
+    "description": "Hint under the private-window download interception toggle."
+  },
+  "options_scope_other_extensions_label": {
+    "message": "Más bővítmények letöltései",
+    "description": "Label for the toggle that takes over downloads other extensions start."
+  },
+  "options_scope_other_extensions_hint": {
+    "message": "Például egy linkfeloldó bővítmény által feloldott linkek. A Rayburst csak akkor veszi át, ha ellenőrizte, hogy ugyanazt a fájlt kapja.",
+    "description": "Hint under the other-extension download interception toggle."
+  },
+  "options_min_size_label": {
+    "message": "Minimális fájlméret",
+    "description": "Label for the minimum file size setting."
+  },
+  "options_min_size_value_label": {
+    "message": "Méret (MB)",
+    "description": "Label for the minimum file size numeric input."
+  },
+  "options_min_size_unknown_label": {
+    "message": "Ismeretlen méret",
+    "description": "Label for the unknown file size behavior selector."
+  },
+  "options_min_size_unknown_intercept": {
+    "message": "Átadás a Rayburstnek",
+    "description": "Option label for routing unknown-size downloads to Rayburst."
+  },
+  "options_min_size_unknown_skip": {
+    "message": "Átadás a böngészőnek",
+    "description": "Option label for leaving unknown-size downloads in the browser."
+  },
+  "options_duplicate_guard_label": {
+    "message": "Ismételt letöltések védelme",
+    "description": "Label for the duplicate download guard setting."
+  },
+  "options_duplicate_guard_window_label": {
+    "message": "Védelmi időablak",
+    "description": "Label for the duplicate download guard time window input."
+  },
+  "notification_duplicate_guard_title": {
+    "message": "Feladat elküldve",
+    "description": "Notification title shown when a duplicate download is blocked."
+  },
+  "notification_duplicate_guard_body": {
+    "message": "Ismételt kérés kihagyva",
+    "description": "Notification body shown when a duplicate download is blocked."
+  },
+  "notification_desktop_link_body": {
+    "message": "Kattints a Rayburst böngészőhivatkozással való indításának bekapcsolásához.",
+    "description": "Notification body after an unattended start failed; clicking opens the settings"
+  },
+  "options_privacy_section_label": {
+    "message": "Adatvedelem",
+    "description": "Subsection label for privacy-related download forwarding settings."
+  },
+  "options_download_handling_section_label": {
+    "message": "Letolteskezelés",
+    "description": "Subsection label for browser and desktop download handling settings."
+  },
+  "options_site_rules_label": {
+    "message": "Webhelyszabalyok",
+    "description": "Subsection label for per-site download rules."
+  },
+  "options_file_extension_rule_label": {
+    "message": "Fájlkiterjesztési szabály",
+    "description": "Label for the file extension rule toggle."
+  },
+  "options_file_extension_list_label": {
+    "message": "Kiterjesztések",
+    "description": "Label for the file extension list input."
+  },
+  "options_file_extension_list_placeholder": {
+    "message": "Kiterjesztés hozzáadása",
+    "description": "Placeholder for the file extension list input."
+  },
+  "options_file_extension_listed_action_label": {
+    "message": "Felsorolt kiterjesztések",
+    "description": "Label for the action selector applied to listed file extensions."
+  },
+  "options_file_extension_unknown_action_label": {
+    "message": "Ismeretlen kiterjesztés",
+    "description": "Label for the action selector applied when no file extension is detected."
+  },
+  "options_file_extension_action_intercept": {
+    "message": "Küldés a Rayburstnek",
+    "description": "Option label for routing a matched extension to Rayburst."
+  },
+  "options_file_extension_action_skip": {
+    "message": "Böngésző használata",
+    "description": "Option label for leaving a matched extension in the browser."
+  },
+  "options_factory_reset_button": {
+    "message": "Beállítások visszaállítása",
+    "description": "Button to stage a full settings reset."
+  },
+  "options_factory_reset_confirm": {
+    "message": "Kattintson újra a visszaállításhoz",
+    "description": "Second-click confirmation label for the reset button."
+  },
+  "options_factory_reset_ready": {
+    "message": "Az alapértékek mentésre készek",
+    "description": "Toast shown after default settings are staged for saving."
+  },
+  "options_section_maintenance": {
+    "message": "Karbantartas",
+    "description": "Settings section for maintenance actions."
+  },
+  "options_settings_backup_title": {
+    "message": "Beallitasmentes",
+    "description": "Maintenance section title for settings backup."
+  },
+  "options_settings_backup_export": {
+    "message": "Beallitasok exportalasa",
+    "description": "Button to export settings backup."
+  },
+  "options_settings_backup_import": {
+    "message": "Beallitasok importalasa",
+    "description": "Button to import settings backup."
+  },
+  "options_settings_backup_exported": {
+    "message": "Mentes exportalva",
+    "description": "Toast shown after settings backup export starts."
+  },
+  "options_settings_backup_export_error": {
+    "message": "A mentes exportalasa sikertelen",
+    "description": "Toast shown when settings backup export fails."
+  },
+  "options_settings_backup_imported": {
+    "message": "Beallitasok importalva. Ellenorizze es mentse.",
+    "description": "Toast shown after settings backup is staged for saving."
+  },
+  "options_settings_backup_invalid": {
+    "message": "Ervenytelen mentesfajl",
+    "description": "Toast shown when selected settings backup is invalid."
+  },
+  "options_diagnostics_filter_all": {
+    "message": "Összes",
+    "description": "Filter label for all diagnostic levels"
+  },
+  "options_diagnostics_filter_error": {
+    "message": "Hiba",
+    "description": "Filter label for error diagnostic events"
+  },
+  "options_diagnostics_filter_warning": {
+    "message": "Figyelmeztetés",
+    "description": "Filter label for warning diagnostic events"
+  },
+  "options_diagnostics_filter_info": {
+    "message": "Információ",
+    "description": "Filter label for informational diagnostic events"
+  },
+  "options_diagnostics_filter_code": {
+    "message": "Eseménytípus",
+    "description": "Placeholder for the diagnostic event type filter"
+  },
+  "options_diagnostics_clear_error": {
+    "message": "A diagnosztikai események nem törölhetők",
+    "description": "Error shown when diagnostic events cannot be cleared"
+  },
+  "options_diagnostics_export_error": {
+    "message": "A diagnosztikai jelentés nem exportálható",
+    "description": "Error shown when the diagnostic report cannot be exported"
+  },
+  "popup_status_launching": {
+    "message": "Indítás",
+    "description": "Popup status while the desktop app is starting"
+  },
+  "popup_launching_title": {
+    "message": "A Rayburst indítása",
+    "description": "Popup launch progress title"
+  },
+  "popup_launching_hint": {
+    "message": "Várakozás az asztali alkalmazásra…",
+    "description": "Popup launch progress description"
+  },
+  "popup_launch_failed_title": {
+    "message": "A Rayburst nem indítható el",
+    "description": "Popup launch failure title"
+  },
+  "popup_launch_failed_hint": {
+    "message": "Ellenőrizze, hogy a Rayburst telepítve van, és az API-beállításai helyesek.",
+    "description": "Popup launch failure guidance"
+  },
+  "popup_launch_link_hint": {
+    "message": "A böngésző helyette hivatkozással is elindíthatja a Rayburstöt.",
+    "description": "Popup launch failure guidance when the desktop could not be started at all"
+  },
+  "popup_action_retry": {
+    "message": "Próbálja újra",
+    "description": "Popup action to retry desktop launch"
+  },
+  "popup_action_launch_link": {
+    "message": "Indítás hivatkozással",
+    "description": "Popup button: allow starting the desktop through its link and retry"
+  },
+  "options_diagnostics_column_time": {
+    "message": "Idő",
+    "description": "Diagnostic table column heading for event time"
+  },
+  "options_diagnostics_column_level": {
+    "message": "Szint",
+    "description": "Diagnostic table column heading for severity level"
+  },
+  "options_diagnostics_column_event": {
+    "message": "Esemény",
+    "description": "Diagnostic table column heading for event code"
+  },
+  "options_diagnostics_column_message": {
+    "message": "Üzenet",
+    "description": "Diagnostic table column heading for event message"
+  },
+  "options_diagnostics_pagination": {
+    "message": "$RANGE$ / $TOTAL$ · legfeljebb $MAX$",
+    "description": "Diagnostic table pagination summary with visible range, filtered total, and retention limit",
+    "placeholders": {
+      "RANGE": {
+        "content": "$1",
+        "example": "1–10"
+      },
+      "TOTAL": {
+        "content": "$2",
+        "example": "37"
+      },
+      "MAX": {
+        "content": "$3",
+        "example": "100"
+      }
+    }
+  },
+  "options_diagnostics_log_entry_limit": {
+    "message": "Naplóbejegyzések korlátja",
+    "description": "Label for the maximum number of diagnostic log entries retained locally"
+  },
+  "options_diagnostics_entries_suffix": {
+    "message": "bejegyzés",
+    "description": "Unit suffix for the diagnostic log entry limit input"
+  },
+  "options_diagnostics_view_details": {
+    "message": "Esemény részleteinek megtekintése",
+    "description": "Accessible label for opening diagnostic event details"
+  },
+  "options_diagnostics_details_title": {
+    "message": "Esemény részletei",
+    "description": "Title of the diagnostic event details drawer"
+  },
+  "options_diagnostics_details_message": {
+    "message": "Üzenet",
+    "description": "Heading for the diagnostic event message"
+  },
+  "options_diagnostics_details_context": {
+    "message": "Kontextus",
+    "description": "Heading for diagnostic event context fields"
+  },
+  "options_diagnostics_clear_confirm": {
+    "message": "Törlés megerősítése",
+    "description": "Second-click confirmation label for clearing diagnostic logs"
+  },
+  "sniffer_tab": {
+    "message": "Felderítés",
+    "description": "Navigation label for discovering page resources"
+  },
+  "media_downloads": {
+    "message": "Letöltések",
+    "description": "Media discovery: downloads"
+  },
+  "media_discover": {
+    "message": "Oldal médiájának felismerése",
+    "description": "Media discovery: discover"
+  },
+  "media_scan": {
+    "message": "Oldal vizsgálata",
+    "description": "Media discovery: scan"
+  },
+  "media_clear": {
+    "message": "Források törlése",
+    "description": "Media discovery: clear"
+  },
+  "media_filter": {
+    "message": "Források szűrése",
+    "description": "Media discovery: filter"
+  },
+  "media_sources": {
+    "message": "Médiaforrások",
+    "description": "Media discovery: sources"
+  },
+  "media_source": {
+    "message": "Forrás",
+    "description": "Media discovery: source"
+  },
+  "media_enable_site": {
+    "message": "Engedélyezés ezen a webhelyen",
+    "description": "Media discovery: enable site"
+  },
+  "media_disable_site": {
+    "message": "Letiltás ezen a webhelyen",
+    "description": "Media discovery: disable site"
+  },
+  "media_inspect": {
+    "message": "Formátumok vizsgálata",
+    "description": "Media discovery: inspect"
+  },
+  "media_options": {
+    "message": "Médiabeállítások",
+    "description": "Media discovery: options"
+  },
+  "media_back": {
+    "message": "Vissza a forrásokhoz",
+    "description": "Media discovery: back"
+  },
+  "media_video": {
+    "message": "Videóminőség",
+    "description": "Media discovery: video"
+  },
+  "media_audio": {
+    "message": "Hang",
+    "description": "Media discovery: audio"
+  },
+  "media_subtitles": {
+    "message": "Feliratok",
+    "description": "Media discovery: subtitles"
+  },
+  "media_format": {
+    "message": "Kimeneti formátum",
+    "description": "Media discovery: format"
+  },
+  "media_original": {
+    "message": "Eredeti fájl",
+    "description": "Media discovery: original"
+  },
+  "media_record_limit": {
+    "message": "Felvételi korlát (másodperc)",
+    "description": "Media discovery: record limit"
+  },
+  "media_live": {
+    "message": "Élő felvétel",
+    "description": "Media discovery: live"
+  },
+  "media_download": {
+    "message": "Letöltés",
+    "description": "Media discovery: download"
+  },
+  "media_record": {
+    "message": "Felvétel indítása",
+    "description": "Media discovery: record"
+  },
+  "media_cancel": {
+    "message": "Mégse",
+    "description": "Media discovery: cancel"
+  },
+  "media_retry": {
+    "message": "Újra",
+    "description": "Media discovery: retry"
+  },
+  "media_no_video": {
+    "message": "Nincs videó",
+    "description": "Media discovery: no video"
+  },
+  "media_no_audio": {
+    "message": "Nincs hang",
+    "description": "Media discovery: no audio"
+  },
+  "media_no_subtitles": {
+    "message": "Nincs felirat",
+    "description": "Media discovery: no subtitles"
+  },
+  "media_excluded_sites": {
+    "message": "Kizárt médiawebhelyek",
+    "description": "Media discovery: excluded sites"
+  },
+  "media_waiting": {
+    "message": "Lejátszó található; várakozás a médiaforrásra.",
+    "description": "Media discovery: waiting"
+  },
+  "media_none": {
+    "message": "Nem található médiaforrás.",
+    "description": "Media discovery: none"
+  },
+  "media_paused": {
+    "message": "A médiafelismerés szünetel.",
+    "description": "Media discovery: paused"
+  },
+  "media_excluded": {
+    "message": "A médiafelismerés ezen a webhelyen le van tiltva.",
+    "description": "Media discovery: excluded"
+  },
+  "media_ambiguous": {
+    "message": "A források nem rendelhetők egyetlen lejátszóhoz. Letöltés előtt ellenőrizze.",
+    "description": "Media discovery: ambiguous"
+  },
+  "media_loading": {
+    "message": "Média vizsgálata…",
+    "description": "Media discovery: loading"
+  },
+  "media_submitted": {
+    "message": "A letöltés létrejött a Rayburstben.",
+    "description": "Media discovery: submitted"
+  },
+  "media_cancelled": {
+    "message": "A vizsgálat megszakítva.",
+    "description": "Media discovery: cancelled"
+  },
+  "media_failed": {
+    "message": "A művelet sikertelen. Próbálja újra az állapot ellenőrzéséhez.",
+    "description": "Media discovery: failed"
+  },
+  "media_unsupported": {
+    "message": "Ez a média vagy kérési mód nem támogatott.",
+    "description": "Media discovery: unsupported"
+  },
+  "media_invalid": {
+    "message": "Válasszon támogatott sáv-, formátum- és időtartam-kombinációt.",
+    "description": "Media discovery: invalid"
+  },
+  "media_unavailable": {
+    "message": "Ez az asztali verzió nem tud streameket letölteni. Telepítsd a legújabb Rayburst verziót.",
+    "description": "Media discovery: unavailable"
+  },
+  "media_expired": {
+    "message": "A forrás vagy vizsgálat lejárt. Játssza le, majd vizsgálja meg újra.",
+    "description": "Media discovery: expired"
+  },
+  "media_auth": {
+    "message": "Ellenőrizze a bejelentkezést, a kéréstovábbítást vagy az alkalmazás API-kulcsát.",
+    "description": "Media discovery: auth"
+  },
+  "media_connection": {
+    "message": "Indítsa el a Rayburstet és ellenőrizze a kapcsolatot.",
+    "description": "Media discovery: connection"
+  },
+  "media_size_unknown": {
+    "message": "Ismeretlen méret",
+    "description": "Media discovery: size unknown"
+  },
+  "media_duration_unknown": {
+    "message": "Ismeretlen időtartam",
+    "description": "Media discovery: duration unknown"
+  },
+  "media_includes_audio": {
+    "message": "Hangot tartalmaz",
+    "description": "Media discovery: includes audio"
+  },
+  "media_record_hint": {
+    "message": "Nulla esetén a felvétel a Rayburstben történő leállításig tart.",
+    "description": "Media discovery: record hint"
+  },
+  "media_inspect_hint": {
+    "message": "Előbb vizsgálja meg, majd erősítse meg a letöltést.",
+    "description": "Media discovery: inspect hint"
+  },
+  "media_open_page": {
+    "message": "Nyisson meg egy weboldalt a médiafelismeréshez.",
+    "description": "Media discovery: open page"
+  },
+  "media_hint": {
+    "message": "Játsszon le videót vagy hangot a források automatikus felismeréséhez.",
+    "description": "Media discovery: hint"
+  },
+  "media_ready": {
+    "message": "A formátumok készen állnak",
+    "description": "Media discovery: ready"
+  },
+  "media_confirming": {
+    "message": "Letöltés megerősítése…",
+    "description": "Media discovery: confirming"
+  },
+  "media_cancelling": {
+    "message": "Vizsgálat megszakítása…",
+    "description": "Media discovery: cancelling"
+  },
+  "options_color_scheme_rayburst": {
+    "message": "Rayburst"
+  },
+  "brand_tagline": {
+    "message": "Újradefiniáljuk a kiegészítő böngészőbővítményt",
+    "description": "Localized Rayburst Connect brand slogan"
+  },
+  "resources_current": {
+    "message": "Jelenlegi oldal"
+  },
+  "resources_other": {
+    "message": "Minden oldal"
+  },
+  "resources_controls": {
+    "message": "Lejátszóvezérlés"
+  },
+  "resources_expand": {
+    "message": "Munkaterület megnyitása"
+  },
+  "resources_fullscreen": {
+    "message": "Teljes képernyő"
+  },
+  "resources_import": {
+    "message": "Forrás hozzáadása"
+  },
+  "resources_invert": {
+    "message": "Kijelölés megfordítása"
+  },
+  "resources_key": {
+    "message": "AES-128-kulcs"
+  },
+  "resources_kind_collection": {
+    "message": "Egyesített média"
+  },
+  "resources_kind_fragment": {
+    "message": "Szegmens"
+  },
+  "resources_loop": {
+    "message": "Ismétlés"
+  },
+  "resources_manifest": {
+    "message": "Leírófájl vagy szegmenscímek"
+  },
+  "resources_merge": {
+    "message": "Hang és videó egyesítése"
+  },
+  "resources_mute": {
+    "message": "Némítás"
+  },
+  "resources_preview": {
+    "message": "Előnézet"
+  },
+  "resources_preview_unavailable": {
+    "message": "Az előnézet nem érhető el. A letöltés még működhet."
+  },
+  "resources_reload": {
+    "message": "Újratöltés a rögzítés kezdetéhez"
+  },
+  "resources_screenshot": {
+    "message": "Képernyőkép mentése"
+  },
+  "resources_sequence": {
+    "message": "Szegmensek egyesítése"
+  },
+  "resources_sidebar": {
+    "message": "Oldalsáv megnyitása"
+  },
+  "resources_start": {
+    "message": "Indítás"
+  },
+  "resources_start_time": {
+    "message": "Kezdet (másodperc)"
+  },
+  "resources_end_time": {
+    "message": "Vég (0: forrás vége)"
+  },
+  "resources_stop": {
+    "message": "Leállítás"
+  },
+  "resources_test_keys": {
+    "message": "Talált kulcsok ellenőrzése"
+  },
+  "resources_tools": {
+    "message": "Médiaeszközök"
+  },
+  "resources_volume": {
+    "message": "Hangerő"
+  },
+  "resources_preserve": {
+    "message": "Források megőrzése navigáláskor"
+  },
+  "resources_deep": {
+    "message": "Mély keresés"
+  },
+  "resources_cache": {
+    "message": "Médiapuffer rögzítése"
+  },
+  "resources_copy": {
+    "message": "Másolás"
+  },
+  "resources_select_all": {
+    "message": "Az összes kijelölése"
+  },
+  "resources_name": {
+    "message": "Név"
+  },
+  "resources_size": {
+    "message": "Méret"
+  },
+  "resources_type": {
+    "message": "Típus"
+  },
+  "resources_speed": {
+    "message": "Sebesség"
+  },
+  "resources_kind_image": {
+    "message": "Képek"
+  },
+  "resources_all": {
+    "message": "Összes"
+  },
+  "resources_time": {
+    "message": "Idő"
+  },
+  "resources_video": {
+    "message": "Felvétel indítása"
+  },
+  "resources_kind_embedded": {
+    "message": "Forrás"
+  },
+  "resources_kind_file": {
+    "message": "Eredeti fájl"
+  },
+  "resources_kind_subtitle": {
+    "message": "Feliratok"
+  },
+  "resources_pause": {
+    "message": "Szünet"
+  },
+  "resources_play": {
+    "message": "Lejátszás"
+  },
+  "resources_kind_json": {
+    "message": "JSON"
+  },
+  "resources_url": {
+    "message": "URL"
+  },
+  "resources_pip": {
+    "message": "PiP"
+  },
+  "resources_sort": {
+    "message": "Rendezés"
+  },
+  "resources_auto": {
+    "message": "Új erőforrások automatikus letöltése"
+  },
+  "resources_mobile": {
+    "message": "Mobil User-Agent használata"
+  },
+  "media_settings_title": {
+    "message": "Felderítési beállítások"
+  },
+  "media_settings_any_size": {
+    "message": "Bármilyen méret"
+  },
+  "media_settings_capture": {
+    "message": "Észlelés"
+  },
+  "media_settings_edit": {
+    "message": "Szerkesztés"
+  },
+  "media_settings_remove": {
+    "message": "Eltávolítás"
+  },
+  "media_settings_invalid_rule": {
+    "message": "Ellenőrizze a szintaxist, az értékeket és az ismétlődő típusokat."
+  },
+  "media_settings_between": {
+    "message": "Között"
+  },
+  "media_settings_upper": {
+    "message": "Felső határ"
+  },
+  "media_settings_pattern": {
+    "message": "Minta"
+  },
+  "media_settings_action": {
+    "message": "Művelet"
+  },
+  "media_settings_enabled": {
+    "message": "Engedélyezve"
+  },
+  "media_settings_ignore": {
+    "message": "Mellőzés"
+  },
+  "media_settings_regex": {
+    "message": "Reguláris kifejezések"
+  },
+  "media_settings_regex_hint": {
+    "message": "Az első egyezés felülírja a típusszabályokat."
+  },
+  "media_settings_flags": {
+    "message": "Regex-jelzők"
+  },
+  "media_settings_group": {
+    "message": "URL-csoport (0: eredeti URL)"
+  },
+  "media_settings_test_url": {
+    "message": "Teszt URL"
+  },
+  "media_settings_no_match": {
+    "message": "Nincs egyezés"
+  },
+  "media_settings_behavior": {
+    "message": "Működés"
+  },
+  "media_settings_capture_hint": {
+    "message": "Az észlelési szűrők nem korlátozzák a lejátszási listák letöltését."
+  },
+  "media_settings_newest": {
+    "message": "Legújabb elöl"
+  },
+  "media_settings_quick": {
+    "message": "Gyors letöltés"
+  },
+  "media_settings_quick_hint": {
+    "message": "Több lehetőség esetén sávválasztás."
+  },
+  "media_settings_deep": {
+    "message": "Mélykeresés mindig bekapcsolva"
+  },
+  "media_settings_deep_hint": {
+    "message": "Töltse újra az oldalakat. Befolyásolhatja a lejátszást."
+  },
+  "media_settings_name_from": {
+    "message": "Észlelt fájlok elnevezése"
+  },
+  "media_settings_name_from_file": {
+    "message": "Fájlnév alapján"
+  },
+  "media_settings_name_from_title": {
+    "message": "Oldalcím alapján"
+  },
+  "media_settings_include": {
+    "message": "Csak a felsorolt webhelyek"
+  },
+  "media_settings_exclude": {
+    "message": "Felsorolt webhelyek kizárása"
+  },
+  "media_settings_autosave": {
+    "message": "A módosítások automatikusan mentődnek."
+  },
+  "media_settings_restore": {
+    "message": "Média-alapértékek visszaállítása"
+  },
+  "media_settings_restore_hint": {
+    "message": "Csak a médiabeállításokat állítja vissza? A kapcsolat változatlan marad."
+  },
+  "media_settings_close_preview": {
+    "message": "Előnézet bezárása"
+  },
+  "sniffer_page_count": {
+    "message": "Erőforrások ezen az oldalon: $1",
+    "description": "Resource count for the current browser tab; $1 is the full count"
+  },
+  "sniffer_results": {
+    "message": "$1 / $2 erőforrás megjelenítve",
+    "description": "Filtered resources in the selected scope; $1 is visible, $2 is total"
+  },
+  "popup_status_checking": {
+    "message": "Ellenőrzés",
+    "description": "Connection status while the desktop check is pending"
+  },
+  "connection_unsupported_title": {
+    "message": "Nem támogatott asztali verzió"
+  },
+  "connection_upgrade_hint": {
+    "message": "Telepítsd a legújabb Rayburst verziót, majd kapcsolódj újra."
+  },
+  "connection_legacy_title": {
+    "message": "Frissíts a legújabb Rayburst verzióra",
+    "description": "Title of the update notice shown while connected to an older desktop"
+  },
+  "connection_legacy_hint": {
+    "message": "A(z) $1 régebbi verzió, ezért néhány funkció nem érhető el.",
+    "description": "Shown while connected to an older desktop, $1 = its name and version",
+    "placeholders": {
+      "1": {
+        "content": "$1",
+        "example": "Motrix Next 3.9.9"
+      }
+    }
+  },
+  "connection_legacy_dismiss": {
+    "message": "Bezárás",
+    "description": "Accessible label of the button that closes the popup update notice"
+  },
+  "connection_get_rayburst": {
+    "message": "Rayburst letöltése"
+  },
+  "connection_check_again": {
+    "message": "Újraellenőrzés"
+  },
+  "error_engine_starting": {
+    "message": "A Rayburst motorja indul"
+  },
+  "error_engine_unavailable": {
+    "message": "A Rayburst motorja nem érhető el"
+  },
+  "error_engine_hint": {
+    "message": "Nyissa meg a Rayburst alkalmazást, ellenőrizze a motort, majd csatlakozzon újra."
+  },
+  "popup_site_rules": {
+    "message": "Jelenlegi webhely"
+  },
+  "popup_site_allow": {
+    "message": "Engedélyezés ezen a webhelyen"
+  },
+  "popup_site_exclude": {
+    "message": "Webhely kizárása"
+  },
+  "popup_task_waiting": {
+    "message": "Várakozik",
+    "description": "Popup task list: queued task"
+  },
+  "popup_task_paused": {
+    "message": "Szüneteltetve",
+    "description": "Popup task list: paused task"
+  },
+  "popup_task_failed": {
+    "message": "Sikertelen",
+    "description": "Popup task list: failed task without a message"
+  },
+  "popup_task_pause": {
+    "message": "Szüneteltetés",
+    "description": "Popup task list: pause button"
+  },
+  "popup_task_resume": {
+    "message": "Folytatás",
+    "description": "Popup task list: resume button"
+  },
+  "popup_task_reveal": {
+    "message": "Megjelenítés a mappában",
+    "description": "Popup task list: show the finished file in its folder"
+  },
+  "popup_tasks_empty": {
+    "message": "Még nincs letöltés",
+    "description": "Popup task list: nothing to show"
+  },
+  "options_alt_click_bypass_label": {
+    "message": "Alt + kattintás a böngészővel tölt le",
+    "description": "Setting: holding Alt while clicking a link lets the browser download it"
+  },
+  "media_complete_video": {
+    "message": "Teljes videó",
+    "description": "Media discovery: separate video and audio track files listed as one video"
+  },
+  "media_tracks": {
+    "message": "$1 sáv",
+    "description": "Media discovery: number of track files in a complete video; $1 is the count"
+  },
+  "media_track_files": {
+    "message": "Sávfájlok",
+    "description": "Media discovery: shows or hides the track files of a complete video"
+  }
+}

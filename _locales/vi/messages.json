@@ -1,0 +1,1206 @@
+{
+  "options_website": {
+    "message": "Trang web"
+  },
+  "ext_name": {
+    "message": "Rayburst Connect",
+    "description": "Extension display name"
+  },
+  "ext_description": {
+    "message": "Gửi nội dung tải xuống và đa phương tiện tìm thấy tới Rayburst, với tính năng dò tìm, xem trước và ghi lại.",
+    "description": "Extension description shown in browser and web store"
+  },
+  "popup_status_connected": {
+    "message": "Đã kết nối",
+    "description": "Connection status badge when API is reachable"
+  },
+  "popup_status_disconnected": {
+    "message": "Đã ngắt kết nối",
+    "description": "Connection status badge when API is unreachable"
+  },
+  "popup_action_pause_all": {
+    "message": "Tạm dừng tất cả",
+    "description": "Button to pause all active downloads"
+  },
+  "popup_action_resume_all": {
+    "message": "Tiếp tục tất cả",
+    "description": "Button to resume all paused downloads"
+  },
+  "popup_action_settings": {
+    "message": "Cài đặt",
+    "description": "Button to open the options page"
+  },
+  "popup_action_launch": {
+    "message": "Khởi chạy Rayburst",
+    "description": "Button to launch the desktop app when disconnected"
+  },
+  "popup_action_open": {
+    "message": "Mở Rayburst",
+    "description": "Button to focus the desktop app when already connected"
+  },
+  "popup_error_unreachable": {
+    "message": "Không thể kết nối với Rayburst",
+    "description": "Error message when API is unreachable"
+  },
+  "options_section_connection": {
+    "message": "Kết nối",
+    "description": "Settings section for API connection"
+  },
+  "options_test_connection": {
+    "message": "Kiểm tra kết nối",
+    "description": "Button to test the API connection"
+  },
+  "options_section_behavior": {
+    "message": "Tai xuong",
+    "description": "Settings section for download interception behavior"
+  },
+  "options_enabled_label": {
+    "message": "Bật chặn tải xuống",
+    "description": "Toggle label for enabling/disabling download interception"
+  },
+  "options_section_rules": {
+    "message": "Quy tac",
+    "description": "Settings section for download routing rules"
+  },
+  "options_add_rule": {
+    "message": "Thêm quy tắc",
+    "description": "Button to add a new site rule"
+  },
+  "options_section_appearance": {
+    "message": "Giao diện",
+    "description": "Settings section for theme"
+  },
+  "options_theme_system": {
+    "message": "Hệ thống",
+    "description": "Theme option: follow system preference"
+  },
+  "options_theme_light": {
+    "message": "Sáng",
+    "description": "Theme option: light mode"
+  },
+  "options_theme_dark": {
+    "message": "Tối",
+    "description": "Theme option: dark mode"
+  },
+  "options_section_diagnostics": {
+    "message": "Chẩn đoán",
+    "description": "Settings section for diagnostic event log"
+  },
+  "context_menu_download": {
+    "message": "Tải xuống bằng Rayburst",
+    "description": "Context menu item for downloading a link with Rayburst"
+  },
+  "options_header_title": {
+    "message": "Rayburst Connect",
+    "description": "Options page header title"
+  },
+  "options_header_subtitle": {
+    "message": "Cài đặt tiện ích",
+    "description": "Options page header subtitle"
+  },
+  "options_testing_connection": {
+    "message": "Đang kiểm tra...",
+    "description": "Button text while testing connection"
+  },
+  "options_connection_success_prefix": {
+    "message": "Đã kết nối · Rayburst",
+    "description": "Prefix for successful connection status"
+  },
+  "options_connection_success_motrix": {
+    "message": "Đã kết nối · Motrix Next",
+    "description": "Connection status when Motrix Next answered"
+  },
+  "options_rules_empty": {
+    "message": "Chưa có quy tắc nào được cấu hình.",
+    "description": "Placeholder when no site rules exist"
+  },
+  "options_diagnostics_export": {
+    "message": "Xuất báo cáo chẩn đoán",
+    "description": "Button to export full diagnostic report as JSON file"
+  },
+  "options_diagnostics_clear": {
+    "message": "Xóa nhật ký",
+    "description": "Button to clear diagnostic log"
+  },
+  "options_diagnostics_empty": {
+    "message": "Không có sự kiện chẩn đoán.",
+    "description": "Placeholder when diagnostic log is empty"
+  },
+  "options_footer": {
+    "message": "Rayburst Connect v$version$",
+    "description": "Footer text with version number",
+    "placeholders": {
+      "version": {
+        "content": "$1"
+      }
+    }
+  },
+  "options_save": {
+    "message": "Lưu",
+    "description": "Save button in action bar"
+  },
+  "options_discard": {
+    "message": "Hủy",
+    "description": "Discard button in action bar"
+  },
+  "options_discard_success": {
+    "message": "Đã khôi phục thay đổi",
+    "description": "Toast after discarding unsaved settings changes"
+  },
+  "options_save_success": {
+    "message": "Đã lưu cài đặt",
+    "description": "Toast after saving settings successfully"
+  },
+  "options_save_error": {
+    "message": "Lưu cài đặt thất bại",
+    "description": "Toast when saving settings fails"
+  },
+  "options_changes_indicator": {
+    "message": "Thay đổi chưa lưu",
+    "description": "Indicator text showing there are unsaved modifications"
+  },
+  "options_color_scheme": {
+    "message": "Bảng màu",
+    "description": "Label for the color scheme picker"
+  },
+  "options_color_scheme_amber": {
+    "message": "Vàng hổ phách",
+    "description": "Amber Gold color scheme"
+  },
+  "options_color_scheme_space": {
+    "message": "Xanh vũ trụ",
+    "description": "Space Blue color scheme"
+  },
+  "options_color_scheme_mint": {
+    "message": "Xanh bạc hà",
+    "description": "Mint Green color scheme"
+  },
+  "options_color_scheme_rose": {
+    "message": "Đỏ hoa hồng",
+    "description": "Rose Red color scheme"
+  },
+  "options_color_scheme_coral": {
+    "message": "Cam san hô",
+    "description": "Coral Orange color scheme"
+  },
+  "options_color_scheme_glacier": {
+    "message": "Lam băng hà",
+    "description": "Glacier Cyan color scheme"
+  },
+  "options_color_scheme_evergreen": {
+    "message": "Xanh thường xuân",
+    "description": "Evergreen color scheme"
+  },
+  "options_color_scheme_graphite": {
+    "message": "Xám than chì",
+    "description": "Graphite Grey color scheme"
+  },
+  "options_color_scheme_sakura": {
+    "message": "Hồng anh đào",
+    "description": "Sakura Pink color scheme"
+  },
+  "error_unknown": {
+    "message": "Đã xảy ra lỗi không xác định",
+    "description": "Fallback error message"
+  },
+  "options_rule_always_intercept": {
+    "message": "Luôn chặn",
+    "description": "Site rule action: always intercept downloads"
+  },
+  "options_rule_always_skip": {
+    "message": "Luôn bỏ qua",
+    "description": "Site rule action: never intercept downloads"
+  },
+  "options_rule_use_global": {
+    "message": "Dùng cài đặt chung",
+    "description": "Site rule action: follow the global setting"
+  },
+  "popup_error_auth": {
+    "message": "API secret mismatch",
+    "description": "Popup banner title when API secret is incorrect"
+  },
+  "popup_error_auth_hint": {
+    "message": "Check that the API secret in Settings matches your Rayburst configuration.",
+    "description": "Popup banner hint for API auth error"
+  },
+  "popup_error_timeout": {
+    "message": "Hết thời gian kết nối",
+    "description": "Popup banner title when API connection times out"
+  },
+  "popup_error_timeout_hint": {
+    "message": "Check your network or firewall settings. API port: $1",
+    "description": "Popup banner hint for timeout error, $1 = port number",
+    "placeholders": {
+      "1": {
+        "content": "$1",
+        "example": "29110"
+      }
+    }
+  },
+  "popup_error_unreachable_hint": {
+    "message": "Make sure Rayburst is running. API port: $1",
+    "description": "Popup banner hint for unreachable error, $1 = port number",
+    "placeholders": {
+      "1": {
+        "content": "$1",
+        "example": "29110"
+      }
+    }
+  },
+  "options_section_language": {
+    "message": "Ngôn ngữ",
+    "description": "Settings section for interface language"
+  },
+  "options_locale_auto": {
+    "message": "Tự động",
+    "description": "Language option: follow browser language"
+  },
+  "options_locale_auto_desc": {
+    "message": "Theo ngôn ngữ trình duyệt",
+    "description": "Description for auto language option"
+  },
+  "options_desktop_unavailable_label": {
+    "message": "Khi Rayburst không khả dụng",
+    "description": "Unavailable desktop behavior label"
+  },
+  "options_desktop_unavailable_launch": {
+    "message": "Khởi chạy Rayburst",
+    "description": "Launch desktop option"
+  },
+  "options_desktop_unavailable_browser": {
+    "message": "Dùng trình duyệt",
+    "description": "Browser fallback option"
+  },
+  "options_desktop_startup_timeout_label": {
+    "message": "Thời gian chờ khởi chạy",
+    "description": "Desktop startup timeout label"
+  },
+  "options_desktop_open_link_label": {
+    "message": "Khởi chạy Rayburst qua liên kết trình duyệt (cách cũ)",
+    "description": "Setting: start the desktop by opening its link in a tab instead of Native Messaging"
+  },
+  "options_seconds_suffix": {
+    "message": "giây",
+    "description": "Seconds unit suffix"
+  },
+  "popup_stat_active": {
+    "message": "Đang chạy",
+    "description": "Task count label: currently downloading"
+  },
+  "popup_stat_waiting": {
+    "message": "Đang chờ",
+    "description": "Task count label: queued for download"
+  },
+  "popup_stat_stopped": {
+    "message": "Hoàn tất",
+    "description": "Task count label: completed or stopped"
+  },
+  "popup_toggle_enabled": {
+    "message": "Đang chặn",
+    "description": "Label next to the interception toggle when active"
+  },
+  "popup_toggle_disabled": {
+    "message": "Tạm dừng",
+    "description": "Label next to the interception toggle when inactive"
+  },
+  "options_api_port_label": {
+    "message": "API Port",
+    "description": "Label for the API port input"
+  },
+  "options_api_secret_label": {
+    "message": "API Secret",
+    "description": "Label for the API secret input"
+  },
+  "options_api_secret_placeholder": {
+    "message": "Paste from desktop app",
+    "description": "Placeholder text for API secret input"
+  },
+  "error_api_unreachable": {
+    "message": "Cannot connect to Rayburst",
+    "description": "Error when the API endpoint is unreachable"
+  },
+  "error_api_auth": {
+    "message": "API secret is incorrect",
+    "description": "Error when the API secret does not match"
+  },
+  "error_api_timeout": {
+    "message": "Hết thời gian kết nối",
+    "description": "Error when the API connection times out"
+  },
+  "options_hide_download_bar_label": {
+    "message": "Ẩn thanh tải xuống của trình duyệt",
+    "description": "Label for the optional browser download bar hiding setting."
+  },
+  "options_forward_request_headers_label": {
+    "message": "Chuyển tiếp tiêu đề yêu cầu",
+    "description": "Label for the request header forwarding setting."
+  },
+  "options_forward_cookies_label": {
+    "message": "Chuyển tiếp cookie",
+    "description": "Label for the cookie forwarding setting."
+  },
+  "options_permission_download_ui_denied": {
+    "message": "Cấp quyền giao diện tải xuống để ẩn thanh tải xuống của trình duyệt.",
+    "description": "Toast shown when the optional downloads.ui permission is denied."
+  },
+  "options_permission_cookies_denied": {
+    "message": "Cấp quyền cookie và trang web để chuyển tiếp cookie tới Rayburst.",
+    "description": "Toast shown when cookie forwarding permissions are unavailable."
+  },
+  "options_scope_browser_downloads_label": {
+    "message": "Tải xuống của trình duyệt",
+    "description": "Label for the browser download interception scope toggle."
+  },
+  "options_scope_magnet_label": {
+    "message": "Liên kết Magnet",
+    "description": "Label for the magnet link interception scope toggle."
+  },
+  "options_scope_ed2k_label": {
+    "message": "Liên kết ED2K",
+    "description": "Label for the ED2K link interception scope toggle."
+  },
+  "options_scope_thunder_label": {
+    "message": "Liên kết Thunder",
+    "description": "Label for the Thunder link interception scope toggle."
+  },
+  "options_scope_incognito_label": {
+    "message": "Tải xuống từ cửa sổ riêng tư",
+    "description": "Label for the private-window download interception toggle."
+  },
+  "options_scope_incognito_hint": {
+    "message": "Các tải xuống từ cửa sổ riêng tư được chuyển cho Rayburst và hiện trong danh sách tác vụ cùng lịch sử. Trình duyệt cũng phải cho phép tiện ích này trong cửa sổ riêng tư.",
+    "description": "Hint under the private-window download interception toggle."
+  },
+  "options_scope_other_extensions_label": {
+    "message": "Tải xuống từ tiện ích khác",
+    "description": "Label for the toggle that takes over downloads other extensions start."
+  },
+  "options_scope_other_extensions_hint": {
+    "message": "Ví dụ: liên kết do một tiện ích mở khóa liên kết phân giải. Rayburst chỉ tiếp nhận sau khi kiểm tra rằng nó nhận được cùng một tệp.",
+    "description": "Hint under the other-extension download interception toggle."
+  },
+  "options_min_size_label": {
+    "message": "Kích thước tệp tối thiểu",
+    "description": "Label for the minimum file size setting."
+  },
+  "options_min_size_value_label": {
+    "message": "Kích thước (MB)",
+    "description": "Label for the minimum file size numeric input."
+  },
+  "options_min_size_unknown_label": {
+    "message": "Kích thước không xác định",
+    "description": "Label for the unknown file size behavior selector."
+  },
+  "options_min_size_unknown_intercept": {
+    "message": "Chuyển sang Rayburst",
+    "description": "Option label for routing unknown-size downloads to Rayburst."
+  },
+  "options_min_size_unknown_skip": {
+    "message": "Chuyển sang trình duyệt",
+    "description": "Option label for leaving unknown-size downloads in the browser."
+  },
+  "options_duplicate_guard_label": {
+    "message": "Bảo vệ tải xuống trùng lặp",
+    "description": "Label for the duplicate download guard setting."
+  },
+  "options_duplicate_guard_window_label": {
+    "message": "Cửa sổ bảo vệ",
+    "description": "Label for the duplicate download guard time window input."
+  },
+  "notification_duplicate_guard_title": {
+    "message": "Đã gửi tác vụ",
+    "description": "Notification title shown when a duplicate download is blocked."
+  },
+  "notification_duplicate_guard_body": {
+    "message": "Đã bỏ qua yêu cầu trùng lặp",
+    "description": "Notification body shown when a duplicate download is blocked."
+  },
+  "notification_desktop_link_body": {
+    "message": "Nhấp để bật khởi chạy Rayburst qua liên kết trình duyệt.",
+    "description": "Notification body after an unattended start failed; clicking opens the settings"
+  },
+  "options_privacy_section_label": {
+    "message": "Quyen rieng tu",
+    "description": "Subsection label for privacy-related download forwarding settings."
+  },
+  "options_download_handling_section_label": {
+    "message": "Xu ly tai xuong",
+    "description": "Subsection label for browser and desktop download handling settings."
+  },
+  "options_site_rules_label": {
+    "message": "Quy tac trang web",
+    "description": "Subsection label for per-site download rules."
+  },
+  "options_file_extension_rule_label": {
+    "message": "Quy tắc đuôi tệp",
+    "description": "Label for the file extension rule toggle."
+  },
+  "options_file_extension_list_label": {
+    "message": "Đuôi tệp",
+    "description": "Label for the file extension list input."
+  },
+  "options_file_extension_list_placeholder": {
+    "message": "Thêm phần mở rộng",
+    "description": "Placeholder for the file extension list input."
+  },
+  "options_file_extension_listed_action_label": {
+    "message": "Đuôi tệp đã liệt kê",
+    "description": "Label for the action selector applied to listed file extensions."
+  },
+  "options_file_extension_unknown_action_label": {
+    "message": "Đuôi tệp không rõ",
+    "description": "Label for the action selector applied when no file extension is detected."
+  },
+  "options_file_extension_action_intercept": {
+    "message": "Gửi đến Rayburst",
+    "description": "Option label for routing a matched extension to Rayburst."
+  },
+  "options_file_extension_action_skip": {
+    "message": "Dùng trình duyệt",
+    "description": "Option label for leaving a matched extension in the browser."
+  },
+  "options_factory_reset_button": {
+    "message": "Đặt lại cài đặt",
+    "description": "Button to stage a full settings reset."
+  },
+  "options_factory_reset_confirm": {
+    "message": "Nhấp lại để đặt lại",
+    "description": "Second-click confirmation label for the reset button."
+  },
+  "options_factory_reset_ready": {
+    "message": "Mặc định đã sẵn sàng để lưu",
+    "description": "Toast shown after default settings are staged for saving."
+  },
+  "options_section_maintenance": {
+    "message": "Bao tri",
+    "description": "Settings section for maintenance actions."
+  },
+  "options_settings_backup_title": {
+    "message": "Sao luu cai dat",
+    "description": "Maintenance section title for settings backup."
+  },
+  "options_settings_backup_export": {
+    "message": "Xuat cai dat",
+    "description": "Button to export settings backup."
+  },
+  "options_settings_backup_import": {
+    "message": "Nhap cai dat",
+    "description": "Button to import settings backup."
+  },
+  "options_settings_backup_exported": {
+    "message": "Da xuat ban sao luu",
+    "description": "Toast shown after settings backup export starts."
+  },
+  "options_settings_backup_export_error": {
+    "message": "Khong the xuat ban sao luu",
+    "description": "Toast shown when settings backup export fails."
+  },
+  "options_settings_backup_imported": {
+    "message": "Da nhap cai dat. Kiem tra roi luu.",
+    "description": "Toast shown after settings backup is staged for saving."
+  },
+  "options_settings_backup_invalid": {
+    "message": "Tep sao luu khong hop le",
+    "description": "Toast shown when selected settings backup is invalid."
+  },
+  "options_diagnostics_filter_all": {
+    "message": "Tất cả",
+    "description": "Filter label for all diagnostic levels"
+  },
+  "options_diagnostics_filter_error": {
+    "message": "Lỗi",
+    "description": "Filter label for error diagnostic events"
+  },
+  "options_diagnostics_filter_warning": {
+    "message": "Cảnh báo",
+    "description": "Filter label for warning diagnostic events"
+  },
+  "options_diagnostics_filter_info": {
+    "message": "Thông tin",
+    "description": "Filter label for informational diagnostic events"
+  },
+  "options_diagnostics_filter_code": {
+    "message": "Loại sự kiện",
+    "description": "Placeholder for the diagnostic event type filter"
+  },
+  "options_diagnostics_clear_error": {
+    "message": "Không thể xóa các sự kiện chẩn đoán",
+    "description": "Error shown when diagnostic events cannot be cleared"
+  },
+  "options_diagnostics_export_error": {
+    "message": "Không thể xuất báo cáo chẩn đoán",
+    "description": "Error shown when the diagnostic report cannot be exported"
+  },
+  "popup_status_launching": {
+    "message": "Đang khởi động",
+    "description": "Popup status while the desktop app is starting"
+  },
+  "popup_launching_title": {
+    "message": "Đang khởi động Rayburst",
+    "description": "Popup launch progress title"
+  },
+  "popup_launching_hint": {
+    "message": "Đang chờ ứng dụng máy tính sẵn sàng…",
+    "description": "Popup launch progress description"
+  },
+  "popup_launch_failed_title": {
+    "message": "Không thể khởi động Rayburst",
+    "description": "Popup launch failure title"
+  },
+  "popup_launch_failed_hint": {
+    "message": "Hãy kiểm tra Rayburst đã được cài đặt và cấu hình API chính xác.",
+    "description": "Popup launch failure guidance"
+  },
+  "popup_launch_link_hint": {
+    "message": "Trình duyệt có thể khởi chạy Rayburst qua liên kết thay thế.",
+    "description": "Popup launch failure guidance when the desktop could not be started at all"
+  },
+  "popup_action_retry": {
+    "message": "Thử lại",
+    "description": "Popup action to retry desktop launch"
+  },
+  "popup_action_launch_link": {
+    "message": "Khởi chạy qua liên kết",
+    "description": "Popup button: allow starting the desktop through its link and retry"
+  },
+  "options_diagnostics_column_time": {
+    "message": "Thời gian",
+    "description": "Diagnostic table column heading for event time"
+  },
+  "options_diagnostics_column_level": {
+    "message": "Mức",
+    "description": "Diagnostic table column heading for severity level"
+  },
+  "options_diagnostics_column_event": {
+    "message": "Sự kiện",
+    "description": "Diagnostic table column heading for event code"
+  },
+  "options_diagnostics_column_message": {
+    "message": "Thông báo",
+    "description": "Diagnostic table column heading for event message"
+  },
+  "options_diagnostics_pagination": {
+    "message": "$RANGE$ / $TOTAL$ · tối đa $MAX$",
+    "description": "Diagnostic table pagination summary with visible range, filtered total, and retention limit",
+    "placeholders": {
+      "RANGE": {
+        "content": "$1",
+        "example": "1–10"
+      },
+      "TOTAL": {
+        "content": "$2",
+        "example": "37"
+      },
+      "MAX": {
+        "content": "$3",
+        "example": "100"
+      }
+    }
+  },
+  "options_diagnostics_log_entry_limit": {
+    "message": "Giới hạn mục nhật ký",
+    "description": "Label for the maximum number of diagnostic log entries retained locally"
+  },
+  "options_diagnostics_entries_suffix": {
+    "message": "mục",
+    "description": "Unit suffix for the diagnostic log entry limit input"
+  },
+  "options_diagnostics_view_details": {
+    "message": "Xem chi tiết sự kiện",
+    "description": "Accessible label for opening diagnostic event details"
+  },
+  "options_diagnostics_details_title": {
+    "message": "Chi tiết sự kiện",
+    "description": "Title of the diagnostic event details drawer"
+  },
+  "options_diagnostics_details_message": {
+    "message": "Thông báo",
+    "description": "Heading for the diagnostic event message"
+  },
+  "options_diagnostics_details_context": {
+    "message": "Ngữ cảnh",
+    "description": "Heading for diagnostic event context fields"
+  },
+  "options_diagnostics_clear_confirm": {
+    "message": "Xác nhận xóa",
+    "description": "Second-click confirmation label for clearing diagnostic logs"
+  },
+  "sniffer_tab": {
+    "message": "Phát hiện",
+    "description": "Navigation label for discovering page resources"
+  },
+  "media_downloads": {
+    "message": "Tải xuống",
+    "description": "Media discovery: downloads"
+  },
+  "media_discover": {
+    "message": "Phát hiện phương tiện trên trang",
+    "description": "Media discovery: discover"
+  },
+  "media_scan": {
+    "message": "Quét trang",
+    "description": "Media discovery: scan"
+  },
+  "media_clear": {
+    "message": "Xóa nguồn",
+    "description": "Media discovery: clear"
+  },
+  "media_filter": {
+    "message": "Lọc nguồn",
+    "description": "Media discovery: filter"
+  },
+  "media_sources": {
+    "message": "Nguồn phương tiện",
+    "description": "Media discovery: sources"
+  },
+  "media_source": {
+    "message": "Nguồn",
+    "description": "Media discovery: source"
+  },
+  "media_enable_site": {
+    "message": "Bật trên trang này",
+    "description": "Media discovery: enable site"
+  },
+  "media_disable_site": {
+    "message": "Tắt trên trang này",
+    "description": "Media discovery: disable site"
+  },
+  "media_inspect": {
+    "message": "Kiểm tra định dạng",
+    "description": "Media discovery: inspect"
+  },
+  "media_options": {
+    "message": "Tùy chọn phương tiện",
+    "description": "Media discovery: options"
+  },
+  "media_back": {
+    "message": "Quay lại nguồn",
+    "description": "Media discovery: back"
+  },
+  "media_video": {
+    "message": "Chất lượng video",
+    "description": "Media discovery: video"
+  },
+  "media_audio": {
+    "message": "Âm thanh",
+    "description": "Media discovery: audio"
+  },
+  "media_subtitles": {
+    "message": "Phụ đề",
+    "description": "Media discovery: subtitles"
+  },
+  "media_format": {
+    "message": "Định dạng đầu ra",
+    "description": "Media discovery: format"
+  },
+  "media_original": {
+    "message": "Tệp gốc",
+    "description": "Media discovery: original"
+  },
+  "media_record_limit": {
+    "message": "Giới hạn ghi (giây)",
+    "description": "Media discovery: record limit"
+  },
+  "media_live": {
+    "message": "Ghi trực tiếp",
+    "description": "Media discovery: live"
+  },
+  "media_download": {
+    "message": "Tải xuống",
+    "description": "Media discovery: download"
+  },
+  "media_record": {
+    "message": "Bắt đầu ghi",
+    "description": "Media discovery: record"
+  },
+  "media_cancel": {
+    "message": "Hủy",
+    "description": "Media discovery: cancel"
+  },
+  "media_retry": {
+    "message": "Thử lại",
+    "description": "Media discovery: retry"
+  },
+  "media_no_video": {
+    "message": "Không có video",
+    "description": "Media discovery: no video"
+  },
+  "media_no_audio": {
+    "message": "Không có âm thanh",
+    "description": "Media discovery: no audio"
+  },
+  "media_no_subtitles": {
+    "message": "Không có phụ đề",
+    "description": "Media discovery: no subtitles"
+  },
+  "media_excluded_sites": {
+    "message": "Trang phương tiện bị loại trừ",
+    "description": "Media discovery: excluded sites"
+  },
+  "media_waiting": {
+    "message": "Đã tìm thấy trình phát; đang chờ nguồn phương tiện.",
+    "description": "Media discovery: waiting"
+  },
+  "media_none": {
+    "message": "Chưa tìm thấy nguồn phương tiện.",
+    "description": "Media discovery: none"
+  },
+  "media_paused": {
+    "message": "Đã tạm dừng phát hiện phương tiện.",
+    "description": "Media discovery: paused"
+  },
+  "media_excluded": {
+    "message": "Phát hiện phương tiện bị tắt trên trang này.",
+    "description": "Media discovery: excluded"
+  },
+  "media_ambiguous": {
+    "message": "Không thể ghép các nguồn với một trình phát cụ thể. Hãy kiểm tra trước khi tải.",
+    "description": "Media discovery: ambiguous"
+  },
+  "media_loading": {
+    "message": "Đang kiểm tra phương tiện…",
+    "description": "Media discovery: loading"
+  },
+  "media_submitted": {
+    "message": "Đã tạo lượt tải trong Rayburst.",
+    "description": "Media discovery: submitted"
+  },
+  "media_cancelled": {
+    "message": "Đã hủy kiểm tra.",
+    "description": "Media discovery: cancelled"
+  },
+  "media_failed": {
+    "message": "Thao tác thất bại. Thử lại để kiểm tra trạng thái.",
+    "description": "Media discovery: failed"
+  },
+  "media_unsupported": {
+    "message": "Không hỗ trợ phương tiện hoặc phương thức yêu cầu này.",
+    "description": "Media discovery: unsupported"
+  },
+  "media_invalid": {
+    "message": "Chọn tổ hợp bản âm thanh, video, định dạng và thời lượng được hỗ trợ.",
+    "description": "Media discovery: invalid"
+  },
+  "media_unavailable": {
+    "message": "Phiên bản ứng dụng máy tính này không tải được luồng. Cài đặt Rayburst mới nhất.",
+    "description": "Media discovery: unavailable"
+  },
+  "media_expired": {
+    "message": "Nguồn hoặc phiên kiểm tra đã hết hạn. Phát lại rồi kiểm tra lại.",
+    "description": "Media discovery: expired"
+  },
+  "media_auth": {
+    "message": "Kiểm tra đăng nhập, chuyển tiếp yêu cầu hoặc khóa API ứng dụng.",
+    "description": "Media discovery: auth"
+  },
+  "media_connection": {
+    "message": "Khởi động Rayburst và kiểm tra kết nối.",
+    "description": "Media discovery: connection"
+  },
+  "media_size_unknown": {
+    "message": "Chưa rõ kích thước",
+    "description": "Media discovery: size unknown"
+  },
+  "media_duration_unknown": {
+    "message": "Chưa rõ thời lượng",
+    "description": "Media discovery: duration unknown"
+  },
+  "media_includes_audio": {
+    "message": "Có âm thanh",
+    "description": "Media discovery: includes audio"
+  },
+  "media_record_hint": {
+    "message": "Đặt bằng không để ghi đến khi dừng trong Rayburst.",
+    "description": "Media discovery: record hint"
+  },
+  "media_inspect_hint": {
+    "message": "Kiểm tra trước, sau đó xác nhận tải xuống.",
+    "description": "Media discovery: inspect hint"
+  },
+  "media_open_page": {
+    "message": "Mở trang web để phát hiện phương tiện.",
+    "description": "Media discovery: open page"
+  },
+  "media_hint": {
+    "message": "Phát video hoặc âm thanh để tự động phát hiện nguồn.",
+    "description": "Media discovery: hint"
+  },
+  "media_ready": {
+    "message": "Định dạng đã sẵn sàng",
+    "description": "Media discovery: ready"
+  },
+  "media_confirming": {
+    "message": "Đang xác nhận tải xuống…",
+    "description": "Media discovery: confirming"
+  },
+  "media_cancelling": {
+    "message": "Đang hủy kiểm tra…",
+    "description": "Media discovery: cancelling"
+  },
+  "options_color_scheme_rayburst": {
+    "message": "Rayburst"
+  },
+  "brand_tagline": {
+    "message": "Định nghĩa lại tiện ích trình duyệt đồng hành",
+    "description": "Localized Rayburst Connect brand slogan"
+  },
+  "resources_current": {
+    "message": "Trang hiện tại"
+  },
+  "resources_other": {
+    "message": "Tất cả trang"
+  },
+  "resources_controls": {
+    "message": "Điều khiển trình phát"
+  },
+  "resources_expand": {
+    "message": "Mở không gian làm việc"
+  },
+  "resources_fullscreen": {
+    "message": "Toàn màn hình"
+  },
+  "resources_import": {
+    "message": "Thêm nguồn"
+  },
+  "resources_invert": {
+    "message": "Đảo ngược lựa chọn"
+  },
+  "resources_key": {
+    "message": "Khóa AES-128"
+  },
+  "resources_kind_collection": {
+    "message": "Phương tiện kết hợp"
+  },
+  "resources_kind_fragment": {
+    "message": "Phân đoạn"
+  },
+  "resources_loop": {
+    "message": "Lặp lại"
+  },
+  "resources_manifest": {
+    "message": "Tệp kê khai hoặc URL phân đoạn"
+  },
+  "resources_merge": {
+    "message": "Ghép âm thanh và video"
+  },
+  "resources_mute": {
+    "message": "Tắt tiếng"
+  },
+  "resources_preview": {
+    "message": "Xem trước"
+  },
+  "resources_preview_unavailable": {
+    "message": "Không thể xem trước. Nguồn vẫn có thể tải được."
+  },
+  "resources_reload": {
+    "message": "Tải lại để thu từ đầu"
+  },
+  "resources_screenshot": {
+    "message": "Lưu ảnh chụp"
+  },
+  "resources_sequence": {
+    "message": "Ghép phân đoạn"
+  },
+  "resources_sidebar": {
+    "message": "Mở thanh bên"
+  },
+  "resources_start": {
+    "message": "Bắt đầu"
+  },
+  "resources_start_time": {
+    "message": "Bắt đầu (giây)"
+  },
+  "resources_end_time": {
+    "message": "Kết thúc (0: cuối nguồn)"
+  },
+  "resources_stop": {
+    "message": "Dừng"
+  },
+  "resources_test_keys": {
+    "message": "Kiểm tra các khóa tìm được"
+  },
+  "resources_tools": {
+    "message": "Công cụ phương tiện"
+  },
+  "resources_volume": {
+    "message": "Âm lượng"
+  },
+  "resources_preserve": {
+    "message": "Giữ nguồn sau khi chuyển trang"
+  },
+  "resources_deep": {
+    "message": "Tìm kiếm sâu"
+  },
+  "resources_cache": {
+    "message": "Thu bộ đệm phương tiện"
+  },
+  "resources_copy": {
+    "message": "Sao chép"
+  },
+  "resources_select_all": {
+    "message": "Chọn tất cả"
+  },
+  "resources_name": {
+    "message": "Tên"
+  },
+  "resources_size": {
+    "message": "Kích thước"
+  },
+  "resources_type": {
+    "message": "Loại"
+  },
+  "resources_speed": {
+    "message": "Tốc độ"
+  },
+  "resources_kind_image": {
+    "message": "Hình ảnh"
+  },
+  "resources_all": {
+    "message": "Tất cả"
+  },
+  "resources_time": {
+    "message": "Thời gian"
+  },
+  "resources_video": {
+    "message": "Bắt đầu ghi"
+  },
+  "resources_kind_embedded": {
+    "message": "Nguồn"
+  },
+  "resources_kind_file": {
+    "message": "Tệp gốc"
+  },
+  "resources_kind_subtitle": {
+    "message": "Phụ đề"
+  },
+  "resources_pause": {
+    "message": "Tạm dừng"
+  },
+  "resources_play": {
+    "message": "Phát"
+  },
+  "resources_kind_json": {
+    "message": "JSON"
+  },
+  "resources_url": {
+    "message": "URL"
+  },
+  "resources_pip": {
+    "message": "PiP"
+  },
+  "resources_sort": {
+    "message": "Sắp xếp"
+  },
+  "resources_auto": {
+    "message": "Tự động tải tài nguyên mới"
+  },
+  "resources_mobile": {
+    "message": "Dùng User-Agent di động"
+  },
+  "media_settings_title": {
+    "message": "Cài đặt phát hiện"
+  },
+  "media_settings_any_size": {
+    "message": "Mọi kích thước"
+  },
+  "media_settings_capture": {
+    "message": "Phát hiện"
+  },
+  "media_settings_edit": {
+    "message": "Sửa"
+  },
+  "media_settings_remove": {
+    "message": "Xóa"
+  },
+  "media_settings_invalid_rule": {
+    "message": "Kiểm tra cú pháp, giá trị và loại trùng lặp."
+  },
+  "media_settings_between": {
+    "message": "Trong khoảng"
+  },
+  "media_settings_upper": {
+    "message": "Giới hạn trên"
+  },
+  "media_settings_pattern": {
+    "message": "Mẫu"
+  },
+  "media_settings_action": {
+    "message": "Hành động"
+  },
+  "media_settings_enabled": {
+    "message": "Bật"
+  },
+  "media_settings_ignore": {
+    "message": "Bỏ qua"
+  },
+  "media_settings_regex": {
+    "message": "Biểu thức chính quy"
+  },
+  "media_settings_regex_hint": {
+    "message": "Quy tắc khớp đầu tiên được ưu tiên hơn quy tắc loại."
+  },
+  "media_settings_flags": {
+    "message": "Cờ biểu thức chính quy"
+  },
+  "media_settings_group": {
+    "message": "Nhóm URL (0: URL gốc)"
+  },
+  "media_settings_test_url": {
+    "message": "URL thử nghiệm"
+  },
+  "media_settings_no_match": {
+    "message": "Không khớp"
+  },
+  "media_settings_behavior": {
+    "message": "Hành vi"
+  },
+  "media_settings_capture_hint": {
+    "message": "Bộ lọc phát hiện không giới hạn tải danh sách phát."
+  },
+  "media_settings_newest": {
+    "message": "Mới nhất trước"
+  },
+  "media_settings_quick": {
+    "message": "Tải nhanh"
+  },
+  "media_settings_quick_hint": {
+    "message": "Chọn luồng khi có nhiều lựa chọn."
+  },
+  "media_settings_deep": {
+    "message": "Luôn bật tìm kiếm chuyên sâu"
+  },
+  "media_settings_deep_hint": {
+    "message": "Tải lại trang để áp dụng. Có thể ảnh hưởng phát lại."
+  },
+  "media_settings_name_from": {
+    "message": "Đặt tên tệp phát hiện được theo"
+  },
+  "media_settings_name_from_file": {
+    "message": "Tên tệp"
+  },
+  "media_settings_name_from_title": {
+    "message": "Tiêu đề trang"
+  },
+  "media_settings_include": {
+    "message": "Chỉ các trang trong danh sách"
+  },
+  "media_settings_exclude": {
+    "message": "Loại trừ các trang trong danh sách"
+  },
+  "media_settings_autosave": {
+    "message": "Thay đổi được lưu tự động."
+  },
+  "media_settings_restore": {
+    "message": "Khôi phục mặc định phương tiện"
+  },
+  "media_settings_restore_hint": {
+    "message": "Chỉ đặt lại phương tiện? Cài đặt kết nối không đổi."
+  },
+  "media_settings_close_preview": {
+    "message": "Đóng xem trước"
+  },
+  "sniffer_page_count": {
+    "message": "Tài nguyên trên trang này: $1",
+    "description": "Resource count for the current browser tab; $1 is the full count"
+  },
+  "sniffer_results": {
+    "message": "Hiển thị $1 trong $2 tài nguyên",
+    "description": "Filtered resources in the selected scope; $1 is visible, $2 is total"
+  },
+  "popup_status_checking": {
+    "message": "Đang kiểm tra",
+    "description": "Connection status while the desktop check is pending"
+  },
+  "connection_unsupported_title": {
+    "message": "Phiên bản máy tính không được hỗ trợ"
+  },
+  "connection_upgrade_hint": {
+    "message": "Cài đặt Rayburst mới nhất rồi kết nối lại."
+  },
+  "connection_legacy_title": {
+    "message": "Cập nhật lên Rayburst mới nhất",
+    "description": "Title of the update notice shown while connected to an older desktop"
+  },
+  "connection_legacy_hint": {
+    "message": "$1 là phiên bản cũ nên một số tính năng không dùng được.",
+    "description": "Shown while connected to an older desktop, $1 = its name and version",
+    "placeholders": {
+      "1": {
+        "content": "$1",
+        "example": "Motrix Next 3.9.9"
+      }
+    }
+  },
+  "connection_legacy_dismiss": {
+    "message": "Đóng",
+    "description": "Accessible label of the button that closes the popup update notice"
+  },
+  "connection_get_rayburst": {
+    "message": "Tải Rayburst"
+  },
+  "connection_check_again": {
+    "message": "Kiểm tra lại"
+  },
+  "error_engine_starting": {
+    "message": "Bộ máy Rayburst đang khởi động"
+  },
+  "error_engine_unavailable": {
+    "message": "Bộ máy Rayburst không khả dụng"
+  },
+  "error_engine_hint": {
+    "message": "Mở Rayburst để kiểm tra bộ máy, rồi kết nối lại."
+  },
+  "popup_site_rules": {
+    "message": "Trang web hiện tại"
+  },
+  "popup_site_allow": {
+    "message": "Bật trên trang web này"
+  },
+  "popup_site_exclude": {
+    "message": "Loại trừ trang web này"
+  },
+  "popup_task_waiting": {
+    "message": "Đang chờ",
+    "description": "Popup task list: queued task"
+  },
+  "popup_task_paused": {
+    "message": "Đã tạm dừng",
+    "description": "Popup task list: paused task"
+  },
+  "popup_task_failed": {
+    "message": "Thất bại",
+    "description": "Popup task list: failed task without a message"
+  },
+  "popup_task_pause": {
+    "message": "Tạm dừng",
+    "description": "Popup task list: pause button"
+  },
+  "popup_task_resume": {
+    "message": "Tiếp tục",
+    "description": "Popup task list: resume button"
+  },
+  "popup_task_reveal": {
+    "message": "Hiện trong thư mục",
+    "description": "Popup task list: show the finished file in its folder"
+  },
+  "popup_tasks_empty": {
+    "message": "Chưa có lượt tải nào",
+    "description": "Popup task list: nothing to show"
+  },
+  "options_alt_click_bypass_label": {
+    "message": "Alt + nhấp để tải bằng trình duyệt",
+    "description": "Setting: holding Alt while clicking a link lets the browser download it"
+  },
+  "media_complete_video": {
+    "message": "Video đầy đủ",
+    "description": "Media discovery: separate video and audio track files listed as one video"
+  },
+  "media_tracks": {
+    "message": "$1 luồng",
+    "description": "Media discovery: number of track files in a complete video; $1 is the count"
+  },
+  "media_track_files": {
+    "message": "Tệp luồng",
+    "description": "Media discovery: shows or hides the track files of a complete video"
+  }
+}

@@ -1,0 +1,1206 @@
+{
+  "options_website": {
+    "message": "Lloc web"
+  },
+  "ext_name": {
+    "message": "Rayburst Connect",
+    "description": "Extension display name"
+  },
+  "ext_description": {
+    "message": "Envia descàrregues i contingut multimèdia detectat a Rayburst, amb previsualització i eines de captura.",
+    "description": "Extension description shown in browser and web store"
+  },
+  "popup_status_connected": {
+    "message": "Connectat",
+    "description": "Connection status badge when API is reachable"
+  },
+  "popup_status_disconnected": {
+    "message": "Desconnectat",
+    "description": "Connection status badge when API is unreachable"
+  },
+  "popup_action_pause_all": {
+    "message": "Pausar tot",
+    "description": "Button to pause all active downloads"
+  },
+  "popup_action_resume_all": {
+    "message": "Reprendre tot",
+    "description": "Button to resume all paused downloads"
+  },
+  "popup_action_settings": {
+    "message": "Configuració",
+    "description": "Button to open the options page"
+  },
+  "popup_action_launch": {
+    "message": "Iniciar Rayburst",
+    "description": "Button to launch the desktop app when disconnected"
+  },
+  "popup_action_open": {
+    "message": "Obrir Rayburst",
+    "description": "Button to focus the desktop app when already connected"
+  },
+  "popup_error_unreachable": {
+    "message": "No es pot connectar amb Rayburst",
+    "description": "Error message when API is unreachable"
+  },
+  "options_section_connection": {
+    "message": "Connexió",
+    "description": "Settings section for API connection"
+  },
+  "options_test_connection": {
+    "message": "Provar connexió",
+    "description": "Button to test the API connection"
+  },
+  "options_section_behavior": {
+    "message": "Baixades",
+    "description": "Settings section for download interception behavior"
+  },
+  "options_enabled_label": {
+    "message": "Activar intercepció de descàrregues",
+    "description": "Toggle label for enabling/disabling download interception"
+  },
+  "options_section_rules": {
+    "message": "Regles",
+    "description": "Settings section for download routing rules"
+  },
+  "options_add_rule": {
+    "message": "Afegir regla",
+    "description": "Button to add a new site rule"
+  },
+  "options_section_appearance": {
+    "message": "Aparença",
+    "description": "Settings section for theme"
+  },
+  "options_theme_system": {
+    "message": "Sistema",
+    "description": "Theme option: follow system preference"
+  },
+  "options_theme_light": {
+    "message": "Clar",
+    "description": "Theme option: light mode"
+  },
+  "options_theme_dark": {
+    "message": "Fosc",
+    "description": "Theme option: dark mode"
+  },
+  "options_section_diagnostics": {
+    "message": "Diagnòstic",
+    "description": "Settings section for diagnostic event log"
+  },
+  "context_menu_download": {
+    "message": "Descarregar amb Rayburst",
+    "description": "Context menu item for downloading a link with Rayburst"
+  },
+  "options_header_title": {
+    "message": "Rayburst Connect",
+    "description": "Options page header title"
+  },
+  "options_header_subtitle": {
+    "message": "Configuració de l'extensió",
+    "description": "Options page header subtitle"
+  },
+  "options_testing_connection": {
+    "message": "Provant...",
+    "description": "Button text while testing connection"
+  },
+  "options_connection_success_prefix": {
+    "message": "Connectat · Rayburst",
+    "description": "Prefix for successful connection status"
+  },
+  "options_connection_success_motrix": {
+    "message": "Connectat · Motrix Next",
+    "description": "Connection status when Motrix Next answered"
+  },
+  "options_rules_empty": {
+    "message": "Cap regla configurada.",
+    "description": "Placeholder when no site rules exist"
+  },
+  "options_diagnostics_export": {
+    "message": "Exportar informe de diagnòstic",
+    "description": "Button to export full diagnostic report as JSON file"
+  },
+  "options_diagnostics_clear": {
+    "message": "Esborrar registre",
+    "description": "Button to clear diagnostic log"
+  },
+  "options_diagnostics_empty": {
+    "message": "Cap esdeveniment de diagnòstic.",
+    "description": "Placeholder when diagnostic log is empty"
+  },
+  "options_footer": {
+    "message": "Rayburst Connect v$version$",
+    "description": "Footer text with version number",
+    "placeholders": {
+      "version": {
+        "content": "$1"
+      }
+    }
+  },
+  "options_save": {
+    "message": "Desar",
+    "description": "Save button in action bar"
+  },
+  "options_discard": {
+    "message": "Descartar",
+    "description": "Discard button in action bar"
+  },
+  "options_discard_success": {
+    "message": "Canvis restaurats",
+    "description": "Toast after discarding unsaved settings changes"
+  },
+  "options_save_success": {
+    "message": "Configuració desada",
+    "description": "Toast after saving settings successfully"
+  },
+  "options_save_error": {
+    "message": "Error en desar la configuració",
+    "description": "Toast when saving settings fails"
+  },
+  "options_changes_indicator": {
+    "message": "Canvis no desats",
+    "description": "Indicator text showing there are unsaved modifications"
+  },
+  "options_color_scheme": {
+    "message": "Esquema de colors",
+    "description": "Label for the color scheme picker"
+  },
+  "options_color_scheme_amber": {
+    "message": "Or ambre",
+    "description": "Amber Gold color scheme"
+  },
+  "options_color_scheme_space": {
+    "message": "Blau espacial",
+    "description": "Space Blue color scheme"
+  },
+  "options_color_scheme_mint": {
+    "message": "Verd menta",
+    "description": "Mint Green color scheme"
+  },
+  "options_color_scheme_rose": {
+    "message": "Vermell rosa",
+    "description": "Rose Red color scheme"
+  },
+  "options_color_scheme_coral": {
+    "message": "Taronja coral",
+    "description": "Coral Orange color scheme"
+  },
+  "options_color_scheme_glacier": {
+    "message": "Cian glacial",
+    "description": "Glacier Cyan color scheme"
+  },
+  "options_color_scheme_evergreen": {
+    "message": "Perenne",
+    "description": "Evergreen color scheme"
+  },
+  "options_color_scheme_graphite": {
+    "message": "Gris grafit",
+    "description": "Graphite Grey color scheme"
+  },
+  "options_color_scheme_sakura": {
+    "message": "Rosa sakura",
+    "description": "Sakura Pink color scheme"
+  },
+  "error_unknown": {
+    "message": "S'ha produït un error desconegut",
+    "description": "Fallback error message"
+  },
+  "options_rule_always_intercept": {
+    "message": "Sempre interceptar",
+    "description": "Site rule action: always intercept downloads"
+  },
+  "options_rule_always_skip": {
+    "message": "Sempre ometre",
+    "description": "Site rule action: never intercept downloads"
+  },
+  "options_rule_use_global": {
+    "message": "Usar configuració global",
+    "description": "Site rule action: follow the global setting"
+  },
+  "popup_error_auth": {
+    "message": "API secret mismatch",
+    "description": "Popup banner title when API secret is incorrect"
+  },
+  "popup_error_auth_hint": {
+    "message": "Check that the API secret in Settings matches your Rayburst configuration.",
+    "description": "Popup banner hint for API auth error"
+  },
+  "popup_error_timeout": {
+    "message": "Temps de connexió esgotat",
+    "description": "Popup banner title when API connection times out"
+  },
+  "popup_error_timeout_hint": {
+    "message": "Check your network or firewall settings. API port: $1",
+    "description": "Popup banner hint for timeout error, $1 = port number",
+    "placeholders": {
+      "1": {
+        "content": "$1",
+        "example": "29110"
+      }
+    }
+  },
+  "popup_error_unreachable_hint": {
+    "message": "Make sure Rayburst is running. API port: $1",
+    "description": "Popup banner hint for unreachable error, $1 = port number",
+    "placeholders": {
+      "1": {
+        "content": "$1",
+        "example": "29110"
+      }
+    }
+  },
+  "options_section_language": {
+    "message": "Idioma",
+    "description": "Settings section for interface language"
+  },
+  "options_locale_auto": {
+    "message": "Automàtic",
+    "description": "Language option: follow browser language"
+  },
+  "options_locale_auto_desc": {
+    "message": "Seguir l'idioma del navegador",
+    "description": "Description for auto language option"
+  },
+  "options_desktop_unavailable_label": {
+    "message": "Quan Rayburst no estigui disponible",
+    "description": "Unavailable desktop behavior label"
+  },
+  "options_desktop_unavailable_launch": {
+    "message": "Inicia Rayburst",
+    "description": "Launch desktop option"
+  },
+  "options_desktop_unavailable_browser": {
+    "message": "Utilitza el navegador",
+    "description": "Browser fallback option"
+  },
+  "options_desktop_startup_timeout_label": {
+    "message": "Temps d'espera d'inici",
+    "description": "Desktop startup timeout label"
+  },
+  "options_desktop_open_link_label": {
+    "message": "Inicia Rayburst amb un enllaç del navegador (mètode antic)",
+    "description": "Setting: start the desktop by opening its link in a tab instead of Native Messaging"
+  },
+  "options_seconds_suffix": {
+    "message": "s",
+    "description": "Seconds unit suffix"
+  },
+  "popup_stat_active": {
+    "message": "Actives",
+    "description": "Task count label: currently downloading"
+  },
+  "popup_stat_waiting": {
+    "message": "En espera",
+    "description": "Task count label: queued for download"
+  },
+  "popup_stat_stopped": {
+    "message": "Completades",
+    "description": "Task count label: completed or stopped"
+  },
+  "popup_toggle_enabled": {
+    "message": "Interceptant",
+    "description": "Label next to the interception toggle when active"
+  },
+  "popup_toggle_disabled": {
+    "message": "Pausat",
+    "description": "Label next to the interception toggle when inactive"
+  },
+  "options_api_port_label": {
+    "message": "API Port",
+    "description": "Label for the API port input"
+  },
+  "options_api_secret_label": {
+    "message": "API Secret",
+    "description": "Label for the API secret input"
+  },
+  "options_api_secret_placeholder": {
+    "message": "Paste from desktop app",
+    "description": "Placeholder text for API secret input"
+  },
+  "error_api_unreachable": {
+    "message": "Cannot connect to Rayburst",
+    "description": "Error when the API endpoint is unreachable"
+  },
+  "error_api_auth": {
+    "message": "API secret is incorrect",
+    "description": "Error when the API secret does not match"
+  },
+  "error_api_timeout": {
+    "message": "Temps de connexió esgotat",
+    "description": "Error when the API connection times out"
+  },
+  "options_hide_download_bar_label": {
+    "message": "Amaga la barra de baixades del navegador",
+    "description": "Label for the optional browser download bar hiding setting."
+  },
+  "options_forward_request_headers_label": {
+    "message": "Reenvia capçaleres de sol·licitud",
+    "description": "Label for the request header forwarding setting."
+  },
+  "options_forward_cookies_label": {
+    "message": "Reenvia les galetes",
+    "description": "Label for the cookie forwarding setting."
+  },
+  "options_permission_download_ui_denied": {
+    "message": "Concedeix el permís de la interfície de baixades per amagar la barra de baixades del navegador.",
+    "description": "Toast shown when the optional downloads.ui permission is denied."
+  },
+  "options_permission_cookies_denied": {
+    "message": "Concedeix permisos de galetes i llocs per reenviar galetes a Rayburst.",
+    "description": "Toast shown when cookie forwarding permissions are unavailable."
+  },
+  "options_scope_browser_downloads_label": {
+    "message": "Baixades del navegador",
+    "description": "Label for the browser download interception scope toggle."
+  },
+  "options_scope_magnet_label": {
+    "message": "Enllaços Magnet",
+    "description": "Label for the magnet link interception scope toggle."
+  },
+  "options_scope_ed2k_label": {
+    "message": "Enllaços ED2K",
+    "description": "Label for the ED2K link interception scope toggle."
+  },
+  "options_scope_thunder_label": {
+    "message": "Enllaços Thunder",
+    "description": "Label for the Thunder link interception scope toggle."
+  },
+  "options_scope_incognito_label": {
+    "message": "Baixades de finestres privades",
+    "description": "Label for the private-window download interception toggle."
+  },
+  "options_scope_incognito_hint": {
+    "message": "Les baixades de finestres privades passen a Rayburst i apareixen a la seva llista de tasques i a l’historial. El navegador també ha de permetre aquesta extensió a les finestres privades.",
+    "description": "Hint under the private-window download interception toggle."
+  },
+  "options_scope_other_extensions_label": {
+    "message": "Baixades d’altres extensions",
+    "description": "Label for the toggle that takes over downloads other extensions start."
+  },
+  "options_scope_other_extensions_hint": {
+    "message": "Per exemple, enllaços resolts per una extensió de desbloqueig d’enllaços. Rayburst només se’n fa càrrec després de comprovar que rep el mateix fitxer.",
+    "description": "Hint under the other-extension download interception toggle."
+  },
+  "options_min_size_label": {
+    "message": "Mida mínima del fitxer",
+    "description": "Label for the minimum file size setting."
+  },
+  "options_min_size_value_label": {
+    "message": "Mida (MB)",
+    "description": "Label for the minimum file size numeric input."
+  },
+  "options_min_size_unknown_label": {
+    "message": "Mida desconeguda",
+    "description": "Label for the unknown file size behavior selector."
+  },
+  "options_min_size_unknown_intercept": {
+    "message": "Transfereix a Rayburst",
+    "description": "Option label for routing unknown-size downloads to Rayburst."
+  },
+  "options_min_size_unknown_skip": {
+    "message": "Transfereix al navegador",
+    "description": "Option label for leaving unknown-size downloads in the browser."
+  },
+  "options_duplicate_guard_label": {
+    "message": "Protecció de baixades duplicades",
+    "description": "Label for the duplicate download guard setting."
+  },
+  "options_duplicate_guard_window_label": {
+    "message": "Finestra de protecció",
+    "description": "Label for the duplicate download guard time window input."
+  },
+  "notification_duplicate_guard_title": {
+    "message": "Tasca enviada",
+    "description": "Notification title shown when a duplicate download is blocked."
+  },
+  "notification_duplicate_guard_body": {
+    "message": "Sol·licitud duplicada omesa",
+    "description": "Notification body shown when a duplicate download is blocked."
+  },
+  "notification_desktop_link_body": {
+    "message": "Fes clic per activar l’inici de Rayburst amb un enllaç del navegador.",
+    "description": "Notification body after an unattended start failed; clicking opens the settings"
+  },
+  "options_privacy_section_label": {
+    "message": "Privadesa",
+    "description": "Subsection label for privacy-related download forwarding settings."
+  },
+  "options_download_handling_section_label": {
+    "message": "Gestio de baixades",
+    "description": "Subsection label for browser and desktop download handling settings."
+  },
+  "options_site_rules_label": {
+    "message": "Regles de llocs",
+    "description": "Subsection label for per-site download rules."
+  },
+  "options_file_extension_rule_label": {
+    "message": "Regla d’extensió de fitxer",
+    "description": "Label for the file extension rule toggle."
+  },
+  "options_file_extension_list_label": {
+    "message": "Extensions",
+    "description": "Label for the file extension list input."
+  },
+  "options_file_extension_list_placeholder": {
+    "message": "Afegeix extensió",
+    "description": "Placeholder for the file extension list input."
+  },
+  "options_file_extension_listed_action_label": {
+    "message": "Extensions indicades",
+    "description": "Label for the action selector applied to listed file extensions."
+  },
+  "options_file_extension_unknown_action_label": {
+    "message": "Extensió desconeguda",
+    "description": "Label for the action selector applied when no file extension is detected."
+  },
+  "options_file_extension_action_intercept": {
+    "message": "Envia a Rayburst",
+    "description": "Option label for routing a matched extension to Rayburst."
+  },
+  "options_file_extension_action_skip": {
+    "message": "Usa el navegador",
+    "description": "Option label for leaving a matched extension in the browser."
+  },
+  "options_factory_reset_button": {
+    "message": "Restableix els paràmetres",
+    "description": "Button to stage a full settings reset."
+  },
+  "options_factory_reset_confirm": {
+    "message": "Fes clic de nou per restablir",
+    "description": "Second-click confirmation label for the reset button."
+  },
+  "options_factory_reset_ready": {
+    "message": "Valors per defecte preparats per desar",
+    "description": "Toast shown after default settings are staged for saving."
+  },
+  "options_section_maintenance": {
+    "message": "Manteniment",
+    "description": "Settings section for maintenance actions."
+  },
+  "options_settings_backup_title": {
+    "message": "Copia de seguretat dels ajustos",
+    "description": "Maintenance section title for settings backup."
+  },
+  "options_settings_backup_export": {
+    "message": "Exporta els ajustos",
+    "description": "Button to export settings backup."
+  },
+  "options_settings_backup_import": {
+    "message": "Importa els ajustos",
+    "description": "Button to import settings backup."
+  },
+  "options_settings_backup_exported": {
+    "message": "Copia exportada",
+    "description": "Toast shown after settings backup export starts."
+  },
+  "options_settings_backup_export_error": {
+    "message": "No s'ha pogut exportar la copia",
+    "description": "Toast shown when settings backup export fails."
+  },
+  "options_settings_backup_imported": {
+    "message": "Ajustos importats. Revisa i desa.",
+    "description": "Toast shown after settings backup is staged for saving."
+  },
+  "options_settings_backup_invalid": {
+    "message": "Fitxer de copia no valid",
+    "description": "Toast shown when selected settings backup is invalid."
+  },
+  "options_diagnostics_filter_all": {
+    "message": "Tot",
+    "description": "Filter label for all diagnostic levels"
+  },
+  "options_diagnostics_filter_error": {
+    "message": "Error",
+    "description": "Filter label for error diagnostic events"
+  },
+  "options_diagnostics_filter_warning": {
+    "message": "Avís",
+    "description": "Filter label for warning diagnostic events"
+  },
+  "options_diagnostics_filter_info": {
+    "message": "Informació",
+    "description": "Filter label for informational diagnostic events"
+  },
+  "options_diagnostics_filter_code": {
+    "message": "Tipus d'esdeveniment",
+    "description": "Placeholder for the diagnostic event type filter"
+  },
+  "options_diagnostics_clear_error": {
+    "message": "No s'han pogut esborrar els esdeveniments de diagnòstic",
+    "description": "Error shown when diagnostic events cannot be cleared"
+  },
+  "options_diagnostics_export_error": {
+    "message": "No s'ha pogut exportar l'informe de diagnòstic",
+    "description": "Error shown when the diagnostic report cannot be exported"
+  },
+  "popup_status_launching": {
+    "message": "Iniciant",
+    "description": "Popup status while the desktop app is starting"
+  },
+  "popup_launching_title": {
+    "message": "S’està iniciant Rayburst",
+    "description": "Popup launch progress title"
+  },
+  "popup_launching_hint": {
+    "message": "S’està esperant que l’aplicació d’escriptori estigui preparada…",
+    "description": "Popup launch progress description"
+  },
+  "popup_launch_failed_title": {
+    "message": "No s’ha pogut iniciar Rayburst",
+    "description": "Popup launch failure title"
+  },
+  "popup_launch_failed_hint": {
+    "message": "Comproveu que Rayburst estigui instal·lat i que la configuració de l’API sigui correcta.",
+    "description": "Popup launch failure guidance"
+  },
+  "popup_launch_link_hint": {
+    "message": "El navegador pot iniciar Rayburst amb un enllaç.",
+    "description": "Popup launch failure guidance when the desktop could not be started at all"
+  },
+  "popup_action_retry": {
+    "message": "Torna-ho a provar",
+    "description": "Popup action to retry desktop launch"
+  },
+  "popup_action_launch_link": {
+    "message": "Inicia amb un enllaç",
+    "description": "Popup button: allow starting the desktop through its link and retry"
+  },
+  "options_diagnostics_column_time": {
+    "message": "Hora",
+    "description": "Diagnostic table column heading for event time"
+  },
+  "options_diagnostics_column_level": {
+    "message": "Nivell",
+    "description": "Diagnostic table column heading for severity level"
+  },
+  "options_diagnostics_column_event": {
+    "message": "Esdeveniment",
+    "description": "Diagnostic table column heading for event code"
+  },
+  "options_diagnostics_column_message": {
+    "message": "Missatge",
+    "description": "Diagnostic table column heading for event message"
+  },
+  "options_diagnostics_pagination": {
+    "message": "$RANGE$ de $TOTAL$ · màxim $MAX$",
+    "description": "Diagnostic table pagination summary with visible range, filtered total, and retention limit",
+    "placeholders": {
+      "RANGE": {
+        "content": "$1",
+        "example": "1–10"
+      },
+      "TOTAL": {
+        "content": "$2",
+        "example": "37"
+      },
+      "MAX": {
+        "content": "$3",
+        "example": "100"
+      }
+    }
+  },
+  "options_diagnostics_log_entry_limit": {
+    "message": "Límit d'entrades del registre",
+    "description": "Label for the maximum number of diagnostic log entries retained locally"
+  },
+  "options_diagnostics_entries_suffix": {
+    "message": "entrades",
+    "description": "Unit suffix for the diagnostic log entry limit input"
+  },
+  "options_diagnostics_view_details": {
+    "message": "Mostra els detalls de l'esdeveniment",
+    "description": "Accessible label for opening diagnostic event details"
+  },
+  "options_diagnostics_details_title": {
+    "message": "Detalls de l'esdeveniment",
+    "description": "Title of the diagnostic event details drawer"
+  },
+  "options_diagnostics_details_message": {
+    "message": "Missatge",
+    "description": "Heading for the diagnostic event message"
+  },
+  "options_diagnostics_details_context": {
+    "message": "Context",
+    "description": "Heading for diagnostic event context fields"
+  },
+  "options_diagnostics_clear_confirm": {
+    "message": "Confirma l'esborrat",
+    "description": "Second-click confirmation label for clearing diagnostic logs"
+  },
+  "sniffer_tab": {
+    "message": "Detecció",
+    "description": "Navigation label for discovering page resources"
+  },
+  "media_downloads": {
+    "message": "Baixades",
+    "description": "Media discovery: downloads"
+  },
+  "media_discover": {
+    "message": "Detecta contingut multimèdia",
+    "description": "Media discovery: discover"
+  },
+  "media_scan": {
+    "message": "Escaneja la pàgina",
+    "description": "Media discovery: scan"
+  },
+  "media_clear": {
+    "message": "Esborra les fonts",
+    "description": "Media discovery: clear"
+  },
+  "media_filter": {
+    "message": "Filtra les fonts",
+    "description": "Media discovery: filter"
+  },
+  "media_sources": {
+    "message": "Fonts multimèdia",
+    "description": "Media discovery: sources"
+  },
+  "media_source": {
+    "message": "Font",
+    "description": "Media discovery: source"
+  },
+  "media_enable_site": {
+    "message": "Activa en aquest lloc",
+    "description": "Media discovery: enable site"
+  },
+  "media_disable_site": {
+    "message": "Desactiva en aquest lloc",
+    "description": "Media discovery: disable site"
+  },
+  "media_inspect": {
+    "message": "Inspecciona els formats",
+    "description": "Media discovery: inspect"
+  },
+  "media_options": {
+    "message": "Opcions multimèdia",
+    "description": "Media discovery: options"
+  },
+  "media_back": {
+    "message": "Torna a les fonts",
+    "description": "Media discovery: back"
+  },
+  "media_video": {
+    "message": "Qualitat del vídeo",
+    "description": "Media discovery: video"
+  },
+  "media_audio": {
+    "message": "Àudio",
+    "description": "Media discovery: audio"
+  },
+  "media_subtitles": {
+    "message": "Subtítols",
+    "description": "Media discovery: subtitles"
+  },
+  "media_format": {
+    "message": "Format de sortida",
+    "description": "Media discovery: format"
+  },
+  "media_original": {
+    "message": "Fitxer original",
+    "description": "Media discovery: original"
+  },
+  "media_record_limit": {
+    "message": "Límit de gravació (segons)",
+    "description": "Media discovery: record limit"
+  },
+  "media_live": {
+    "message": "Gravació en directe",
+    "description": "Media discovery: live"
+  },
+  "media_download": {
+    "message": "Baixa",
+    "description": "Media discovery: download"
+  },
+  "media_record": {
+    "message": "Inicia la gravació",
+    "description": "Media discovery: record"
+  },
+  "media_cancel": {
+    "message": "Cancel·la",
+    "description": "Media discovery: cancel"
+  },
+  "media_retry": {
+    "message": "Torna-ho a provar",
+    "description": "Media discovery: retry"
+  },
+  "media_no_video": {
+    "message": "Sense vídeo",
+    "description": "Media discovery: no video"
+  },
+  "media_no_audio": {
+    "message": "Sense àudio",
+    "description": "Media discovery: no audio"
+  },
+  "media_no_subtitles": {
+    "message": "Sense subtítols",
+    "description": "Media discovery: no subtitles"
+  },
+  "media_excluded_sites": {
+    "message": "Llocs multimèdia exclosos",
+    "description": "Media discovery: excluded sites"
+  },
+  "media_waiting": {
+    "message": "Reproductor detectat; esperant una font multimèdia.",
+    "description": "Media discovery: waiting"
+  },
+  "media_none": {
+    "message": "No s’han trobat fonts multimèdia.",
+    "description": "Media discovery: none"
+  },
+  "media_paused": {
+    "message": "La detecció multimèdia està en pausa.",
+    "description": "Media discovery: paused"
+  },
+  "media_excluded": {
+    "message": "La detecció multimèdia està desactivada en aquest lloc.",
+    "description": "Media discovery: excluded"
+  },
+  "media_ambiguous": {
+    "message": "No es poden associar les fonts a un únic reproductor. Comproveu-les abans de baixar.",
+    "description": "Media discovery: ambiguous"
+  },
+  "media_loading": {
+    "message": "S’estan inspeccionant els continguts…",
+    "description": "Media discovery: loading"
+  },
+  "media_submitted": {
+    "message": "Baixada creada a Rayburst.",
+    "description": "Media discovery: submitted"
+  },
+  "media_cancelled": {
+    "message": "Inspecció cancel·lada.",
+    "description": "Media discovery: cancelled"
+  },
+  "media_failed": {
+    "message": "L’operació ha fallat. Torneu-ho a provar per comprovar-ne l’estat.",
+    "description": "Media discovery: failed"
+  },
+  "media_unsupported": {
+    "message": "Aquest contingut o mètode de petició no és compatible.",
+    "description": "Media discovery: unsupported"
+  },
+  "media_invalid": {
+    "message": "Trieu una combinació compatible de pistes, format i durada.",
+    "description": "Media discovery: invalid"
+  },
+  "media_unavailable": {
+    "message": "Aquesta versió de l’aplicació d’escriptori no pot baixar fluxos. Instal·la l’última versió de Rayburst.",
+    "description": "Media discovery: unavailable"
+  },
+  "media_expired": {
+    "message": "La font o la inspecció ha caducat. Reproduïu i inspeccioneu de nou.",
+    "description": "Media discovery: expired"
+  },
+  "media_auth": {
+    "message": "Comproveu l’inici de sessió, el reenviament de peticions o la clau API de l’aplicació.",
+    "description": "Media discovery: auth"
+  },
+  "media_connection": {
+    "message": "Inicieu Rayburst i comproveu la connexió.",
+    "description": "Media discovery: connection"
+  },
+  "media_size_unknown": {
+    "message": "Mida desconeguda",
+    "description": "Media discovery: size unknown"
+  },
+  "media_duration_unknown": {
+    "message": "Durada desconeguda",
+    "description": "Media discovery: duration unknown"
+  },
+  "media_includes_audio": {
+    "message": "Inclou àudio",
+    "description": "Media discovery: includes audio"
+  },
+  "media_record_hint": {
+    "message": "Zero grava fins que atureu la gravació a Rayburst.",
+    "description": "Media discovery: record hint"
+  },
+  "media_inspect_hint": {
+    "message": "Inspeccioneu primer i confirmeu després la baixada.",
+    "description": "Media discovery: inspect hint"
+  },
+  "media_open_page": {
+    "message": "Obriu una pàgina web per detectar contingut multimèdia.",
+    "description": "Media discovery: open page"
+  },
+  "media_hint": {
+    "message": "Reproduïu vídeo o àudio per detectar-ne les fonts automàticament.",
+    "description": "Media discovery: hint"
+  },
+  "media_ready": {
+    "message": "Formats preparats",
+    "description": "Media discovery: ready"
+  },
+  "media_confirming": {
+    "message": "S’està confirmant la baixada…",
+    "description": "Media discovery: confirming"
+  },
+  "media_cancelling": {
+    "message": "S’està cancel·lant la inspecció…",
+    "description": "Media discovery: cancelling"
+  },
+  "options_color_scheme_rayburst": {
+    "message": "Rayburst"
+  },
+  "brand_tagline": {
+    "message": "Redefinim l’extensió complementària del navegador",
+    "description": "Localized Rayburst Connect brand slogan"
+  },
+  "resources_current": {
+    "message": "Pàgina actual"
+  },
+  "resources_other": {
+    "message": "Totes les pàgines"
+  },
+  "resources_controls": {
+    "message": "Controls del reproductor"
+  },
+  "resources_expand": {
+    "message": "Obre l’espai de treball"
+  },
+  "resources_fullscreen": {
+    "message": "Pantalla completa"
+  },
+  "resources_import": {
+    "message": "Afegeix una font"
+  },
+  "resources_invert": {
+    "message": "Inverteix la selecció"
+  },
+  "resources_key": {
+    "message": "Clau AES-128"
+  },
+  "resources_kind_collection": {
+    "message": "Contingut combinat"
+  },
+  "resources_kind_fragment": {
+    "message": "Segment"
+  },
+  "resources_loop": {
+    "message": "Repeteix"
+  },
+  "resources_manifest": {
+    "message": "Manifest o URL dels segments"
+  },
+  "resources_merge": {
+    "message": "Combina àudio i vídeo"
+  },
+  "resources_mute": {
+    "message": "Silencia"
+  },
+  "resources_preview": {
+    "message": "Previsualització"
+  },
+  "resources_preview_unavailable": {
+    "message": "Previsualització no disponible. La descàrrega encara pot funcionar."
+  },
+  "resources_reload": {
+    "message": "Recarrega per capturar des del principi"
+  },
+  "resources_screenshot": {
+    "message": "Desa la captura"
+  },
+  "resources_sequence": {
+    "message": "Uneix segments"
+  },
+  "resources_sidebar": {
+    "message": "Obre el panell lateral"
+  },
+  "resources_start": {
+    "message": "Inicia"
+  },
+  "resources_start_time": {
+    "message": "Inici (segons)"
+  },
+  "resources_end_time": {
+    "message": "Final (0: final de la font)"
+  },
+  "resources_stop": {
+    "message": "Atura"
+  },
+  "resources_test_keys": {
+    "message": "Comprova les claus detectades"
+  },
+  "resources_tools": {
+    "message": "Eines multimèdia"
+  },
+  "resources_volume": {
+    "message": "Volum"
+  },
+  "resources_preserve": {
+    "message": "Conserva les fonts en navegar"
+  },
+  "resources_deep": {
+    "message": "Cerca profunda"
+  },
+  "resources_cache": {
+    "message": "Captura la memòria intermèdia"
+  },
+  "resources_copy": {
+    "message": "Copiar"
+  },
+  "resources_select_all": {
+    "message": "Seleccionar-ho tot"
+  },
+  "resources_name": {
+    "message": "Nom"
+  },
+  "resources_size": {
+    "message": "Mida"
+  },
+  "resources_type": {
+    "message": "Tipus"
+  },
+  "resources_speed": {
+    "message": "Velocitat"
+  },
+  "resources_kind_image": {
+    "message": "Imatges"
+  },
+  "resources_all": {
+    "message": "Tot"
+  },
+  "resources_time": {
+    "message": "Hora"
+  },
+  "resources_video": {
+    "message": "Inicia la gravació"
+  },
+  "resources_kind_embedded": {
+    "message": "Font"
+  },
+  "resources_kind_file": {
+    "message": "Fitxer original"
+  },
+  "resources_kind_subtitle": {
+    "message": "Subtítols"
+  },
+  "resources_pause": {
+    "message": "Pausa"
+  },
+  "resources_play": {
+    "message": "Reprodueix"
+  },
+  "resources_kind_json": {
+    "message": "JSON"
+  },
+  "resources_url": {
+    "message": "URL"
+  },
+  "resources_pip": {
+    "message": "PiP"
+  },
+  "resources_sort": {
+    "message": "Ordena"
+  },
+  "resources_auto": {
+    "message": "Baixa automàticament els recursos nous"
+  },
+  "resources_mobile": {
+    "message": "Utilitza un User-Agent mòbil"
+  },
+  "media_settings_title": {
+    "message": "Configuració de detecció"
+  },
+  "media_settings_any_size": {
+    "message": "Qualsevol mida"
+  },
+  "media_settings_capture": {
+    "message": "Detecta"
+  },
+  "media_settings_edit": {
+    "message": "Edita"
+  },
+  "media_settings_remove": {
+    "message": "Elimina"
+  },
+  "media_settings_invalid_rule": {
+    "message": "Comprova la sintaxi, els valors i els tipus duplicats."
+  },
+  "media_settings_between": {
+    "message": "Entre"
+  },
+  "media_settings_upper": {
+    "message": "Límit superior"
+  },
+  "media_settings_pattern": {
+    "message": "Patró"
+  },
+  "media_settings_action": {
+    "message": "Acció"
+  },
+  "media_settings_enabled": {
+    "message": "Activat"
+  },
+  "media_settings_ignore": {
+    "message": "Ignora"
+  },
+  "media_settings_regex": {
+    "message": "Expressions regulars"
+  },
+  "media_settings_regex_hint": {
+    "message": "La primera coincidència preval sobre les regles de tipus."
+  },
+  "media_settings_flags": {
+    "message": "Indicadors regex"
+  },
+  "media_settings_group": {
+    "message": "Grup URL (0: URL original)"
+  },
+  "media_settings_test_url": {
+    "message": "URL de prova"
+  },
+  "media_settings_no_match": {
+    "message": "Cap coincidència"
+  },
+  "media_settings_behavior": {
+    "message": "Comportament"
+  },
+  "media_settings_capture_hint": {
+    "message": "Els filtres no limiten les baixades de llistes de reproducció."
+  },
+  "media_settings_newest": {
+    "message": "Més recents primer"
+  },
+  "media_settings_quick": {
+    "message": "Baixada ràpida"
+  },
+  "media_settings_quick_hint": {
+    "message": "Tria les pistes quan hi hagi diverses opcions."
+  },
+  "media_settings_deep": {
+    "message": "Activa sempre la cerca profunda"
+  },
+  "media_settings_deep_hint": {
+    "message": "Recarrega les pàgines. Pot afectar la reproducció."
+  },
+  "media_settings_name_from": {
+    "message": "Anomena els fitxers detectats segons"
+  },
+  "media_settings_name_from_file": {
+    "message": "Nom del fitxer"
+  },
+  "media_settings_name_from_title": {
+    "message": "Títol de la pàgina"
+  },
+  "media_settings_include": {
+    "message": "Només els llocs indicats"
+  },
+  "media_settings_exclude": {
+    "message": "Exclou els llocs indicats"
+  },
+  "media_settings_autosave": {
+    "message": "Els canvis es desen automàticament."
+  },
+  "media_settings_restore": {
+    "message": "Restaura els valors multimèdia"
+  },
+  "media_settings_restore_hint": {
+    "message": "Vols restablir només el contingut multimèdia? La connexió no canvia."
+  },
+  "media_settings_close_preview": {
+    "message": "Tanca la previsualització"
+  },
+  "sniffer_page_count": {
+    "message": "Recursos d’aquesta pàgina: $1",
+    "description": "Resource count for the current browser tab; $1 is the full count"
+  },
+  "sniffer_results": {
+    "message": "Es mostren $1 de $2 recursos",
+    "description": "Filtered resources in the selected scope; $1 is visible, $2 is total"
+  },
+  "popup_status_checking": {
+    "message": "Comprovant",
+    "description": "Connection status while the desktop check is pending"
+  },
+  "connection_unsupported_title": {
+    "message": "Versió d’escriptori no compatible"
+  },
+  "connection_upgrade_hint": {
+    "message": "Instal·la l’última versió de Rayburst i torna a connectar-te."
+  },
+  "connection_legacy_title": {
+    "message": "Actualitza a l’última versió de Rayburst",
+    "description": "Title of the update notice shown while connected to an older desktop"
+  },
+  "connection_legacy_hint": {
+    "message": "$1 és una versió antiga i algunes funcions no estan disponibles.",
+    "description": "Shown while connected to an older desktop, $1 = its name and version",
+    "placeholders": {
+      "1": {
+        "content": "$1",
+        "example": "Motrix Next 3.9.9"
+      }
+    }
+  },
+  "connection_legacy_dismiss": {
+    "message": "Tanca",
+    "description": "Accessible label of the button that closes the popup update notice"
+  },
+  "connection_get_rayburst": {
+    "message": "Obtén Rayburst"
+  },
+  "connection_check_again": {
+    "message": "Torna a comprovar"
+  },
+  "error_engine_starting": {
+    "message": "El motor del Rayburst s’està iniciant"
+  },
+  "error_engine_unavailable": {
+    "message": "El motor del Rayburst no està disponible"
+  },
+  "error_engine_hint": {
+    "message": "Obriu el Rayburst per comprovar el motor i torneu a connectar."
+  },
+  "popup_site_rules": {
+    "message": "Lloc actual"
+  },
+  "popup_site_allow": {
+    "message": "Activa en aquest lloc"
+  },
+  "popup_site_exclude": {
+    "message": "Exclou aquest lloc"
+  },
+  "popup_task_waiting": {
+    "message": "En espera",
+    "description": "Popup task list: queued task"
+  },
+  "popup_task_paused": {
+    "message": "En pausa",
+    "description": "Popup task list: paused task"
+  },
+  "popup_task_failed": {
+    "message": "Error",
+    "description": "Popup task list: failed task without a message"
+  },
+  "popup_task_pause": {
+    "message": "Posa en pausa",
+    "description": "Popup task list: pause button"
+  },
+  "popup_task_resume": {
+    "message": "Reprèn",
+    "description": "Popup task list: resume button"
+  },
+  "popup_task_reveal": {
+    "message": "Mostra a la carpeta",
+    "description": "Popup task list: show the finished file in its folder"
+  },
+  "popup_tasks_empty": {
+    "message": "Encara no hi ha baixades",
+    "description": "Popup task list: nothing to show"
+  },
+  "options_alt_click_bypass_label": {
+    "message": "Alt + clic baixa amb el navegador",
+    "description": "Setting: holding Alt while clicking a link lets the browser download it"
+  },
+  "media_complete_video": {
+    "message": "Vídeo complet",
+    "description": "Media discovery: separate video and audio track files listed as one video"
+  },
+  "media_tracks": {
+    "message": "$1 pistes",
+    "description": "Media discovery: number of track files in a complete video; $1 is the count"
+  },
+  "media_track_files": {
+    "message": "Fitxers de pista",
+    "description": "Media discovery: shows or hides the track files of a complete video"
+  }
+}

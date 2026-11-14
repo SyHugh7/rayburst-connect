@@ -1,0 +1,1206 @@
+{
+  "options_website": {
+    "message": "Sito web"
+  },
+  "ext_name": {
+    "message": "Rayburst Connect",
+    "description": "Extension display name"
+  },
+  "ext_description": {
+    "message": "Invia download e contenuti multimediali rilevati a Rayburst, con anteprime e strumenti di acquisizione.",
+    "description": "Extension description shown in browser and web store"
+  },
+  "popup_status_connected": {
+    "message": "Connesso",
+    "description": "Connection status badge when API is reachable"
+  },
+  "popup_status_disconnected": {
+    "message": "Disconnesso",
+    "description": "Connection status badge when API is unreachable"
+  },
+  "popup_action_pause_all": {
+    "message": "Metti in pausa tutti",
+    "description": "Button to pause all active downloads"
+  },
+  "popup_action_resume_all": {
+    "message": "Riprendi tutti",
+    "description": "Button to resume all paused downloads"
+  },
+  "popup_action_settings": {
+    "message": "Impostazioni",
+    "description": "Button to open the options page"
+  },
+  "popup_action_launch": {
+    "message": "Avvia Rayburst",
+    "description": "Button to launch the desktop app when disconnected"
+  },
+  "popup_action_open": {
+    "message": "Apri Rayburst",
+    "description": "Button to focus the desktop app when already connected"
+  },
+  "popup_error_unreachable": {
+    "message": "Impossibile connettersi a Rayburst",
+    "description": "Error message when API is unreachable"
+  },
+  "options_section_connection": {
+    "message": "Connessione",
+    "description": "Settings section for API connection"
+  },
+  "options_test_connection": {
+    "message": "Test connessione",
+    "description": "Button to test the API connection"
+  },
+  "options_section_behavior": {
+    "message": "Download",
+    "description": "Settings section for download interception behavior"
+  },
+  "options_enabled_label": {
+    "message": "Abilita intercettazione download",
+    "description": "Toggle label for enabling/disabling download interception"
+  },
+  "options_section_rules": {
+    "message": "Regole",
+    "description": "Settings section for download routing rules"
+  },
+  "options_add_rule": {
+    "message": "Aggiungi regola",
+    "description": "Button to add a new site rule"
+  },
+  "options_section_appearance": {
+    "message": "Aspetto",
+    "description": "Settings section for theme"
+  },
+  "options_theme_system": {
+    "message": "Sistema",
+    "description": "Theme option: follow system preference"
+  },
+  "options_theme_light": {
+    "message": "Chiaro",
+    "description": "Theme option: light mode"
+  },
+  "options_theme_dark": {
+    "message": "Scuro",
+    "description": "Theme option: dark mode"
+  },
+  "options_section_diagnostics": {
+    "message": "Diagnostica",
+    "description": "Settings section for diagnostic event log"
+  },
+  "context_menu_download": {
+    "message": "Scarica con Rayburst",
+    "description": "Context menu item for downloading a link with Rayburst"
+  },
+  "options_header_title": {
+    "message": "Rayburst Connect",
+    "description": "Options page header title"
+  },
+  "options_header_subtitle": {
+    "message": "Impostazioni estensione",
+    "description": "Options page header subtitle"
+  },
+  "options_testing_connection": {
+    "message": "Test in corso...",
+    "description": "Button text while testing connection"
+  },
+  "options_connection_success_prefix": {
+    "message": "Connesso · Rayburst",
+    "description": "Prefix for successful connection status"
+  },
+  "options_connection_success_motrix": {
+    "message": "Connesso · Motrix Next",
+    "description": "Connection status when Motrix Next answered"
+  },
+  "options_rules_empty": {
+    "message": "Nessuna regola configurata.",
+    "description": "Placeholder when no site rules exist"
+  },
+  "options_diagnostics_export": {
+    "message": "Esporta rapporto diagnostico",
+    "description": "Button to export full diagnostic report as JSON file"
+  },
+  "options_diagnostics_clear": {
+    "message": "Cancella registro",
+    "description": "Button to clear diagnostic log"
+  },
+  "options_diagnostics_empty": {
+    "message": "Nessun evento diagnostico.",
+    "description": "Placeholder when diagnostic log is empty"
+  },
+  "options_footer": {
+    "message": "Rayburst Connect v$version$",
+    "description": "Footer text with version number",
+    "placeholders": {
+      "version": {
+        "content": "$1"
+      }
+    }
+  },
+  "options_save": {
+    "message": "Salva",
+    "description": "Save button in action bar"
+  },
+  "options_discard": {
+    "message": "Annulla",
+    "description": "Discard button in action bar"
+  },
+  "options_discard_success": {
+    "message": "Modifiche ripristinate",
+    "description": "Toast after discarding unsaved settings changes"
+  },
+  "options_save_success": {
+    "message": "Impostazioni salvate",
+    "description": "Toast after saving settings successfully"
+  },
+  "options_save_error": {
+    "message": "Salvataggio impostazioni fallito",
+    "description": "Toast when saving settings fails"
+  },
+  "options_changes_indicator": {
+    "message": "Modifiche non salvate",
+    "description": "Indicator text showing there are unsaved modifications"
+  },
+  "options_color_scheme": {
+    "message": "Schema colori",
+    "description": "Label for the color scheme picker"
+  },
+  "options_color_scheme_amber": {
+    "message": "Oro ambra",
+    "description": "Amber Gold color scheme"
+  },
+  "options_color_scheme_space": {
+    "message": "Blu spaziale",
+    "description": "Space Blue color scheme"
+  },
+  "options_color_scheme_mint": {
+    "message": "Verde menta",
+    "description": "Mint Green color scheme"
+  },
+  "options_color_scheme_rose": {
+    "message": "Rosso rosa",
+    "description": "Rose Red color scheme"
+  },
+  "options_color_scheme_coral": {
+    "message": "Arancione corallo",
+    "description": "Coral Orange color scheme"
+  },
+  "options_color_scheme_glacier": {
+    "message": "Ciano glaciale",
+    "description": "Glacier Cyan color scheme"
+  },
+  "options_color_scheme_evergreen": {
+    "message": "Sempreverde",
+    "description": "Evergreen color scheme"
+  },
+  "options_color_scheme_graphite": {
+    "message": "Grigio grafite",
+    "description": "Graphite Grey color scheme"
+  },
+  "options_color_scheme_sakura": {
+    "message": "Rosa sakura",
+    "description": "Sakura Pink color scheme"
+  },
+  "error_unknown": {
+    "message": "Si è verificato un errore sconosciuto",
+    "description": "Fallback error message"
+  },
+  "options_rule_always_intercept": {
+    "message": "Intercetta sempre",
+    "description": "Site rule action: always intercept downloads"
+  },
+  "options_rule_always_skip": {
+    "message": "Ignora sempre",
+    "description": "Site rule action: never intercept downloads"
+  },
+  "options_rule_use_global": {
+    "message": "Usa impostazione globale",
+    "description": "Site rule action: follow the global setting"
+  },
+  "popup_error_auth": {
+    "message": "API secret mismatch",
+    "description": "Popup banner title when API secret is incorrect"
+  },
+  "popup_error_auth_hint": {
+    "message": "Check that the API secret in Settings matches your Rayburst configuration.",
+    "description": "Popup banner hint for API auth error"
+  },
+  "popup_error_timeout": {
+    "message": "Timeout della connessione",
+    "description": "Popup banner title when API connection times out"
+  },
+  "popup_error_timeout_hint": {
+    "message": "Check your network or firewall settings. API port: $1",
+    "description": "Popup banner hint for timeout error, $1 = port number",
+    "placeholders": {
+      "1": {
+        "content": "$1",
+        "example": "29110"
+      }
+    }
+  },
+  "popup_error_unreachable_hint": {
+    "message": "Make sure Rayburst is running. API port: $1",
+    "description": "Popup banner hint for unreachable error, $1 = port number",
+    "placeholders": {
+      "1": {
+        "content": "$1",
+        "example": "29110"
+      }
+    }
+  },
+  "options_section_language": {
+    "message": "Lingua",
+    "description": "Settings section for interface language"
+  },
+  "options_locale_auto": {
+    "message": "Automatica",
+    "description": "Language option: follow browser language"
+  },
+  "options_locale_auto_desc": {
+    "message": "Segui la lingua del browser",
+    "description": "Description for auto language option"
+  },
+  "options_desktop_unavailable_label": {
+    "message": "Quando Rayburst non è disponibile",
+    "description": "Unavailable desktop behavior label"
+  },
+  "options_desktop_unavailable_launch": {
+    "message": "Avvia Rayburst",
+    "description": "Launch desktop option"
+  },
+  "options_desktop_unavailable_browser": {
+    "message": "Usa il browser",
+    "description": "Browser fallback option"
+  },
+  "options_desktop_startup_timeout_label": {
+    "message": "Timeout di avvio",
+    "description": "Desktop startup timeout label"
+  },
+  "options_desktop_open_link_label": {
+    "message": "Avvia Rayburst tramite un link del browser (metodo precedente)",
+    "description": "Setting: start the desktop by opening its link in a tab instead of Native Messaging"
+  },
+  "options_seconds_suffix": {
+    "message": "s",
+    "description": "Seconds unit suffix"
+  },
+  "popup_stat_active": {
+    "message": "Attivi",
+    "description": "Task count label: currently downloading"
+  },
+  "popup_stat_waiting": {
+    "message": "In attesa",
+    "description": "Task count label: queued for download"
+  },
+  "popup_stat_stopped": {
+    "message": "Completati",
+    "description": "Task count label: completed or stopped"
+  },
+  "popup_toggle_enabled": {
+    "message": "Intercettazione attiva",
+    "description": "Label next to the interception toggle when active"
+  },
+  "popup_toggle_disabled": {
+    "message": "In pausa",
+    "description": "Label next to the interception toggle when inactive"
+  },
+  "options_api_port_label": {
+    "message": "API Port",
+    "description": "Label for the API port input"
+  },
+  "options_api_secret_label": {
+    "message": "API Secret",
+    "description": "Label for the API secret input"
+  },
+  "options_api_secret_placeholder": {
+    "message": "Paste from desktop app",
+    "description": "Placeholder text for API secret input"
+  },
+  "error_api_unreachable": {
+    "message": "Cannot connect to Rayburst",
+    "description": "Error when the API endpoint is unreachable"
+  },
+  "error_api_auth": {
+    "message": "API secret is incorrect",
+    "description": "Error when the API secret does not match"
+  },
+  "error_api_timeout": {
+    "message": "Timeout della connessione",
+    "description": "Error when the API connection times out"
+  },
+  "options_hide_download_bar_label": {
+    "message": "Nascondi la barra dei download del browser",
+    "description": "Label for the optional browser download bar hiding setting."
+  },
+  "options_forward_request_headers_label": {
+    "message": "Inoltra intestazioni richiesta",
+    "description": "Label for the request header forwarding setting."
+  },
+  "options_forward_cookies_label": {
+    "message": "Inoltra i cookie",
+    "description": "Label for the cookie forwarding setting."
+  },
+  "options_permission_download_ui_denied": {
+    "message": "Concedi l’autorizzazione dell’interfaccia download per nascondere la barra dei download del browser.",
+    "description": "Toast shown when the optional downloads.ui permission is denied."
+  },
+  "options_permission_cookies_denied": {
+    "message": "Concedi le autorizzazioni per cookie e siti per inoltrare i cookie a Rayburst.",
+    "description": "Toast shown when cookie forwarding permissions are unavailable."
+  },
+  "options_scope_browser_downloads_label": {
+    "message": "Download del browser",
+    "description": "Label for the browser download interception scope toggle."
+  },
+  "options_scope_magnet_label": {
+    "message": "Link Magnet",
+    "description": "Label for the magnet link interception scope toggle."
+  },
+  "options_scope_ed2k_label": {
+    "message": "Link ED2K",
+    "description": "Label for the ED2K link interception scope toggle."
+  },
+  "options_scope_thunder_label": {
+    "message": "Link Thunder",
+    "description": "Label for the Thunder link interception scope toggle."
+  },
+  "options_scope_incognito_label": {
+    "message": "Download delle finestre private",
+    "description": "Label for the private-window download interception toggle."
+  },
+  "options_scope_incognito_hint": {
+    "message": "I download delle finestre private passano a Rayburst e compaiono nel suo elenco attività e nella cronologia. Il browser deve anche consentire questa estensione nelle finestre private.",
+    "description": "Hint under the private-window download interception toggle."
+  },
+  "options_scope_other_extensions_label": {
+    "message": "Download di altre estensioni",
+    "description": "Label for the toggle that takes over downloads other extensions start."
+  },
+  "options_scope_other_extensions_hint": {
+    "message": "Ad esempio, link risolti da un’estensione di sblocco link. Rayburst li prende in carico solo dopo aver verificato di ricevere lo stesso file.",
+    "description": "Hint under the other-extension download interception toggle."
+  },
+  "options_min_size_label": {
+    "message": "Dimensione minima del file",
+    "description": "Label for the minimum file size setting."
+  },
+  "options_min_size_value_label": {
+    "message": "Dimensione (MB)",
+    "description": "Label for the minimum file size numeric input."
+  },
+  "options_min_size_unknown_label": {
+    "message": "Dimensione sconosciuta",
+    "description": "Label for the unknown file size behavior selector."
+  },
+  "options_min_size_unknown_intercept": {
+    "message": "Trasferisci a Rayburst",
+    "description": "Option label for routing unknown-size downloads to Rayburst."
+  },
+  "options_min_size_unknown_skip": {
+    "message": "Trasferisci al browser",
+    "description": "Option label for leaving unknown-size downloads in the browser."
+  },
+  "options_duplicate_guard_label": {
+    "message": "Protezione download duplicati",
+    "description": "Label for the duplicate download guard setting."
+  },
+  "options_duplicate_guard_window_label": {
+    "message": "Finestra di protezione",
+    "description": "Label for the duplicate download guard time window input."
+  },
+  "notification_duplicate_guard_title": {
+    "message": "Attività inviata",
+    "description": "Notification title shown when a duplicate download is blocked."
+  },
+  "notification_duplicate_guard_body": {
+    "message": "Richiesta duplicata ignorata",
+    "description": "Notification body shown when a duplicate download is blocked."
+  },
+  "notification_desktop_link_body": {
+    "message": "Fai clic per attivare l’avvio di Rayburst tramite un link del browser.",
+    "description": "Notification body after an unattended start failed; clicking opens the settings"
+  },
+  "options_privacy_section_label": {
+    "message": "Privacy",
+    "description": "Subsection label for privacy-related download forwarding settings."
+  },
+  "options_download_handling_section_label": {
+    "message": "Gestione download",
+    "description": "Subsection label for browser and desktop download handling settings."
+  },
+  "options_site_rules_label": {
+    "message": "Regole sito",
+    "description": "Subsection label for per-site download rules."
+  },
+  "options_file_extension_rule_label": {
+    "message": "Regola estensione file",
+    "description": "Label for the file extension rule toggle."
+  },
+  "options_file_extension_list_label": {
+    "message": "Estensioni",
+    "description": "Label for the file extension list input."
+  },
+  "options_file_extension_list_placeholder": {
+    "message": "Aggiungi estensione",
+    "description": "Placeholder for the file extension list input."
+  },
+  "options_file_extension_listed_action_label": {
+    "message": "Estensioni elencate",
+    "description": "Label for the action selector applied to listed file extensions."
+  },
+  "options_file_extension_unknown_action_label": {
+    "message": "Estensione sconosciuta",
+    "description": "Label for the action selector applied when no file extension is detected."
+  },
+  "options_file_extension_action_intercept": {
+    "message": "Invia a Rayburst",
+    "description": "Option label for routing a matched extension to Rayburst."
+  },
+  "options_file_extension_action_skip": {
+    "message": "Usa browser",
+    "description": "Option label for leaving a matched extension in the browser."
+  },
+  "options_factory_reset_button": {
+    "message": "Ripristina impostazioni",
+    "description": "Button to stage a full settings reset."
+  },
+  "options_factory_reset_confirm": {
+    "message": "Fai di nuovo clic per ripristinare",
+    "description": "Second-click confirmation label for the reset button."
+  },
+  "options_factory_reset_ready": {
+    "message": "Valori predefiniti pronti da salvare",
+    "description": "Toast shown after default settings are staged for saving."
+  },
+  "options_section_maintenance": {
+    "message": "Manutenzione",
+    "description": "Settings section for maintenance actions."
+  },
+  "options_settings_backup_title": {
+    "message": "Backup impostazioni",
+    "description": "Maintenance section title for settings backup."
+  },
+  "options_settings_backup_export": {
+    "message": "Esporta impostazioni",
+    "description": "Button to export settings backup."
+  },
+  "options_settings_backup_import": {
+    "message": "Importa impostazioni",
+    "description": "Button to import settings backup."
+  },
+  "options_settings_backup_exported": {
+    "message": "Backup esportato",
+    "description": "Toast shown after settings backup export starts."
+  },
+  "options_settings_backup_export_error": {
+    "message": "Impossibile esportare il backup",
+    "description": "Toast shown when settings backup export fails."
+  },
+  "options_settings_backup_imported": {
+    "message": "Impostazioni importate. Controlla e salva.",
+    "description": "Toast shown after settings backup is staged for saving."
+  },
+  "options_settings_backup_invalid": {
+    "message": "File di backup non valido",
+    "description": "Toast shown when selected settings backup is invalid."
+  },
+  "options_diagnostics_filter_all": {
+    "message": "Tutti",
+    "description": "Filter label for all diagnostic levels"
+  },
+  "options_diagnostics_filter_error": {
+    "message": "Errore",
+    "description": "Filter label for error diagnostic events"
+  },
+  "options_diagnostics_filter_warning": {
+    "message": "Avviso",
+    "description": "Filter label for warning diagnostic events"
+  },
+  "options_diagnostics_filter_info": {
+    "message": "Info",
+    "description": "Filter label for informational diagnostic events"
+  },
+  "options_diagnostics_filter_code": {
+    "message": "Tipo di evento",
+    "description": "Placeholder for the diagnostic event type filter"
+  },
+  "options_diagnostics_clear_error": {
+    "message": "Impossibile cancellare gli eventi diagnostici",
+    "description": "Error shown when diagnostic events cannot be cleared"
+  },
+  "options_diagnostics_export_error": {
+    "message": "Impossibile esportare il rapporto diagnostico",
+    "description": "Error shown when the diagnostic report cannot be exported"
+  },
+  "popup_status_launching": {
+    "message": "Avvio",
+    "description": "Popup status while the desktop app is starting"
+  },
+  "popup_launching_title": {
+    "message": "Avvio di Rayburst",
+    "description": "Popup launch progress title"
+  },
+  "popup_launching_hint": {
+    "message": "Attendo che l’app desktop sia pronta…",
+    "description": "Popup launch progress description"
+  },
+  "popup_launch_failed_title": {
+    "message": "Impossibile avviare Rayburst",
+    "description": "Popup launch failure title"
+  },
+  "popup_launch_failed_hint": {
+    "message": "Verifica che Rayburst sia installato e che le impostazioni API siano corrette.",
+    "description": "Popup launch failure guidance"
+  },
+  "popup_launch_link_hint": {
+    "message": "Il browser può avviare Rayburst tramite un link.",
+    "description": "Popup launch failure guidance when the desktop could not be started at all"
+  },
+  "popup_action_retry": {
+    "message": "Riprova",
+    "description": "Popup action to retry desktop launch"
+  },
+  "popup_action_launch_link": {
+    "message": "Avvia tramite link",
+    "description": "Popup button: allow starting the desktop through its link and retry"
+  },
+  "options_diagnostics_column_time": {
+    "message": "Ora",
+    "description": "Diagnostic table column heading for event time"
+  },
+  "options_diagnostics_column_level": {
+    "message": "Livello",
+    "description": "Diagnostic table column heading for severity level"
+  },
+  "options_diagnostics_column_event": {
+    "message": "Evento",
+    "description": "Diagnostic table column heading for event code"
+  },
+  "options_diagnostics_column_message": {
+    "message": "Messaggio",
+    "description": "Diagnostic table column heading for event message"
+  },
+  "options_diagnostics_pagination": {
+    "message": "$RANGE$ di $TOTAL$ · massimo $MAX$",
+    "description": "Diagnostic table pagination summary with visible range, filtered total, and retention limit",
+    "placeholders": {
+      "RANGE": {
+        "content": "$1",
+        "example": "1–10"
+      },
+      "TOTAL": {
+        "content": "$2",
+        "example": "37"
+      },
+      "MAX": {
+        "content": "$3",
+        "example": "100"
+      }
+    }
+  },
+  "options_diagnostics_log_entry_limit": {
+    "message": "Limite voci di log",
+    "description": "Label for the maximum number of diagnostic log entries retained locally"
+  },
+  "options_diagnostics_entries_suffix": {
+    "message": "voci",
+    "description": "Unit suffix for the diagnostic log entry limit input"
+  },
+  "options_diagnostics_view_details": {
+    "message": "Visualizza dettagli evento",
+    "description": "Accessible label for opening diagnostic event details"
+  },
+  "options_diagnostics_details_title": {
+    "message": "Dettagli evento",
+    "description": "Title of the diagnostic event details drawer"
+  },
+  "options_diagnostics_details_message": {
+    "message": "Messaggio",
+    "description": "Heading for the diagnostic event message"
+  },
+  "options_diagnostics_details_context": {
+    "message": "Contesto",
+    "description": "Heading for diagnostic event context fields"
+  },
+  "options_diagnostics_clear_confirm": {
+    "message": "Conferma cancellazione",
+    "description": "Second-click confirmation label for clearing diagnostic logs"
+  },
+  "sniffer_tab": {
+    "message": "Rilevamento",
+    "description": "Navigation label for discovering page resources"
+  },
+  "media_downloads": {
+    "message": "Download",
+    "description": "Media discovery: downloads"
+  },
+  "media_discover": {
+    "message": "Rileva i media della pagina",
+    "description": "Media discovery: discover"
+  },
+  "media_scan": {
+    "message": "Analizza pagina",
+    "description": "Media discovery: scan"
+  },
+  "media_clear": {
+    "message": "Cancella sorgenti",
+    "description": "Media discovery: clear"
+  },
+  "media_filter": {
+    "message": "Filtra sorgenti",
+    "description": "Media discovery: filter"
+  },
+  "media_sources": {
+    "message": "Sorgenti multimediali",
+    "description": "Media discovery: sources"
+  },
+  "media_source": {
+    "message": "Sorgente",
+    "description": "Media discovery: source"
+  },
+  "media_enable_site": {
+    "message": "Attiva su questo sito",
+    "description": "Media discovery: enable site"
+  },
+  "media_disable_site": {
+    "message": "Disattiva su questo sito",
+    "description": "Media discovery: disable site"
+  },
+  "media_inspect": {
+    "message": "Analizza formati",
+    "description": "Media discovery: inspect"
+  },
+  "media_options": {
+    "message": "Opzioni multimediali",
+    "description": "Media discovery: options"
+  },
+  "media_back": {
+    "message": "Torna alle sorgenti",
+    "description": "Media discovery: back"
+  },
+  "media_video": {
+    "message": "Qualità video",
+    "description": "Media discovery: video"
+  },
+  "media_audio": {
+    "message": "Audio",
+    "description": "Media discovery: audio"
+  },
+  "media_subtitles": {
+    "message": "Sottotitoli",
+    "description": "Media discovery: subtitles"
+  },
+  "media_format": {
+    "message": "Formato di uscita",
+    "description": "Media discovery: format"
+  },
+  "media_original": {
+    "message": "File originale",
+    "description": "Media discovery: original"
+  },
+  "media_record_limit": {
+    "message": "Limite registrazione (secondi)",
+    "description": "Media discovery: record limit"
+  },
+  "media_live": {
+    "message": "Registrazione in diretta",
+    "description": "Media discovery: live"
+  },
+  "media_download": {
+    "message": "Scarica",
+    "description": "Media discovery: download"
+  },
+  "media_record": {
+    "message": "Avvia registrazione",
+    "description": "Media discovery: record"
+  },
+  "media_cancel": {
+    "message": "Annulla",
+    "description": "Media discovery: cancel"
+  },
+  "media_retry": {
+    "message": "Riprova",
+    "description": "Media discovery: retry"
+  },
+  "media_no_video": {
+    "message": "Nessun video",
+    "description": "Media discovery: no video"
+  },
+  "media_no_audio": {
+    "message": "Nessun audio",
+    "description": "Media discovery: no audio"
+  },
+  "media_no_subtitles": {
+    "message": "Nessun sottotitolo",
+    "description": "Media discovery: no subtitles"
+  },
+  "media_excluded_sites": {
+    "message": "Siti multimediali esclusi",
+    "description": "Media discovery: excluded sites"
+  },
+  "media_waiting": {
+    "message": "Lettore trovato; in attesa della sorgente multimediale.",
+    "description": "Media discovery: waiting"
+  },
+  "media_none": {
+    "message": "Nessuna sorgente multimediale trovata.",
+    "description": "Media discovery: none"
+  },
+  "media_paused": {
+    "message": "Rilevamento multimediale in pausa.",
+    "description": "Media discovery: paused"
+  },
+  "media_excluded": {
+    "message": "Rilevamento multimediale disattivato su questo sito.",
+    "description": "Media discovery: excluded"
+  },
+  "media_ambiguous": {
+    "message": "Le sorgenti non sono associabili a un solo lettore. Verifica prima di scaricare.",
+    "description": "Media discovery: ambiguous"
+  },
+  "media_loading": {
+    "message": "Analisi dei media…",
+    "description": "Media discovery: loading"
+  },
+  "media_submitted": {
+    "message": "Download creato in Rayburst.",
+    "description": "Media discovery: submitted"
+  },
+  "media_cancelled": {
+    "message": "Analisi annullata.",
+    "description": "Media discovery: cancelled"
+  },
+  "media_failed": {
+    "message": "Operazione non riuscita. Riprova per verificarne lo stato.",
+    "description": "Media discovery: failed"
+  },
+  "media_unsupported": {
+    "message": "Media o metodo di richiesta non supportato.",
+    "description": "Media discovery: unsupported"
+  },
+  "media_invalid": {
+    "message": "Scegli una combinazione supportata di tracce, formato e durata.",
+    "description": "Media discovery: invalid"
+  },
+  "media_unavailable": {
+    "message": "Questa versione dell’app desktop non può scaricare stream. Installa la versione più recente di Rayburst.",
+    "description": "Media discovery: unavailable"
+  },
+  "media_expired": {
+    "message": "Sorgente o analisi scaduta. Riproduci e analizza di nuovo.",
+    "description": "Media discovery: expired"
+  },
+  "media_auth": {
+    "message": "Verifica l’accesso al sito, l’inoltro delle richieste o la chiave API desktop.",
+    "description": "Media discovery: auth"
+  },
+  "media_connection": {
+    "message": "Avvia Rayburst e verifica la connessione.",
+    "description": "Media discovery: connection"
+  },
+  "media_size_unknown": {
+    "message": "Dimensione sconosciuta",
+    "description": "Media discovery: size unknown"
+  },
+  "media_duration_unknown": {
+    "message": "Durata sconosciuta",
+    "description": "Media discovery: duration unknown"
+  },
+  "media_includes_audio": {
+    "message": "Include audio",
+    "description": "Media discovery: includes audio"
+  },
+  "media_record_hint": {
+    "message": "Zero registra fino all’arresto in Rayburst.",
+    "description": "Media discovery: record hint"
+  },
+  "media_inspect_hint": {
+    "message": "Analizza prima, poi conferma il download.",
+    "description": "Media discovery: inspect hint"
+  },
+  "media_open_page": {
+    "message": "Apri una pagina web per rilevarne i media.",
+    "description": "Media discovery: open page"
+  },
+  "media_hint": {
+    "message": "Riproduci video o audio per rilevarne automaticamente le sorgenti.",
+    "description": "Media discovery: hint"
+  },
+  "media_ready": {
+    "message": "Formati pronti",
+    "description": "Media discovery: ready"
+  },
+  "media_confirming": {
+    "message": "Conferma del download…",
+    "description": "Media discovery: confirming"
+  },
+  "media_cancelling": {
+    "message": "Annullamento dell’analisi…",
+    "description": "Media discovery: cancelling"
+  },
+  "options_color_scheme_rayburst": {
+    "message": "Rayburst"
+  },
+  "brand_tagline": {
+    "message": "Ridefiniamo l’estensione complementare del browser",
+    "description": "Localized Rayburst Connect brand slogan"
+  },
+  "resources_current": {
+    "message": "Pagina corrente"
+  },
+  "resources_other": {
+    "message": "Tutte le pagine"
+  },
+  "resources_controls": {
+    "message": "Controlli del lettore"
+  },
+  "resources_expand": {
+    "message": "Apri area di lavoro"
+  },
+  "resources_fullscreen": {
+    "message": "Schermo intero"
+  },
+  "resources_import": {
+    "message": "Aggiungi sorgente"
+  },
+  "resources_invert": {
+    "message": "Inverti selezione"
+  },
+  "resources_key": {
+    "message": "Chiave AES-128"
+  },
+  "resources_kind_collection": {
+    "message": "Contenuti combinati"
+  },
+  "resources_kind_fragment": {
+    "message": "Segmento"
+  },
+  "resources_loop": {
+    "message": "Ripeti"
+  },
+  "resources_manifest": {
+    "message": "Manifesto o URL dei segmenti"
+  },
+  "resources_merge": {
+    "message": "Unisci audio e video"
+  },
+  "resources_mute": {
+    "message": "Disattiva audio"
+  },
+  "resources_preview": {
+    "message": "Anteprima"
+  },
+  "resources_preview_unavailable": {
+    "message": "Anteprima non disponibile. Il download potrebbe comunque funzionare."
+  },
+  "resources_reload": {
+    "message": "Ricarica per acquisire dall’inizio"
+  },
+  "resources_screenshot": {
+    "message": "Salva schermata"
+  },
+  "resources_sequence": {
+    "message": "Unisci segmenti"
+  },
+  "resources_sidebar": {
+    "message": "Apri barra laterale"
+  },
+  "resources_start": {
+    "message": "Avvia"
+  },
+  "resources_start_time": {
+    "message": "Inizio (secondi)"
+  },
+  "resources_end_time": {
+    "message": "Fine (0: fine della sorgente)"
+  },
+  "resources_stop": {
+    "message": "Ferma"
+  },
+  "resources_test_keys": {
+    "message": "Verifica chiavi rilevate"
+  },
+  "resources_tools": {
+    "message": "Strumenti multimediali"
+  },
+  "resources_volume": {
+    "message": "Volume"
+  },
+  "resources_preserve": {
+    "message": "Mantieni le sorgenti dopo la navigazione"
+  },
+  "resources_deep": {
+    "message": "Ricerca approfondita"
+  },
+  "resources_cache": {
+    "message": "Acquisisci buffer multimediali"
+  },
+  "resources_copy": {
+    "message": "Copia"
+  },
+  "resources_select_all": {
+    "message": "Seleziona tutto"
+  },
+  "resources_name": {
+    "message": "Nome"
+  },
+  "resources_size": {
+    "message": "Dimensione"
+  },
+  "resources_type": {
+    "message": "Tipo"
+  },
+  "resources_speed": {
+    "message": "Velocità"
+  },
+  "resources_kind_image": {
+    "message": "Immagini"
+  },
+  "resources_all": {
+    "message": "Tutti"
+  },
+  "resources_time": {
+    "message": "Ora"
+  },
+  "resources_video": {
+    "message": "Avvia registrazione"
+  },
+  "resources_kind_embedded": {
+    "message": "Sorgente"
+  },
+  "resources_kind_file": {
+    "message": "File originale"
+  },
+  "resources_kind_subtitle": {
+    "message": "Sottotitoli"
+  },
+  "resources_pause": {
+    "message": "Pausa"
+  },
+  "resources_play": {
+    "message": "Riproduci"
+  },
+  "resources_kind_json": {
+    "message": "JSON"
+  },
+  "resources_url": {
+    "message": "URL"
+  },
+  "resources_pip": {
+    "message": "PiP"
+  },
+  "resources_sort": {
+    "message": "Ordina"
+  },
+  "resources_auto": {
+    "message": "Scarica automaticamente le nuove risorse"
+  },
+  "resources_mobile": {
+    "message": "Usa uno User-Agent mobile"
+  },
+  "media_settings_title": {
+    "message": "Impostazioni di rilevamento"
+  },
+  "media_settings_any_size": {
+    "message": "Qualsiasi dimensione"
+  },
+  "media_settings_capture": {
+    "message": "Rileva"
+  },
+  "media_settings_edit": {
+    "message": "Modifica"
+  },
+  "media_settings_remove": {
+    "message": "Rimuovi"
+  },
+  "media_settings_invalid_rule": {
+    "message": "Controlla sintassi, valori e tipi duplicati."
+  },
+  "media_settings_between": {
+    "message": "Tra"
+  },
+  "media_settings_upper": {
+    "message": "Limite superiore"
+  },
+  "media_settings_pattern": {
+    "message": "Schema"
+  },
+  "media_settings_action": {
+    "message": "Azione"
+  },
+  "media_settings_enabled": {
+    "message": "Attivo"
+  },
+  "media_settings_ignore": {
+    "message": "Ignora"
+  },
+  "media_settings_regex": {
+    "message": "Espressioni regolari"
+  },
+  "media_settings_regex_hint": {
+    "message": "La prima corrispondenza prevale sulle regole dei tipi."
+  },
+  "media_settings_flags": {
+    "message": "Flag regex"
+  },
+  "media_settings_group": {
+    "message": "Gruppo URL (0: URL originale)"
+  },
+  "media_settings_test_url": {
+    "message": "URL di prova"
+  },
+  "media_settings_no_match": {
+    "message": "Nessuna corrispondenza"
+  },
+  "media_settings_behavior": {
+    "message": "Comportamento"
+  },
+  "media_settings_capture_hint": {
+    "message": "I filtri non limitano i download delle playlist."
+  },
+  "media_settings_newest": {
+    "message": "Più recenti prima"
+  },
+  "media_settings_quick": {
+    "message": "Download rapido"
+  },
+  "media_settings_quick_hint": {
+    "message": "Scegliere le tracce se esistono più opzioni."
+  },
+  "media_settings_deep": {
+    "message": "Attiva sempre la ricerca approfondita"
+  },
+  "media_settings_deep_hint": {
+    "message": "Ricarica le pagine. Può influire sulla riproduzione."
+  },
+  "media_settings_name_from": {
+    "message": "Assegna ai file rilevati il nome"
+  },
+  "media_settings_name_from_file": {
+    "message": "Del file"
+  },
+  "media_settings_name_from_title": {
+    "message": "Del titolo della pagina"
+  },
+  "media_settings_include": {
+    "message": "Solo i siti elencati"
+  },
+  "media_settings_exclude": {
+    "message": "Escludi i siti elencati"
+  },
+  "media_settings_autosave": {
+    "message": "Le modifiche vengono salvate automaticamente."
+  },
+  "media_settings_restore": {
+    "message": "Ripristina impostazioni multimediali"
+  },
+  "media_settings_restore_hint": {
+    "message": "Ripristinare solo i media? La connessione resta invariata."
+  },
+  "media_settings_close_preview": {
+    "message": "Chiudi anteprima"
+  },
+  "sniffer_page_count": {
+    "message": "Risorse in questa pagina: $1",
+    "description": "Resource count for the current browser tab; $1 is the full count"
+  },
+  "sniffer_results": {
+    "message": "$1 risorse visualizzate su $2",
+    "description": "Filtered resources in the selected scope; $1 is visible, $2 is total"
+  },
+  "popup_status_checking": {
+    "message": "Verifica",
+    "description": "Connection status while the desktop check is pending"
+  },
+  "connection_unsupported_title": {
+    "message": "Versione desktop non supportata"
+  },
+  "connection_upgrade_hint": {
+    "message": "Installa la versione più recente di Rayburst e riconnettiti."
+  },
+  "connection_legacy_title": {
+    "message": "Aggiorna alla versione più recente di Rayburst",
+    "description": "Title of the update notice shown while connected to an older desktop"
+  },
+  "connection_legacy_hint": {
+    "message": "$1 è una versione precedente, quindi alcune funzioni non sono disponibili.",
+    "description": "Shown while connected to an older desktop, $1 = its name and version",
+    "placeholders": {
+      "1": {
+        "content": "$1",
+        "example": "Motrix Next 3.9.9"
+      }
+    }
+  },
+  "connection_legacy_dismiss": {
+    "message": "Chiudi",
+    "description": "Accessible label of the button that closes the popup update notice"
+  },
+  "connection_get_rayburst": {
+    "message": "Scarica Rayburst"
+  },
+  "connection_check_again": {
+    "message": "Verifica di nuovo"
+  },
+  "error_engine_starting": {
+    "message": "Il motore Rayburst si sta avviando"
+  },
+  "error_engine_unavailable": {
+    "message": "Il motore Rayburst non è disponibile"
+  },
+  "error_engine_hint": {
+    "message": "Apri Rayburst per controllare il motore, poi riconnettiti."
+  },
+  "popup_site_rules": {
+    "message": "Sito attuale"
+  },
+  "popup_site_allow": {
+    "message": "Attiva su questo sito"
+  },
+  "popup_site_exclude": {
+    "message": "Escludi questo sito"
+  },
+  "popup_task_waiting": {
+    "message": "In attesa",
+    "description": "Popup task list: queued task"
+  },
+  "popup_task_paused": {
+    "message": "In pausa",
+    "description": "Popup task list: paused task"
+  },
+  "popup_task_failed": {
+    "message": "Non riuscito",
+    "description": "Popup task list: failed task without a message"
+  },
+  "popup_task_pause": {
+    "message": "Pausa",
+    "description": "Popup task list: pause button"
+  },
+  "popup_task_resume": {
+    "message": "Riprendi",
+    "description": "Popup task list: resume button"
+  },
+  "popup_task_reveal": {
+    "message": "Mostra nella cartella",
+    "description": "Popup task list: show the finished file in its folder"
+  },
+  "popup_tasks_empty": {
+    "message": "Ancora nessun download",
+    "description": "Popup task list: nothing to show"
+  },
+  "options_alt_click_bypass_label": {
+    "message": "Alt + clic scarica con il browser",
+    "description": "Setting: holding Alt while clicking a link lets the browser download it"
+  },
+  "media_complete_video": {
+    "message": "Video completo",
+    "description": "Media discovery: separate video and audio track files listed as one video"
+  },
+  "media_tracks": {
+    "message": "$1 tracce",
+    "description": "Media discovery: number of track files in a complete video; $1 is the count"
+  },
+  "media_track_files": {
+    "message": "File delle tracce",
+    "description": "Media discovery: shows or hides the track files of a complete video"
+  }
+}

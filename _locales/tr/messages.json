@@ -1,0 +1,1206 @@
+{
+  "options_website": {
+    "message": "Web sitesi"
+  },
+  "ext_name": {
+    "message": "Rayburst Connect",
+    "description": "Extension display name"
+  },
+  "ext_description": {
+    "message": "İndirmeleri ve bulunan medyayı Rayburst’e gönderin. Sayfa tarama, önizleme ve yakalama araçları içerir.",
+    "description": "Extension description shown in browser and web store"
+  },
+  "popup_status_connected": {
+    "message": "Bağlı",
+    "description": "Connection status badge when API is reachable"
+  },
+  "popup_status_disconnected": {
+    "message": "Bağlı değil",
+    "description": "Connection status badge when API is unreachable"
+  },
+  "popup_action_pause_all": {
+    "message": "Tümünü duraklat",
+    "description": "Button to pause all active downloads"
+  },
+  "popup_action_resume_all": {
+    "message": "Tümünü sürdür",
+    "description": "Button to resume all paused downloads"
+  },
+  "popup_action_settings": {
+    "message": "Ayarlar",
+    "description": "Button to open the options page"
+  },
+  "popup_action_launch": {
+    "message": "Rayburst'i başlat",
+    "description": "Button to launch the desktop app when disconnected"
+  },
+  "popup_action_open": {
+    "message": "Rayburst'i aç",
+    "description": "Button to focus the desktop app when already connected"
+  },
+  "popup_error_unreachable": {
+    "message": "Rayburst'e bağlanılamıyor",
+    "description": "Error message when API is unreachable"
+  },
+  "options_section_connection": {
+    "message": "Bağlantı",
+    "description": "Settings section for API connection"
+  },
+  "options_test_connection": {
+    "message": "Bağlantıyı test et",
+    "description": "Button to test the API connection"
+  },
+  "options_section_behavior": {
+    "message": "Indirme",
+    "description": "Settings section for download interception behavior"
+  },
+  "options_enabled_label": {
+    "message": "İndirme yakalamayı etkinleştir",
+    "description": "Toggle label for enabling/disabling download interception"
+  },
+  "options_section_rules": {
+    "message": "Kurallar",
+    "description": "Settings section for download routing rules"
+  },
+  "options_add_rule": {
+    "message": "Kural ekle",
+    "description": "Button to add a new site rule"
+  },
+  "options_section_appearance": {
+    "message": "Görünüm",
+    "description": "Settings section for theme"
+  },
+  "options_theme_system": {
+    "message": "Sistem",
+    "description": "Theme option: follow system preference"
+  },
+  "options_theme_light": {
+    "message": "Açık",
+    "description": "Theme option: light mode"
+  },
+  "options_theme_dark": {
+    "message": "Koyu",
+    "description": "Theme option: dark mode"
+  },
+  "options_section_diagnostics": {
+    "message": "Tanılama",
+    "description": "Settings section for diagnostic event log"
+  },
+  "context_menu_download": {
+    "message": "Rayburst ile indir",
+    "description": "Context menu item for downloading a link with Rayburst"
+  },
+  "options_header_title": {
+    "message": "Rayburst Connect",
+    "description": "Options page header title"
+  },
+  "options_header_subtitle": {
+    "message": "Uzantı ayarları",
+    "description": "Options page header subtitle"
+  },
+  "options_testing_connection": {
+    "message": "Test ediliyor...",
+    "description": "Button text while testing connection"
+  },
+  "options_connection_success_prefix": {
+    "message": "Bağlandı · Rayburst",
+    "description": "Prefix for successful connection status"
+  },
+  "options_connection_success_motrix": {
+    "message": "Bağlandı · Motrix Next",
+    "description": "Connection status when Motrix Next answered"
+  },
+  "options_rules_empty": {
+    "message": "Yapılandırılmış kural yok.",
+    "description": "Placeholder when no site rules exist"
+  },
+  "options_diagnostics_export": {
+    "message": "Tanılama raporu dışa aktar",
+    "description": "Button to export full diagnostic report as JSON file"
+  },
+  "options_diagnostics_clear": {
+    "message": "Günlüğü temizle",
+    "description": "Button to clear diagnostic log"
+  },
+  "options_diagnostics_empty": {
+    "message": "Tanılama olayı yok.",
+    "description": "Placeholder when diagnostic log is empty"
+  },
+  "options_footer": {
+    "message": "Rayburst Connect v$version$",
+    "description": "Footer text with version number",
+    "placeholders": {
+      "version": {
+        "content": "$1"
+      }
+    }
+  },
+  "options_save": {
+    "message": "Kaydet",
+    "description": "Save button in action bar"
+  },
+  "options_discard": {
+    "message": "Vazgeç",
+    "description": "Discard button in action bar"
+  },
+  "options_discard_success": {
+    "message": "Değişiklikler geri yüklendi",
+    "description": "Toast after discarding unsaved settings changes"
+  },
+  "options_save_success": {
+    "message": "Ayarlar kaydedildi",
+    "description": "Toast after saving settings successfully"
+  },
+  "options_save_error": {
+    "message": "Ayarlar kaydedilemedi",
+    "description": "Toast when saving settings fails"
+  },
+  "options_changes_indicator": {
+    "message": "Kaydedilmemiş değişiklikler",
+    "description": "Indicator text showing there are unsaved modifications"
+  },
+  "options_color_scheme": {
+    "message": "Renk şeması",
+    "description": "Label for the color scheme picker"
+  },
+  "options_color_scheme_amber": {
+    "message": "Amber altın",
+    "description": "Amber Gold color scheme"
+  },
+  "options_color_scheme_space": {
+    "message": "Uzay mavisi",
+    "description": "Space Blue color scheme"
+  },
+  "options_color_scheme_mint": {
+    "message": "Nane yeşili",
+    "description": "Mint Green color scheme"
+  },
+  "options_color_scheme_rose": {
+    "message": "Gül kırmızısı",
+    "description": "Rose Red color scheme"
+  },
+  "options_color_scheme_coral": {
+    "message": "Mercan turuncusu",
+    "description": "Coral Orange color scheme"
+  },
+  "options_color_scheme_glacier": {
+    "message": "Buzul mavisi",
+    "description": "Glacier Cyan color scheme"
+  },
+  "options_color_scheme_evergreen": {
+    "message": "Herdem yeşil",
+    "description": "Evergreen color scheme"
+  },
+  "options_color_scheme_graphite": {
+    "message": "Grafit grisi",
+    "description": "Graphite Grey color scheme"
+  },
+  "options_color_scheme_sakura": {
+    "message": "Sakura pembesi",
+    "description": "Sakura Pink color scheme"
+  },
+  "error_unknown": {
+    "message": "Bilinmeyen bir hata oluştu",
+    "description": "Fallback error message"
+  },
+  "options_rule_always_intercept": {
+    "message": "Her zaman yakala",
+    "description": "Site rule action: always intercept downloads"
+  },
+  "options_rule_always_skip": {
+    "message": "Her zaman atla",
+    "description": "Site rule action: never intercept downloads"
+  },
+  "options_rule_use_global": {
+    "message": "Genel ayarı kullan",
+    "description": "Site rule action: follow the global setting"
+  },
+  "popup_error_auth": {
+    "message": "API secret mismatch",
+    "description": "Popup banner title when API secret is incorrect"
+  },
+  "popup_error_auth_hint": {
+    "message": "Check that the API secret in Settings matches your Rayburst configuration.",
+    "description": "Popup banner hint for API auth error"
+  },
+  "popup_error_timeout": {
+    "message": "Bağlantı zaman aşımı",
+    "description": "Popup banner title when API connection times out"
+  },
+  "popup_error_timeout_hint": {
+    "message": "Check your network or firewall settings. API port: $1",
+    "description": "Popup banner hint for timeout error, $1 = port number",
+    "placeholders": {
+      "1": {
+        "content": "$1",
+        "example": "29110"
+      }
+    }
+  },
+  "popup_error_unreachable_hint": {
+    "message": "Make sure Rayburst is running. API port: $1",
+    "description": "Popup banner hint for unreachable error, $1 = port number",
+    "placeholders": {
+      "1": {
+        "content": "$1",
+        "example": "29110"
+      }
+    }
+  },
+  "options_section_language": {
+    "message": "Dil",
+    "description": "Settings section for interface language"
+  },
+  "options_locale_auto": {
+    "message": "Otomatik",
+    "description": "Language option: follow browser language"
+  },
+  "options_locale_auto_desc": {
+    "message": "Tarayıcı dilini takip et",
+    "description": "Description for auto language option"
+  },
+  "options_desktop_unavailable_label": {
+    "message": "Rayburst kullanılamadığında",
+    "description": "Unavailable desktop behavior label"
+  },
+  "options_desktop_unavailable_launch": {
+    "message": "Rayburst'i Başlat",
+    "description": "Launch desktop option"
+  },
+  "options_desktop_unavailable_browser": {
+    "message": "Tarayıcıyı Kullan",
+    "description": "Browser fallback option"
+  },
+  "options_desktop_startup_timeout_label": {
+    "message": "Başlatma Zaman Aşımı",
+    "description": "Desktop startup timeout label"
+  },
+  "options_desktop_open_link_label": {
+    "message": "Rayburst’i tarayıcı bağlantısıyla başlat (eski yöntem)",
+    "description": "Setting: start the desktop by opening its link in a tab instead of Native Messaging"
+  },
+  "options_seconds_suffix": {
+    "message": "sn",
+    "description": "Seconds unit suffix"
+  },
+  "popup_stat_active": {
+    "message": "Etkin",
+    "description": "Task count label: currently downloading"
+  },
+  "popup_stat_waiting": {
+    "message": "Bekliyor",
+    "description": "Task count label: queued for download"
+  },
+  "popup_stat_stopped": {
+    "message": "Tamamlandı",
+    "description": "Task count label: completed or stopped"
+  },
+  "popup_toggle_enabled": {
+    "message": "Yakalama etkin",
+    "description": "Label next to the interception toggle when active"
+  },
+  "popup_toggle_disabled": {
+    "message": "Duraklatıldı",
+    "description": "Label next to the interception toggle when inactive"
+  },
+  "options_api_port_label": {
+    "message": "API Port",
+    "description": "Label for the API port input"
+  },
+  "options_api_secret_label": {
+    "message": "API Secret",
+    "description": "Label for the API secret input"
+  },
+  "options_api_secret_placeholder": {
+    "message": "Paste from desktop app",
+    "description": "Placeholder text for API secret input"
+  },
+  "error_api_unreachable": {
+    "message": "Cannot connect to Rayburst",
+    "description": "Error when the API endpoint is unreachable"
+  },
+  "error_api_auth": {
+    "message": "API secret is incorrect",
+    "description": "Error when the API secret does not match"
+  },
+  "error_api_timeout": {
+    "message": "Bağlantı zaman aşımı",
+    "description": "Error when the API connection times out"
+  },
+  "options_hide_download_bar_label": {
+    "message": "Tarayıcı indirme çubuğunu gizle",
+    "description": "Label for the optional browser download bar hiding setting."
+  },
+  "options_forward_request_headers_label": {
+    "message": "İstek başlıklarını ilet",
+    "description": "Label for the request header forwarding setting."
+  },
+  "options_forward_cookies_label": {
+    "message": "Çerezleri ilet",
+    "description": "Label for the cookie forwarding setting."
+  },
+  "options_permission_download_ui_denied": {
+    "message": "Tarayıcı indirme çubuğunu gizlemek için indirme arayüzü izni verin.",
+    "description": "Toast shown when the optional downloads.ui permission is denied."
+  },
+  "options_permission_cookies_denied": {
+    "message": "Çerezleri Rayburst’e iletmek için çerez ve site izinleri verin.",
+    "description": "Toast shown when cookie forwarding permissions are unavailable."
+  },
+  "options_scope_browser_downloads_label": {
+    "message": "Tarayıcı İndirmeleri",
+    "description": "Label for the browser download interception scope toggle."
+  },
+  "options_scope_magnet_label": {
+    "message": "Magnet Bağlantıları",
+    "description": "Label for the magnet link interception scope toggle."
+  },
+  "options_scope_ed2k_label": {
+    "message": "ED2K Bağlantıları",
+    "description": "Label for the ED2K link interception scope toggle."
+  },
+  "options_scope_thunder_label": {
+    "message": "Thunder Bağlantıları",
+    "description": "Label for the Thunder link interception scope toggle."
+  },
+  "options_scope_incognito_label": {
+    "message": "Gizli pencere indirmeleri",
+    "description": "Label for the private-window download interception toggle."
+  },
+  "options_scope_incognito_hint": {
+    "message": "Gizli pencerelerdeki indirmeler Rayburst’e geçer ve görev listesinde ve geçmişinde görünür. Tarayıcının da bu uzantıya gizli pencerelerde izin vermesi gerekir.",
+    "description": "Hint under the private-window download interception toggle."
+  },
+  "options_scope_other_extensions_label": {
+    "message": "Diğer uzantıların indirmeleri",
+    "description": "Label for the toggle that takes over downloads other extensions start."
+  },
+  "options_scope_other_extensions_hint": {
+    "message": "Örneğin bir bağlantı çözme uzantısının başlattığı indirmeler. Rayburst yalnızca aynı dosyayı aldığını doğruladıktan sonra devralır.",
+    "description": "Hint under the other-extension download interception toggle."
+  },
+  "options_min_size_label": {
+    "message": "Minimum Dosya Boyutu",
+    "description": "Label for the minimum file size setting."
+  },
+  "options_min_size_value_label": {
+    "message": "Boyut (MB)",
+    "description": "Label for the minimum file size numeric input."
+  },
+  "options_min_size_unknown_label": {
+    "message": "Bilinmeyen Boyut",
+    "description": "Label for the unknown file size behavior selector."
+  },
+  "options_min_size_unknown_intercept": {
+    "message": "Rayburst’e aktar",
+    "description": "Option label for routing unknown-size downloads to Rayburst."
+  },
+  "options_min_size_unknown_skip": {
+    "message": "Tarayıcıya aktar",
+    "description": "Option label for leaving unknown-size downloads in the browser."
+  },
+  "options_duplicate_guard_label": {
+    "message": "Yinelenen indirme koruması",
+    "description": "Label for the duplicate download guard setting."
+  },
+  "options_duplicate_guard_window_label": {
+    "message": "Koruma penceresi",
+    "description": "Label for the duplicate download guard time window input."
+  },
+  "notification_duplicate_guard_title": {
+    "message": "Görev gönderildi",
+    "description": "Notification title shown when a duplicate download is blocked."
+  },
+  "notification_duplicate_guard_body": {
+    "message": "Yinelenen istek atlandı",
+    "description": "Notification body shown when a duplicate download is blocked."
+  },
+  "notification_desktop_link_body": {
+    "message": "Rayburst’i tarayıcı bağlantısıyla başlatmayı açmak için tıklayın.",
+    "description": "Notification body after an unattended start failed; clicking opens the settings"
+  },
+  "options_privacy_section_label": {
+    "message": "Gizlilik",
+    "description": "Subsection label for privacy-related download forwarding settings."
+  },
+  "options_download_handling_section_label": {
+    "message": "Indirme Islemleri",
+    "description": "Subsection label for browser and desktop download handling settings."
+  },
+  "options_site_rules_label": {
+    "message": "Site Kurallari",
+    "description": "Subsection label for per-site download rules."
+  },
+  "options_file_extension_rule_label": {
+    "message": "Dosya Uzantısı Kuralı",
+    "description": "Label for the file extension rule toggle."
+  },
+  "options_file_extension_list_label": {
+    "message": "Uzantılar",
+    "description": "Label for the file extension list input."
+  },
+  "options_file_extension_list_placeholder": {
+    "message": "Uzantı ekle",
+    "description": "Placeholder for the file extension list input."
+  },
+  "options_file_extension_listed_action_label": {
+    "message": "Listelenen uzantılar",
+    "description": "Label for the action selector applied to listed file extensions."
+  },
+  "options_file_extension_unknown_action_label": {
+    "message": "Bilinmeyen uzantı",
+    "description": "Label for the action selector applied when no file extension is detected."
+  },
+  "options_file_extension_action_intercept": {
+    "message": "Rayburst’e gönder",
+    "description": "Option label for routing a matched extension to Rayburst."
+  },
+  "options_file_extension_action_skip": {
+    "message": "Tarayıcıyı kullan",
+    "description": "Option label for leaving a matched extension in the browser."
+  },
+  "options_factory_reset_button": {
+    "message": "Ayarları sıfırla",
+    "description": "Button to stage a full settings reset."
+  },
+  "options_factory_reset_confirm": {
+    "message": "Sıfırlamak için tekrar tıklayın",
+    "description": "Second-click confirmation label for the reset button."
+  },
+  "options_factory_reset_ready": {
+    "message": "Varsayılanlar kaydedilmeye hazır",
+    "description": "Toast shown after default settings are staged for saving."
+  },
+  "options_section_maintenance": {
+    "message": "Bakim",
+    "description": "Settings section for maintenance actions."
+  },
+  "options_settings_backup_title": {
+    "message": "Ayar Yedegi",
+    "description": "Maintenance section title for settings backup."
+  },
+  "options_settings_backup_export": {
+    "message": "Ayarlari Disa Aktar",
+    "description": "Button to export settings backup."
+  },
+  "options_settings_backup_import": {
+    "message": "Ayarlari Ice Aktar",
+    "description": "Button to import settings backup."
+  },
+  "options_settings_backup_exported": {
+    "message": "Yedek disa aktarildi",
+    "description": "Toast shown after settings backup export starts."
+  },
+  "options_settings_backup_export_error": {
+    "message": "Yedek disa aktarilamadi",
+    "description": "Toast shown when settings backup export fails."
+  },
+  "options_settings_backup_imported": {
+    "message": "Ayarlar ice aktarildi. Inceleyip kaydedin.",
+    "description": "Toast shown after settings backup is staged for saving."
+  },
+  "options_settings_backup_invalid": {
+    "message": "Gecersiz yedek dosyasi",
+    "description": "Toast shown when selected settings backup is invalid."
+  },
+  "options_diagnostics_filter_all": {
+    "message": "Tümü",
+    "description": "Filter label for all diagnostic levels"
+  },
+  "options_diagnostics_filter_error": {
+    "message": "Hata",
+    "description": "Filter label for error diagnostic events"
+  },
+  "options_diagnostics_filter_warning": {
+    "message": "Uyarı",
+    "description": "Filter label for warning diagnostic events"
+  },
+  "options_diagnostics_filter_info": {
+    "message": "Bilgi",
+    "description": "Filter label for informational diagnostic events"
+  },
+  "options_diagnostics_filter_code": {
+    "message": "Olay türü",
+    "description": "Placeholder for the diagnostic event type filter"
+  },
+  "options_diagnostics_clear_error": {
+    "message": "Tanılama olayları temizlenemedi",
+    "description": "Error shown when diagnostic events cannot be cleared"
+  },
+  "options_diagnostics_export_error": {
+    "message": "Tanılama raporu dışa aktarılamadı",
+    "description": "Error shown when the diagnostic report cannot be exported"
+  },
+  "popup_status_launching": {
+    "message": "Başlatılıyor",
+    "description": "Popup status while the desktop app is starting"
+  },
+  "popup_launching_title": {
+    "message": "Rayburst başlatılıyor",
+    "description": "Popup launch progress title"
+  },
+  "popup_launching_hint": {
+    "message": "Masaüstü uygulamasının hazır olması bekleniyor…",
+    "description": "Popup launch progress description"
+  },
+  "popup_launch_failed_title": {
+    "message": "Rayburst başlatılamadı",
+    "description": "Popup launch failure title"
+  },
+  "popup_launch_failed_hint": {
+    "message": "Rayburst’in yüklü ve API ayarlarının doğru olduğunu kontrol edin.",
+    "description": "Popup launch failure guidance"
+  },
+  "popup_launch_link_hint": {
+    "message": "Tarayıcı bunun yerine Rayburst’i bir bağlantıyla başlatabilir.",
+    "description": "Popup launch failure guidance when the desktop could not be started at all"
+  },
+  "popup_action_retry": {
+    "message": "Tekrar Dene",
+    "description": "Popup action to retry desktop launch"
+  },
+  "popup_action_launch_link": {
+    "message": "Bağlantıyla başlat",
+    "description": "Popup button: allow starting the desktop through its link and retry"
+  },
+  "options_diagnostics_column_time": {
+    "message": "Zaman",
+    "description": "Diagnostic table column heading for event time"
+  },
+  "options_diagnostics_column_level": {
+    "message": "Düzey",
+    "description": "Diagnostic table column heading for severity level"
+  },
+  "options_diagnostics_column_event": {
+    "message": "Olay",
+    "description": "Diagnostic table column heading for event code"
+  },
+  "options_diagnostics_column_message": {
+    "message": "İleti",
+    "description": "Diagnostic table column heading for event message"
+  },
+  "options_diagnostics_pagination": {
+    "message": "$RANGE$ / $TOTAL$ · en fazla $MAX$",
+    "description": "Diagnostic table pagination summary with visible range, filtered total, and retention limit",
+    "placeholders": {
+      "RANGE": {
+        "content": "$1",
+        "example": "1–10"
+      },
+      "TOTAL": {
+        "content": "$2",
+        "example": "37"
+      },
+      "MAX": {
+        "content": "$3",
+        "example": "100"
+      }
+    }
+  },
+  "options_diagnostics_log_entry_limit": {
+    "message": "Günlük girdisi sınırı",
+    "description": "Label for the maximum number of diagnostic log entries retained locally"
+  },
+  "options_diagnostics_entries_suffix": {
+    "message": "girdi",
+    "description": "Unit suffix for the diagnostic log entry limit input"
+  },
+  "options_diagnostics_view_details": {
+    "message": "Olay ayrıntılarını görüntüle",
+    "description": "Accessible label for opening diagnostic event details"
+  },
+  "options_diagnostics_details_title": {
+    "message": "Olay ayrıntıları",
+    "description": "Title of the diagnostic event details drawer"
+  },
+  "options_diagnostics_details_message": {
+    "message": "İleti",
+    "description": "Heading for the diagnostic event message"
+  },
+  "options_diagnostics_details_context": {
+    "message": "Bağlam",
+    "description": "Heading for diagnostic event context fields"
+  },
+  "options_diagnostics_clear_confirm": {
+    "message": "Temizlemeyi onayla",
+    "description": "Second-click confirmation label for clearing diagnostic logs"
+  },
+  "sniffer_tab": {
+    "message": "Algılama",
+    "description": "Navigation label for discovering page resources"
+  },
+  "media_downloads": {
+    "message": "İndirmeler",
+    "description": "Media discovery: downloads"
+  },
+  "media_discover": {
+    "message": "Sayfa medyasını algıla",
+    "description": "Media discovery: discover"
+  },
+  "media_scan": {
+    "message": "Sayfayı tara",
+    "description": "Media discovery: scan"
+  },
+  "media_clear": {
+    "message": "Kaynakları temizle",
+    "description": "Media discovery: clear"
+  },
+  "media_filter": {
+    "message": "Kaynakları filtrele",
+    "description": "Media discovery: filter"
+  },
+  "media_sources": {
+    "message": "Medya kaynakları",
+    "description": "Media discovery: sources"
+  },
+  "media_source": {
+    "message": "Kaynak",
+    "description": "Media discovery: source"
+  },
+  "media_enable_site": {
+    "message": "Bu sitede etkinleştir",
+    "description": "Media discovery: enable site"
+  },
+  "media_disable_site": {
+    "message": "Bu sitede devre dışı bırak",
+    "description": "Media discovery: disable site"
+  },
+  "media_inspect": {
+    "message": "Biçimleri incele",
+    "description": "Media discovery: inspect"
+  },
+  "media_options": {
+    "message": "Medya seçenekleri",
+    "description": "Media discovery: options"
+  },
+  "media_back": {
+    "message": "Kaynaklara dön",
+    "description": "Media discovery: back"
+  },
+  "media_video": {
+    "message": "Video kalitesi",
+    "description": "Media discovery: video"
+  },
+  "media_audio": {
+    "message": "Ses",
+    "description": "Media discovery: audio"
+  },
+  "media_subtitles": {
+    "message": "Altyazılar",
+    "description": "Media discovery: subtitles"
+  },
+  "media_format": {
+    "message": "Çıktı biçimi",
+    "description": "Media discovery: format"
+  },
+  "media_original": {
+    "message": "Özgün dosya",
+    "description": "Media discovery: original"
+  },
+  "media_record_limit": {
+    "message": "Kayıt sınırı (saniye)",
+    "description": "Media discovery: record limit"
+  },
+  "media_live": {
+    "message": "Canlı kayıt",
+    "description": "Media discovery: live"
+  },
+  "media_download": {
+    "message": "İndir",
+    "description": "Media discovery: download"
+  },
+  "media_record": {
+    "message": "Kaydı başlat",
+    "description": "Media discovery: record"
+  },
+  "media_cancel": {
+    "message": "İptal",
+    "description": "Media discovery: cancel"
+  },
+  "media_retry": {
+    "message": "Yeniden dene",
+    "description": "Media discovery: retry"
+  },
+  "media_no_video": {
+    "message": "Video yok",
+    "description": "Media discovery: no video"
+  },
+  "media_no_audio": {
+    "message": "Ses yok",
+    "description": "Media discovery: no audio"
+  },
+  "media_no_subtitles": {
+    "message": "Altyazı yok",
+    "description": "Media discovery: no subtitles"
+  },
+  "media_excluded_sites": {
+    "message": "Hariç tutulan medya siteleri",
+    "description": "Media discovery: excluded sites"
+  },
+  "media_waiting": {
+    "message": "Oynatıcı bulundu; medya kaynağı bekleniyor.",
+    "description": "Media discovery: waiting"
+  },
+  "media_none": {
+    "message": "Medya kaynağı bulunamadı.",
+    "description": "Media discovery: none"
+  },
+  "media_paused": {
+    "message": "Medya algılama duraklatıldı.",
+    "description": "Media discovery: paused"
+  },
+  "media_excluded": {
+    "message": "Bu sitede medya algılama kapalı.",
+    "description": "Media discovery: excluded"
+  },
+  "media_ambiguous": {
+    "message": "Kaynaklar tek bir oynatıcıyla eşleştirilemiyor. İndirmeden önce kontrol edin.",
+    "description": "Media discovery: ambiguous"
+  },
+  "media_loading": {
+    "message": "Medya inceleniyor…",
+    "description": "Media discovery: loading"
+  },
+  "media_submitted": {
+    "message": "Rayburst içinde indirme oluşturuldu.",
+    "description": "Media discovery: submitted"
+  },
+  "media_cancelled": {
+    "message": "İnceleme iptal edildi.",
+    "description": "Media discovery: cancelled"
+  },
+  "media_failed": {
+    "message": "İşlem başarısız. Durumu kontrol etmek için yeniden deneyin.",
+    "description": "Media discovery: failed"
+  },
+  "media_unsupported": {
+    "message": "Bu medya veya istek yöntemi desteklenmiyor.",
+    "description": "Media discovery: unsupported"
+  },
+  "media_invalid": {
+    "message": "Desteklenen parça, biçim ve süre birleşimini seçin.",
+    "description": "Media discovery: invalid"
+  },
+  "media_unavailable": {
+    "message": "Bu masaüstü sürümü akışları indiremez. En yeni Rayburst sürümünü yükleyin.",
+    "description": "Media discovery: unavailable"
+  },
+  "media_expired": {
+    "message": "Kaynak veya inceleme süresi doldu. Oynatıp yeniden inceleyin.",
+    "description": "Media discovery: expired"
+  },
+  "media_auth": {
+    "message": "Oturumu, istek iletmeyi veya masaüstü API anahtarını kontrol edin.",
+    "description": "Media discovery: auth"
+  },
+  "media_connection": {
+    "message": "Rayburst uygulamasını başlatıp bağlantıyı kontrol edin.",
+    "description": "Media discovery: connection"
+  },
+  "media_size_unknown": {
+    "message": "Boyut bilinmiyor",
+    "description": "Media discovery: size unknown"
+  },
+  "media_duration_unknown": {
+    "message": "Süre bilinmiyor",
+    "description": "Media discovery: duration unknown"
+  },
+  "media_includes_audio": {
+    "message": "Ses içerir",
+    "description": "Media discovery: includes audio"
+  },
+  "media_record_hint": {
+    "message": "Sıfır, Rayburst içinde durdurana kadar kaydeder.",
+    "description": "Media discovery: record hint"
+  },
+  "media_inspect_hint": {
+    "message": "Önce inceleyin, ardından indirmeyi onaylayın.",
+    "description": "Media discovery: inspect hint"
+  },
+  "media_open_page": {
+    "message": "Medya algılamak için bir web sayfası açın.",
+    "description": "Media discovery: open page"
+  },
+  "media_hint": {
+    "message": "Kaynakları otomatik algılamak için video veya ses oynatın.",
+    "description": "Media discovery: hint"
+  },
+  "media_ready": {
+    "message": "Biçimler hazır",
+    "description": "Media discovery: ready"
+  },
+  "media_confirming": {
+    "message": "İndirme onaylanıyor…",
+    "description": "Media discovery: confirming"
+  },
+  "media_cancelling": {
+    "message": "İnceleme iptal ediliyor…",
+    "description": "Media discovery: cancelling"
+  },
+  "options_color_scheme_rayburst": {
+    "message": "Rayburst"
+  },
+  "brand_tagline": {
+    "message": "Tamamlayıcı tarayıcı uzantısını yeniden tanımlıyoruz",
+    "description": "Localized Rayburst Connect brand slogan"
+  },
+  "resources_current": {
+    "message": "Geçerli sayfa"
+  },
+  "resources_other": {
+    "message": "Tüm sayfalar"
+  },
+  "resources_controls": {
+    "message": "Oynatıcı denetimleri"
+  },
+  "resources_expand": {
+    "message": "Çalışma alanını aç"
+  },
+  "resources_fullscreen": {
+    "message": "Tam ekran"
+  },
+  "resources_import": {
+    "message": "Kaynak ekle"
+  },
+  "resources_invert": {
+    "message": "Seçimi tersine çevir"
+  },
+  "resources_key": {
+    "message": "AES-128 anahtarı"
+  },
+  "resources_kind_collection": {
+    "message": "Birleştirilmiş medya"
+  },
+  "resources_kind_fragment": {
+    "message": "Parça"
+  },
+  "resources_loop": {
+    "message": "Döngü"
+  },
+  "resources_manifest": {
+    "message": "Bildirim veya parça adresleri"
+  },
+  "resources_merge": {
+    "message": "Ses ve videoyu birleştir"
+  },
+  "resources_mute": {
+    "message": "Sessize al"
+  },
+  "resources_preview": {
+    "message": "Önizleme"
+  },
+  "resources_preview_unavailable": {
+    "message": "Önizleme kullanılamıyor. İndirme yine de çalışabilir."
+  },
+  "resources_reload": {
+    "message": "Baştan yakalamak için yeniden yükle"
+  },
+  "resources_screenshot": {
+    "message": "Ekran görüntüsünü kaydet"
+  },
+  "resources_sequence": {
+    "message": "Parçaları birleştir"
+  },
+  "resources_sidebar": {
+    "message": "Yan paneli aç"
+  },
+  "resources_start": {
+    "message": "Başlat"
+  },
+  "resources_start_time": {
+    "message": "Başlangıç (saniye)"
+  },
+  "resources_end_time": {
+    "message": "Bitiş (0: kaynağın sonu)"
+  },
+  "resources_stop": {
+    "message": "Durdur"
+  },
+  "resources_test_keys": {
+    "message": "Bulunan anahtarları dene"
+  },
+  "resources_tools": {
+    "message": "Medya araçları"
+  },
+  "resources_volume": {
+    "message": "Ses düzeyi"
+  },
+  "resources_preserve": {
+    "message": "Gezinmeden sonra kaynakları koru"
+  },
+  "resources_deep": {
+    "message": "Derin arama"
+  },
+  "resources_cache": {
+    "message": "Medya arabelleğini yakala"
+  },
+  "resources_copy": {
+    "message": "Kopyala"
+  },
+  "resources_select_all": {
+    "message": "Tümünü Seç"
+  },
+  "resources_name": {
+    "message": "Ad"
+  },
+  "resources_size": {
+    "message": "Boyut"
+  },
+  "resources_type": {
+    "message": "Tür"
+  },
+  "resources_speed": {
+    "message": "Hız"
+  },
+  "resources_kind_image": {
+    "message": "Görseller"
+  },
+  "resources_all": {
+    "message": "Tümü"
+  },
+  "resources_time": {
+    "message": "Zaman"
+  },
+  "resources_video": {
+    "message": "Kaydı başlat"
+  },
+  "resources_kind_embedded": {
+    "message": "Kaynak"
+  },
+  "resources_kind_file": {
+    "message": "Özgün dosya"
+  },
+  "resources_kind_subtitle": {
+    "message": "Altyazılar"
+  },
+  "resources_pause": {
+    "message": "Duraklat"
+  },
+  "resources_play": {
+    "message": "Oynat"
+  },
+  "resources_kind_json": {
+    "message": "JSON"
+  },
+  "resources_url": {
+    "message": "URL"
+  },
+  "resources_pip": {
+    "message": "PiP"
+  },
+  "resources_sort": {
+    "message": "Sırala"
+  },
+  "resources_auto": {
+    "message": "Yeni kaynakları otomatik indir"
+  },
+  "resources_mobile": {
+    "message": "Mobil User-Agent kullan"
+  },
+  "media_settings_title": {
+    "message": "Algılama ayarları"
+  },
+  "media_settings_any_size": {
+    "message": "Her boyut"
+  },
+  "media_settings_capture": {
+    "message": "Yakala"
+  },
+  "media_settings_edit": {
+    "message": "Düzenle"
+  },
+  "media_settings_remove": {
+    "message": "Kaldır"
+  },
+  "media_settings_invalid_rule": {
+    "message": "Sözdizimini, değerleri ve yinelenen türleri kontrol edin."
+  },
+  "media_settings_between": {
+    "message": "Arasında"
+  },
+  "media_settings_upper": {
+    "message": "Üst sınır"
+  },
+  "media_settings_pattern": {
+    "message": "Desen"
+  },
+  "media_settings_action": {
+    "message": "Eylem"
+  },
+  "media_settings_enabled": {
+    "message": "Etkin"
+  },
+  "media_settings_ignore": {
+    "message": "Yoksay"
+  },
+  "media_settings_regex": {
+    "message": "Düzenli ifadeler"
+  },
+  "media_settings_regex_hint": {
+    "message": "İlk eşleşme tür kurallarının önüne geçer."
+  },
+  "media_settings_flags": {
+    "message": "İfade bayrakları"
+  },
+  "media_settings_group": {
+    "message": "URL grubu (0: özgün URL)"
+  },
+  "media_settings_test_url": {
+    "message": "Test URL’si"
+  },
+  "media_settings_no_match": {
+    "message": "Eşleşme yok"
+  },
+  "media_settings_behavior": {
+    "message": "Davranış"
+  },
+  "media_settings_capture_hint": {
+    "message": "Yakalama filtreleri oynatma listesi indirmelerini sınırlamaz."
+  },
+  "media_settings_newest": {
+    "message": "Önce en yeniler"
+  },
+  "media_settings_quick": {
+    "message": "Hızlı indirme"
+  },
+  "media_settings_quick_hint": {
+    "message": "Birden fazla seçenek varsa parçaları seçin."
+  },
+  "media_settings_deep": {
+    "message": "Derin aramayı her zaman etkinleştir"
+  },
+  "media_settings_deep_hint": {
+    "message": "Sayfaları yeniden yükleyin. Oynatmayı etkileyebilir."
+  },
+  "media_settings_name_from": {
+    "message": "Yakalanan dosyaları adlandır"
+  },
+  "media_settings_name_from_file": {
+    "message": "Dosya adıyla"
+  },
+  "media_settings_name_from_title": {
+    "message": "Sayfa başlığıyla"
+  },
+  "media_settings_include": {
+    "message": "Yalnızca listedeki siteler"
+  },
+  "media_settings_exclude": {
+    "message": "Listedeki siteleri hariç tut"
+  },
+  "media_settings_autosave": {
+    "message": "Değişiklikler otomatik kaydedilir."
+  },
+  "media_settings_restore": {
+    "message": "Medya varsayılanlarını geri yükle"
+  },
+  "media_settings_restore_hint": {
+    "message": "Yalnızca medya ayarları sıfırlansın mı? Bağlantı değişmez."
+  },
+  "media_settings_close_preview": {
+    "message": "Önizlemeyi kapat"
+  },
+  "sniffer_page_count": {
+    "message": "Bu sayfadaki kaynaklar: $1",
+    "description": "Resource count for the current browser tab; $1 is the full count"
+  },
+  "sniffer_results": {
+    "message": "$2 kaynaktan $1 tanesi gösteriliyor",
+    "description": "Filtered resources in the selected scope; $1 is visible, $2 is total"
+  },
+  "popup_status_checking": {
+    "message": "Kontrol ediliyor",
+    "description": "Connection status while the desktop check is pending"
+  },
+  "connection_unsupported_title": {
+    "message": "Masaüstü sürümü desteklenmiyor"
+  },
+  "connection_upgrade_hint": {
+    "message": "En yeni Rayburst sürümünü yükleyip yeniden bağlanın."
+  },
+  "connection_legacy_title": {
+    "message": "En yeni Rayburst sürümüne güncelleyin",
+    "description": "Title of the update notice shown while connected to an older desktop"
+  },
+  "connection_legacy_hint": {
+    "message": "$1 eski bir sürüm olduğu için bazı özellikler kullanılamıyor.",
+    "description": "Shown while connected to an older desktop, $1 = its name and version",
+    "placeholders": {
+      "1": {
+        "content": "$1",
+        "example": "Motrix Next 3.9.9"
+      }
+    }
+  },
+  "connection_legacy_dismiss": {
+    "message": "Kapat",
+    "description": "Accessible label of the button that closes the popup update notice"
+  },
+  "connection_get_rayburst": {
+    "message": "Rayburst indir"
+  },
+  "connection_check_again": {
+    "message": "Yeniden denetle"
+  },
+  "error_engine_starting": {
+    "message": "Rayburst motoru başlatılıyor"
+  },
+  "error_engine_unavailable": {
+    "message": "Rayburst motoru kullanılamıyor"
+  },
+  "error_engine_hint": {
+    "message": "Motoru kontrol etmek için Rayburst’ü açın, ardından yeniden bağlanın."
+  },
+  "popup_site_rules": {
+    "message": "Geçerli site"
+  },
+  "popup_site_allow": {
+    "message": "Bu sitede etkinleştir"
+  },
+  "popup_site_exclude": {
+    "message": "Bu siteyi hariç tut"
+  },
+  "popup_task_waiting": {
+    "message": "Bekliyor",
+    "description": "Popup task list: queued task"
+  },
+  "popup_task_paused": {
+    "message": "Duraklatıldı",
+    "description": "Popup task list: paused task"
+  },
+  "popup_task_failed": {
+    "message": "Başarısız",
+    "description": "Popup task list: failed task without a message"
+  },
+  "popup_task_pause": {
+    "message": "Duraklat",
+    "description": "Popup task list: pause button"
+  },
+  "popup_task_resume": {
+    "message": "Sürdür",
+    "description": "Popup task list: resume button"
+  },
+  "popup_task_reveal": {
+    "message": "Klasörde göster",
+    "description": "Popup task list: show the finished file in its folder"
+  },
+  "popup_tasks_empty": {
+    "message": "Henüz indirme yok",
+    "description": "Popup task list: nothing to show"
+  },
+  "options_alt_click_bypass_label": {
+    "message": "Alt ile tıklama tarayıcıyla indirir",
+    "description": "Setting: holding Alt while clicking a link lets the browser download it"
+  },
+  "media_complete_video": {
+    "message": "Tam video",
+    "description": "Media discovery: separate video and audio track files listed as one video"
+  },
+  "media_tracks": {
+    "message": "$1 parça",
+    "description": "Media discovery: number of track files in a complete video; $1 is the count"
+  },
+  "media_track_files": {
+    "message": "Parça dosyaları",
+    "description": "Media discovery: shows or hides the track files of a complete video"
+  }
+}
